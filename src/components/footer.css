@@ -1,0 +1,12 @@
+.footer {
+    position: relative;
+    background-color: gray;
+    width: 100vw;
+    height: 50px;
+}
+
+.footerText {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}

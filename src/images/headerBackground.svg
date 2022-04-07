@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1083" viewBox="0 0 1920 1083">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1f09cc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#54119a"/>
+    </linearGradient>
+  </defs>
+  <g id="headerBackground" transform="translate(0)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="1918" height="1081" transform="translate(1)"/>
+    <path id="Polygon_1" data-name="Polygon 1" class="cls-2" d="M960,0l960,1083H0Z" transform="translate(1920 1083) rotate(180)"/>
+  </g>
+</svg>

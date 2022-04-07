@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyBackground {
+    background-image: linear-gradient(white, #7100E2 );
+    height: 3350px;
+}
+
+.seperationMargin {
+    margin-bottom: 150px;
+}
+
+.common {
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border: #6a57FF solid 1px;
+    box-shadow: 0 0 30px #EE00FF;
+}
+
+.aboutMe {
+    background-image: linear-gradient(white, #6a57FF );
+    height: 1000px;
+}
+
+.toolsSkills {
+    background-image: linear-gradient(#6a57FF, white  );
+    height: 400px;
+}
+
+.projects {
+    background-image: linear-gradient(white, #6a57FF );
+    height: 400px;
+}
+
+.contactBox {
+    background-image: linear-gradient(#6a57FF, white  );
+    height: 1000px;
+}   
