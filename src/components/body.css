@@ -6,7 +6,13 @@
 
 .bodyBackground {
     background-image: linear-gradient(white, #7100E2 );
-    height: 3350px;
+    height: 3100px;
+}
+
+p.aboutMe, h1.aboutMe, h2.aboutMe {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 18px;
 }
 
 .seperationMargin {
@@ -24,19 +30,85 @@
 .aboutMe {
     background-image: linear-gradient(white, #6a57FF );
     height: 1000px;
+    display: grid;
+    grid-template-columns: 250px auto 100px;
+    grid-template-rows: 150px auto auto 50px;
+    grid-template-areas: 
+    "Picture intro ."
+    ". SA ."
+    ". HA ."
+    "Social . CV";
+}
+.pictureOfMe {
+    margin: 15px 0 5px 15px;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    grid-area: Picture;
+}
+.introduction {
+    grid-area: intro;
+    margin: 15px 0 0 25px;
+}
+.softAbout {
+    grid-area: SA;
+    margin: 15px 0 0 25px;
+}
+.hobbyAbout {
+    grid-area: HA;
+    margin: 15px 0 0 25px;
+}
+.social {
+    grid-area: Social;
+    margin: 0 0 5px 25px;
+}
+.CV {
+    grid-area: CV;
+    
 }
 
 .toolsSkills {
     background-image: linear-gradient(#6a57FF, white  );
     height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "CL"
+    "OT";
+}
+.codeLanguages {
+    grid-area: CL;
+    margin: 5% 0 0 15px;
+}
+.otherTools {
+    grid-area: OT;
+    margin: 2.5% 0 0 15px;
 }
 
 .projects {
     background-image: linear-gradient(white, #6a57FF );
     height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-
+.projectsCommon {
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 0;
+}
+.Yahtzee {
+    background-color: orange;
+}
+.coinGame {
+    background-color: green;
+}
+.Startracker {
+    background-color: darkblue;
+    color:aqua;
+}
 .contactBox {
     background-image: linear-gradient(#6a57FF, white  );
-    height: 1000px;
+    height: 750px;
 }   
