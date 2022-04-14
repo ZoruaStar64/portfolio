@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import '../index.js';
 import './body.css';
 import imageOfMe from "../images/me5.jpg";
+import htmlIcon from "../images/html5Icon.png";
+import {FaHtml5, FaCss3Alt} from 'react-icons/fa';
+import {SiJavascript} from 'react-icons/si';
+
 
 class Body extends React.Component {
     render() {
@@ -31,20 +35,20 @@ class Body extends React.Component {
               Mysql: ?/5 (I am not to certain what to score this since Mysql is mainly a type of database)<br></br>
               PHP: 3/5 (I did make a huge Fullstack project but I feel like I could learn much more)<br></br>
               Java: 3/5 (it's been a while since i've coded Java so i'm most likely quite rusty when it comes to Java)</p>
-              <h2>As a note: I am by no means a professional at coding,<br></br> I am currently nearing the end of my second year of my Software Developer study.<br></br>
-              So these scores are purely with the fact in mind that I am a second year student.</h2></div>
+              <h3>As a note: I am by no means a professional at coding,<br></br> I am currently nearing the end of my second year of my Software Developer study.<br></br>
+              So these scores are purely with the fact in mind that I am a second year student.</h3></div>
 
               <div className='hobbyAbout'><h1>My hobbies</h1>
               <p>As hobbies go I currently have 3:<br></br><br></br>
 
               My favorite being playing videogames.<br></br>
-              I just love how much attention and detail goes in every aspect of a videogame: the Graphics, Enviroment, Music, Story, the characters, the gameplay,<br></br>it just all comes together to create an amazing story and experience<br></br>
-              and that's exactly what I want others to experience whenever I create a videogame. To make them feel the passion that went into such a project and an unforgettable experience.<br></br><br></br>
+              I just love how much attention and detail goes in every aspect of a videogame: the Graphics, Enviroment, Music, Story, the characters, the gameplay,<br></br>it just all comes together to create an amazing story and experience.
+                That's exactly what I want others to experience whenever I create a videogame:<br></br> to make them feel the passion that went into such a project and to give them an unforgettable experience.<br></br><br></br>
 
               My feelings for videogames aside I have grown to love coding things and getting better at it day by day<br></br>
-              And afterwards learning something new that I can apply to the next project and so on.<br></br><br></br>
+              and afterwards learning something new that I can apply to the next project and so on.<br></br><br></br>
 
-              Finally I just like watching videos on youtube and talking with my friends online using Discord</p></div>
+              Finally I just like watching videos on youtube and talking with my friends online using Discord.</p></div>
 
               <div className='social'>Possible social media area? idk</div>
               <div className='CV'>CV PDF link</div>
@@ -52,7 +56,7 @@ class Body extends React.Component {
 
             <div className='toolsSkills common seperationMargin' id='ToolsAndSkills'>
               
-              <div className='codeLanguages'><h1>Coding Languages:</h1> (insert coding languages here)</div>
+              <div className='codeLanguages'><h1>Coding Languages:</h1><FaHtml5 color="#E54C21" fontSize="50px" /><FaCss3Alt color="#304CDC" fontSize="50px" /><SiJavascript color="#f7e018" fontSize="50px" /> (insert coding languages here)</div>
 
               <div className='otherTools'><h1>Other Tools:</h1> (insert Tools such as Adobe XD/Trello here)</div>
 
