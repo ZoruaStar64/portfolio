@@ -14,6 +14,9 @@ import coin from "../images/coin.png";
 import star from "../images/darkModeButton.png";
 import {FaHtml5, FaCss3Alt, FaDatabase, FaJava, FaTrello, FaGithub, FaFigma} from 'react-icons/fa';
 import {SiJavascript, SiMysql, SiPhp, SiAdobexd, SiVisualstudiocode, SiPhpstorm} from 'react-icons/si';
+import { TextField } from '@mui/material';
+import { Button } from '@mui/material';
+
 /*import currentMode from './header.js';*/
 
 const starsContainer = Document.starsContainer;
@@ -38,7 +41,7 @@ class Body extends React.Component {
       else if (currentMode === 'Dark') {
         console.log("it works holy shit (dark ver.)")
       }*/
-      
+
       return (
         <div>
           <div className='bodyBackground'>
@@ -147,7 +150,55 @@ class Body extends React.Component {
               <p className='ContactText'>Feel free to contact me by sending an E-mail with the form below.<br></br>
               Example reasons: a question or hiring me.</p>
 
-              <div>Placeholder Form area</div>
+              <div>
+                <form className='formHolder'>
+                  <TextField 
+                    id='name' 
+                    label='Naam' 
+                    variant='filled'
+                    margin='normal'
+                    sx={{mr: 1, width: '49.7%'}}
+                    required
+                    autoComplete='off'
+                  />
+
+                  <TextField 
+                    id='email' 
+                    label='E-mail' 
+                    variant='filled'
+                    margin='normal'
+                    sx={{width: '49.7%'}}
+                    required
+                    autoComplete='off'
+                  />
+
+                  <TextField 
+                    id='subject' 
+                    label='Onderwerp' 
+                    variant='filled'
+                    margin='normal'
+                    fullWidth 
+                    required
+                    autoComplete='off'
+                  />
+
+                  <TextField 
+                    id='message' 
+                    label='Bericht' 
+                    variant='filled'
+                    margin='normal'
+                    multiline
+                    fullWidth
+                    rows={8}
+                    required
+                    autoComplete='off'
+                  />
+                  <Button
+                  variant='contained'
+                  fullWidth
+                  >Verzend E-mail</Button>
+                </form>
+              </div>
 
             </div>
 

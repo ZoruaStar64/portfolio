@@ -174,3 +174,12 @@ p.aboutMe, h1.aboutMe, h2.aboutMe {
     background-image: linear-gradient(#6a57FF, white  );
     height: 750px;
 }   
+
+.formHolder {
+    width: 80%;
+    margin: 10px auto 10px auto;
+}
+
+.textFieldCommon {
+    margin-top: 10px;
+}
