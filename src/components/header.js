@@ -7,24 +7,37 @@ import starContainerImg from "../images/starContainer.png";
 import darkModeButton from "../images/darkModeButton.png";
 import lightModeButton from "../images/lightModeButton.png";
 
-let currentMode = 'Light';
-let buttonStyle = darkModeButton;
-function changeMode() {
-  console.log("function reached");
-  if (currentMode === 'Light') {
-      currentMode = 'Dark';
-      buttonStyle = lightModeButton;
-      console.log(buttonStyle);
-  } else {
-    currentMode = 'Light';
-    buttonStyle = darkModeButton;
-    console.log(buttonStyle);
-  }
-  return buttonStyle;
-}
+
 
 class Header extends React.Component {
     render() {
+
+      /*state = {
+        lightMode: true
+      }
+      toggleImage = () => {
+        this.setState(state => ({ lightMode: !state.lightMode }))
+      }
+      getImageName = () =>  this.state.lightMode ? lightModeButton : darkModeButton;
+   
+  const buttonStyle = this.getImageName(); */
+  let buttonStyle = darkModeButton;
+  let currentMode = 'Light';
+  function changeMode(e) {
+    console.log("function reached");
+    if (currentMode === 'Light') {
+        currentMode = 'Dark';
+        e.target.setAttribute ('src', lightModeButton);
+    } else {
+      currentMode = 'Light';
+      e.target.setAttribute ('src', darkModeButton);
+    }
+  } 
+
+      let classAdjective = 'menu';
+      if (this.props.isActive) {
+        classAdjective += 'dark';
+      }
       return (
         <div>
 
@@ -36,7 +49,7 @@ class Header extends React.Component {
 
           <div className='headerBackground'>
             
-            <motion.img animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={changeMode} src={buttonStyle} className='darkModeButton'>
+            <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={changeMode} src={buttonStyle} className='darkModeButton' title='Dark (or light if sun is there) mode button'>
 
             </motion.img>
 

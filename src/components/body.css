@@ -77,6 +77,10 @@ p.aboutMe, h1.aboutMe, h2.aboutMe {
     "CL"
     "OT";
 }
+.toolsSkillsCommon {
+    font-size: 50px;
+    margin-right: 10px;
+}
 .codeLanguages {
     grid-area: CL;
     margin: 5% 0 0 15px;
@@ -98,16 +102,74 @@ p.aboutMe, h1.aboutMe, h2.aboutMe {
     width: 200px;
     margin: 5% 0 0 0;
 }
+.projectLinks {
+    text-decoration: none;
+    color: black;
+}
 .Yahtzee {
     background-color: orange;
 }
+.yatH1 {
+    margin: 5px 0 5px 22.5%;
+}
+.yatH3 {
+    margin: 5px 25% 5px 25%;
+}
+.diceContainer {
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diceCommon {
+    width: 25px;
+    height: 25px;
+}
+
 .coinGame {
     background-color: green;
 }
+.coinContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coin {
+    width: 50px;
+}
+.coinH1 {
+    margin: 5px 0 5px 11%;
+}
+.coinH3 {
+    margin: 5px 0 5px 10%;
+}
+
+
 .Startracker {
     background-color: darkblue;
     color:aqua;
 }
+.starsContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    color: aqua;
+    width: 50px;
+}
+.starH1 {
+    color: aqua;
+    margin: 5px 0 5px 11%;
+}
+.starH3 {
+    color: aqua;
+    margin: 5px 0 5px 13%;
+}
+
+
 .contactBox {
     background-image: linear-gradient(#6a57FF, white  );
     height: 750px;
