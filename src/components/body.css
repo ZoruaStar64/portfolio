@@ -59,6 +59,7 @@ h3.softAbout {
     grid-area: AP;
 }
 .positivesAutismClicked {
+    display: none;
     position: absolute;
     height: 750px;
     width: 600px;

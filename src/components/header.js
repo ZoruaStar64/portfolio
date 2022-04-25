@@ -21,6 +21,12 @@ class Header extends React.Component {
       getImageName = () =>  this.state.lightMode ? lightModeButton : darkModeButton;
    
   const buttonStyle = this.getImageName(); */
+
+  /* add a dutch/english toggle button */ 
+  /* also move the navbar to index.js so that it is actually able to go all the way down */
+  /* also also: please group the css files together it will be easier to toggle light/dark mode that way trust me */
+  /* oh and remove any unneeded code after you're done just don't remove anything usefull on accident */
+
   let buttonStyle = darkModeButton;
   let currentMode = 'Light';
   function changeMode(e) {

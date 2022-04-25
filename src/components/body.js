@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { motion } from 'framer-motion';
 import '../index.js';
@@ -34,11 +34,12 @@ function starCreator() {
   
 }
 
-class Body extends React.Component {
 
 
 
-    render() {
+function Body() {
+
+    
      
       /*if (currentMode === 'Light') {
         console.log("it works holy shit (light ver.)")
@@ -46,16 +47,23 @@ class Body extends React.Component {
       else if (currentMode === 'Dark') {
         console.log("it works holy shit (dark ver.)")
       }*/
-      let currentDisplay = 'none';
-      let isClicked = false;
+
+
+const [currentDisplay, setCurrentDisplay] = useState("display: 'none'");
+let isClicked = false;
+
       function handleAutism() {
+      
+      
         if (isClicked === false) {
-          currentDisplay = 'block';
+          setCurrentDisplay("display: 'block'");
           isClicked = true;
+          console.log(currentDisplay)
         }
         else {
-          currentDisplay = 'none';
+          setCurrentDisplay("display: 'none'");
           isClicked = false;
+          console.log(currentDisplay)
         }
         
       }
@@ -67,7 +75,7 @@ class Body extends React.Component {
               
               <img src={imageOfMe} className='pictureOfMe'></img>
               <img src={autismPositives} className='positivesAutism' onClick={handleAutism}></img>
-              <img src={autismPositives} className='positivesAutismClicked' style={{display: currentDisplay}}></img>;
+              <img src={autismPositives} className='positivesAutismClicked' style={{currentDisplay}}></img>;
               <div className='introduction'><h1>Introduction</h1>
               <p>Hello! and welcome to my portfolio. My name is Sander Borgman and I was born on the 30th of January 2003<br></br>
               I am an enthousiastic guy when it comes to developing websites and telling about my ideas for various projects.<br></br>
@@ -261,6 +269,5 @@ class Body extends React.Component {
         
       );
     }
-}
 
 export default Body;
