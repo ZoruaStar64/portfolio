@@ -12,7 +12,11 @@
 p.aboutMe, h1.aboutMe, h2.aboutMe {
     font-family: 'Lora', serif;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+h3.softAbout {
+    margin-top: 15px;
 }
 
 .seperationMargin {
@@ -28,17 +32,19 @@ p.aboutMe, h1.aboutMe, h2.aboutMe {
 }
 
 .aboutMe {
+    position: relative;
     background-image: linear-gradient(white, #6a57FF );
     height: 1000px;
     display: grid;
-    grid-template-columns: 250px auto 100px;
-    grid-template-rows: 200px auto auto 50px;
+    grid-template-columns: 250px auto auto;
+    grid-template-rows: 250px auto auto 50px;
     grid-template-areas: 
-    "Picture intro ."
-    ". SA ."
-    ". HA ."
-    "Social . CV";
+    "Picture intro HA"
+    "AP SA SA"
+    "CV SA SA"
+    "Social SA SA";
 }
+
 .pictureOfMe {
     margin: 15px 0 5px 15px;
     height: 250px;
@@ -46,6 +52,20 @@ p.aboutMe, h1.aboutMe, h2.aboutMe {
     background-color: white;
     grid-area: Picture;
 }
+.positivesAutism {
+    margin: 25px 0 5px 15px;
+    height: 300px;
+    width: 250px;
+    grid-area: AP;
+}
+.positivesAutismClicked {
+    position: absolute;
+    height: 750px;
+    width: 600px;
+    top: 10%;
+    left: 25%;
+}
+
 .introduction {
     grid-area: intro;
     margin: 15px 0 0 25px;
@@ -54,6 +74,37 @@ p.aboutMe, h1.aboutMe, h2.aboutMe {
     grid-area: SA;
     margin: 15px 0 0 25px;
 }
+.skillsSoftAbout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "HTML Mysql"
+    "CSS PHP"
+    "JS Java";
+}
+.skillsSoftCommon {
+    margin-top: 10px;
+}
+.htmlSoftAbout {
+    grid-area: HTML;
+}
+.cssSoftAbout {
+    grid-area: CSS;
+}
+.jsSoftAbout {
+    grid-area: JS;
+}
+.mysqlSoftAbout {
+    grid-area: Mysql;
+}
+.phpSoftAbout {
+    grid-area: PHP;
+}
+.javaSoftAbout {
+    grid-area: Java;
+}
+
 .hobbyAbout {
     grid-area: HA;
     margin: 15px 0 0 25px;
@@ -174,6 +225,12 @@ p.aboutMe, h1.aboutMe, h2.aboutMe {
     background-image: linear-gradient(#6a57FF, white  );
     height: 750px;
 }   
+.contactH1 {
+    margin: 15px 0 0 44%;
+}
+.contactH3 {
+    margin-left: 35%;
+}
 
 .formHolder {
     width: 80%;
