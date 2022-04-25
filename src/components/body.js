@@ -36,11 +36,15 @@ function starCreator() {
 
 
 
-
+      
 function Body() {
+      
+        const [openModal, setOpenmodal] = useState(false);
 
-    
-     
+        const toggleModal = () => {
+          setOpenmodal(!openModal);
+        }
+      
       /*if (currentMode === 'Light') {
         console.log("it works holy shit (light ver.)")
       } 
@@ -48,25 +52,6 @@ function Body() {
         console.log("it works holy shit (dark ver.)")
       }*/
 
-
-const [currentDisplay, setCurrentDisplay] = useState("display: 'none'");
-let isClicked = false;
-
-      function handleAutism() {
-      
-      
-        if (isClicked === false) {
-          setCurrentDisplay("display: 'block'");
-          isClicked = true;
-          console.log(currentDisplay)
-        }
-        else {
-          setCurrentDisplay("display: 'none'");
-          isClicked = false;
-          console.log(currentDisplay)
-        }
-        
-      }
       return (
         <div>
           <div className='bodyBackground'>
@@ -74,8 +59,13 @@ let isClicked = false;
             <div className='aboutMe seperationMargin common' id='AboutMe'>
               
               <img src={imageOfMe} className='pictureOfMe'></img>
-              <img src={autismPositives} className='positivesAutism' onClick={handleAutism}></img>
-              <img src={autismPositives} className='positivesAutismClicked' style={{currentDisplay}}></img>;
+              <img src={autismPositives} className='positivesAutism' onClick={toggleModal}></img>
+
+              {!openModal ?
+                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'none'}}></img> :
+                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'block'}}></img>
+              }
+              
               <div className='introduction'><h1>Introduction</h1>
               <p>Hello! and welcome to my portfolio. My name is Sander Borgman and I was born on the 30th of January 2003<br></br>
               I am an enthousiastic guy when it comes to developing websites and telling about my ideas for various projects.<br></br>

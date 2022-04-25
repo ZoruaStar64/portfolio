@@ -59,12 +59,11 @@ h3.softAbout {
     grid-area: AP;
 }
 .positivesAutismClicked {
-    display: none;
     position: absolute;
-    height: 750px;
-    width: 600px;
-    top: 10%;
-    left: 25%;
+    height: 850px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .introduction {
