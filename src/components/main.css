@@ -1,0 +1,371 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100vw;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(#36006B, #7304e2);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerLinks {
+    margin-top: 25px;
+    color: #E693FD;
+    text-shadow: 0px 0px 30px #6A57FF;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    font-size: 50px;
+    -webkit-text-stroke: 1px #1F09CC;
+}
+.headerLinks:hover {
+    text-shadow: 0px 0px 5px #6A57FF;
+}
+
+/* Header */
+
+.headerBackground {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+    background-image: linear-gradient(#7100E2, white);
+}
+
+.darkModeButton {
+    position: absolute;
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+    width: 105px;
+}
+.lightModeButton {
+    position: absolute;
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+}
+
+.starContainer {
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+}
+.nameAndProfession {
+    position: relative;
+    color: #4F3DDB;
+    -webkit-text-stroke: 1px #400156;
+    height: 400px;
+}
+.nameH1 {
+    font-size: 45px;
+    display: block;
+    text-shadow: 0px 0px 50px #8000FF;
+}
+.nameH1P1 {
+    position: absolute;
+    top: 150px;
+    left: 34%;
+    
+}
+.nameH1P2 {
+    position: absolute;
+    top: 190px;
+    left: 29%;
+    
+}
+.professionH1 {
+    font-size: 25px;
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.statusColors {
+    color: #8600B6;
+    -webkit-text-stroke: 1px #400156;
+    text-shadow: 0px 0px 50px #8000FF;
+}
+.statusContainer {
+    position: relative;
+    height: 400px;
+}
+.statusLabel {
+    position: absolute;
+    top: 150px;
+    left: 37%;
+    
+}
+.statusContent {
+    position: absolute;
+    top: 190px;
+    left: 29%;
+    
+}
+
+/* Body */
+
+.bodyBackground {
+    background-image: linear-gradient(white, #7100E2 );
+    height: 3100px;
+}
+
+p.aboutMe, h1.aboutMe, h2.aboutMe {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 20px;
+}
+
+h3.softAbout {
+    margin-top: 15px;
+}
+
+.seperationMargin {
+    margin-bottom: 150px;
+}
+
+.common {
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border: #6a57FF solid 1px;
+    box-shadow: 0 0 30px #EE00FF;
+}
+
+.aboutMe {
+    position: relative;
+    background-image: linear-gradient(white, #6a57FF );
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 250px auto auto;
+    grid-template-rows: 250px auto auto 50px;
+    grid-template-areas: 
+    "Picture intro HA"
+    "AP SA SA"
+    "CV SA SA"
+    "Social SA SA";
+}
+
+.pictureOfMe {
+    margin: 15px 0 5px 15px;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    grid-area: Picture;
+}
+.positivesAutism {
+    margin: 25px 0 5px 15px;
+    height: 300px;
+    width: 250px;
+    grid-area: AP;
+}
+.positivesAutismClicked {
+    position: absolute;
+    height: 850px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.introduction {
+    grid-area: intro;
+    margin: 15px 0 0 25px;
+}
+.softAbout {
+    grid-area: SA;
+    margin: 15px 0 0 25px;
+}
+.skillsSoftAbout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "HTML Mysql"
+    "CSS PHP"
+    "JS Java";
+}
+.skillsSoftCommon {
+    margin-top: 10px;
+}
+.htmlSoftAbout {
+    grid-area: HTML;
+}
+.cssSoftAbout {
+    grid-area: CSS;
+}
+.jsSoftAbout {
+    grid-area: JS;
+}
+.mysqlSoftAbout {
+    grid-area: Mysql;
+}
+.phpSoftAbout {
+    grid-area: PHP;
+}
+.javaSoftAbout {
+    grid-area: Java;
+}
+
+.hobbyAbout {
+    grid-area: HA;
+    margin: 15px 0 0 25px;
+}
+.social {
+    grid-area: Social;
+    margin: 0 0 5px 25px;
+}
+.CV {
+    grid-area: CV;
+    
+}
+
+.toolsSkills {
+    background-image: linear-gradient(#6a57FF, white  );
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "CL"
+    "OT";
+}
+.toolsSkillsCommon {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.codeLanguages {
+    grid-area: CL;
+    margin: 5% 0 0 15px;
+}
+.otherTools {
+    grid-area: OT;
+    margin: 2.5% 0 0 15px;
+}
+
+.projects {
+    background-image: linear-gradient(white, #6a57FF );
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.projectsCommon {
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 0;
+}
+.projectLinks {
+    text-decoration: none;
+    color: black;
+}
+.Yahtzee {
+    background-color: orange;
+}
+.yatH1 {
+    margin: 5px 0 5px 22.5%;
+}
+.yatH3 {
+    margin: 5px 25% 5px 25%;
+}
+.diceContainer {
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diceCommon {
+    width: 25px;
+    height: 25px;
+}
+
+.coinGame {
+    background-color: green;
+}
+.coinContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coin {
+    width: 50px;
+}
+.coinH1 {
+    margin: 5px 0 5px 11%;
+}
+.coinH3 {
+    margin: 5px 0 5px 10%;
+}
+
+
+.Startracker {
+    background-color: darkblue;
+    color:aqua;
+}
+.starsContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    color: aqua;
+    width: 50px;
+}
+.starH1 {
+    color: aqua;
+    margin: 5px 0 5px 11%;
+}
+.starH3 {
+    color: aqua;
+    margin: 5px 0 5px 13%;
+}
+
+
+.contactBox {
+    background-image: linear-gradient(#6a57FF, white  );
+    height: 750px;
+}   
+.contactH1 {
+    margin: 15px 0 0 44%;
+}
+.contactH3 {
+    margin-left: 35%;
+}
+
+.formHolder {
+    width: 80%;
+    margin: 10px auto 10px auto;
+}
+
+.textFieldCommon {
+    margin-top: 10px;
+}
+
+
+/* Footer */
+
+.footer {
+    position: relative;
+    background-color: gray;
+    width: 100vw;
+    height: 50px;
+}
+
+.footerText {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}

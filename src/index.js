@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { motion } from 'framer-motion';
-import './index.css';
+import './components/main.css';
 import Header from './components/header.js';
 import Body from './components/body.js';
 import Footer from './components/footer.js'
@@ -30,6 +30,11 @@ class Page extends React.Component {
       return (
         
           <div>
+            <div className='navbar'>
+            <a className='headerLinks' href='#'>Home</a><a className='headerLinks' href='#AboutMe'>About</a>
+            <a className='headerLinks' href='#ToolsAndSkills'>Skills/Tools</a><a className='headerLinks' href='#Projects'>Projects</a>
+            <a className='headerLinks' href='#Contact'>Contact</a>
+          </div>
         <Header />
         <Body />
         <Footer />

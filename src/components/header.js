@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../index.js';
-import './header.css';
 import { motion } from 'framer-motion';
 import starContainerImg from "../images/starContainer.png"; 
 import darkModeButton from "../images/darkModeButton.png";
@@ -46,12 +45,6 @@ class Header extends React.Component {
       }
       return (
         <div>
-
-          <div className='navbar'>
-            <a className='headerLinks' href='#'>Home</a><a className='headerLinks' href='#AboutMe'>About</a>
-            <a className='headerLinks' href='#ToolsAndSkills'>Skills/Tools</a><a className='headerLinks' href='#Projects'>Projects</a>
-            <a className='headerLinks' href='#Contact'>Contact</a>
-          </div>
 
           <div className='headerBackground'>
             

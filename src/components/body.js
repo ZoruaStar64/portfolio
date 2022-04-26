@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { motion } from 'framer-motion';
 import '../index.js';
-import './body.css';
 import imageOfMe from "../images/me5.jpg";
 import autismPositives from "../images/autismPositives.jpg";
 import dice1 from "../images/Dice1.png";
@@ -20,22 +19,6 @@ import { Button } from '@mui/material';
 import { display } from '@mui/system';
 
 /*import currentMode from './header.js';*/
-
-const starsContainer = Document.starsContainer;
-
-
-function starCreator() {
-  let min = 0.5;
-  let max = 2;
-  let randomDuration = Math.random() * (max - min); 
-  const star = <motion.div className='star' animate={{opacity: 0.1}} transition={{repeatDelay: 1, repeat: Infinity, duration: randomDuration}}></motion.div>;
-
-  starsContainer.render(star);
-  
-}
-
-
-
       
 function Body() {
       
