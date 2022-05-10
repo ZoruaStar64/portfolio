@@ -16,10 +16,9 @@ function Header({toggleStyle}) {
       return (
         <div>
           
+          {/* Toggle to change the header's background and the starcontainer images */}
           {!toggleStyle ?
           <div className='headerBackground purpleToWhite'> 
-          {/* <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={changeMode} src={darkModeButton} className='darkModeButton' title='Dark (or light if sun is there) mode button'>
-          </motion.img> */}
 
           <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} className='nameAndProfession'>
           <motion.img animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}}  src={starContainerImg} className='starContainer'></motion.img>
@@ -36,9 +35,6 @@ function Header({toggleStyle}) {
           </motion.div>
           </div> :
           <div className='headerBackground blueToDarkBlue'>
-            
-            {/* <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={changeMode} src={lightModeButton} className='darkModeButton' title='Dark (or light if sun is there) mode button'>
-            </motion.img> */}
 
             <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} className='nameAndProfession'>
              <motion.img animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}}  src={darkStarContainerImg} className='starContainer'></motion.img>
