@@ -74,10 +74,10 @@ function Body({toggleStyle}) {
               <div className='jsSoftAbout skillsSoftCommon'>
               <h3>Javascript:</h3> I would say my skills with Javascript are rather good<br></br>
               I even made my own little project (Yahtzee) with Javascript<br></br>
-              This ended up being such a success that my study decided to replace the old Javascript end assignment with mine!
+              This ended up being such a success<br></br>that my study decided to replace the old Javascript end assignment with mine!
               </div>
               <div className='mysqlSoftAbout skillsSoftCommon'>
-              <h3>Mysql:</h3> I'm not the best at making databases but i'd say I made a good one for my Fullstack project<br></br>
+              <h3>Mysql:</h3> I'm not the best at making databases,<br></br>but i'd say I made a good one for my Fullstack project<br></br>
               The project is also an assignment I got for school.<br></br>in which I had to utilise all my knowledge that I had at the time<br></br>
               Said Fullstack project is about keeping track of videogame progress<br></br>
               (such as an item you need to combine with another to make a better item)
@@ -85,7 +85,7 @@ function Body({toggleStyle}) {
               <div className='phpSoftAbout skillsSoftCommon'>
               <h3>PHP:</h3> As I said at the Mysql section, I made a fullstack project called Startracker.<br></br>
               Which is used to keep track of Videogame progress.<br></br>
-              With the help of a database and account creation to store and use said information.
+              With the help of database and account creation to store and use said information.
               </div>
               <div className='javaSoftAbout skillsSoftCommon'>
               <h3>Java:</h3> While it has been a while since I coded in Java,<br></br>
@@ -93,7 +93,7 @@ function Body({toggleStyle}) {
               (This Project is what I have dubbed: Coin Game.)<br></br>
               (I might however change a certain thing about it to avoid potential copyright)</div>
               </div></p>
-              
+              <br></br>
               <h3>As a note: I am currently nearing the end of my second year of my Software Developer study.</h3></div>
 
               <div className='hobbyAbout'><h1>My hobbies</h1>
@@ -278,10 +278,10 @@ function Body({toggleStyle}) {
               <div className='jsSoftAbout skillsSoftCommon'>
               <h3>Javascript:</h3> I would say my skills with Javascript are rather good<br></br>
               I even made my own little project (Yahtzee) with Javascript<br></br>
-              This ended up being such a success that my study decided to replace the old Javascript end assignment with mine!
+              This ended up being such a success<br></br>that my study decided to replace the old Javascript end assignment with mine!
               </div>
               <div className='mysqlSoftAbout skillsSoftCommon'>
-              <h3>Mysql:</h3> I'm not the best at making databases but i'd say I made a good one for my Fullstack project<br></br>
+              <h3>Mysql:</h3> I'm not the best at making databases,<br></br>but i'd say I made a good one for my Fullstack project<br></br>
               The project is also an assignment I got for school.<br></br>in which I had to utilise all my knowledge that I had at the time<br></br>
               Said Fullstack project is about keeping track of videogame progress<br></br>
               (such as an item you need to combine with another to make a better item)
@@ -289,7 +289,7 @@ function Body({toggleStyle}) {
               <div className='phpSoftAbout skillsSoftCommon'>
               <h3>PHP:</h3> As I said at the Mysql section, I made a fullstack project called Startracker.<br></br>
               Which is used to keep track of Videogame progress.<br></br>
-              With the help of a database and account creation to store and use said information.
+              With the help of database and account creation to store and use said information.
               </div>
               <div className='javaSoftAbout skillsSoftCommon'>
               <h3>Java:</h3> While it has been a while since I coded in Java,<br></br>
@@ -297,7 +297,7 @@ function Body({toggleStyle}) {
               (This Project is what I have dubbed: Coin Game.)<br></br>
               (I might however change a certain thing about it to avoid potential copyright)</div>
               </div></p>
-              
+              <br></br>
               <h3 className='whiteText'>As a note: I am currently nearing the end of my second year of my Software Developer study.</h3></div>
 
               <div className='hobbyAbout whiteText'><h1>My hobbies</h1>
