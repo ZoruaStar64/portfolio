@@ -20,33 +20,30 @@ import { display } from '@mui/system';
 
 /*import currentMode from './header.js';*/
       
-function Body() {
+function Body({toggleStyle}) {
       
         const [openModal, setOpenmodal] = useState(false);
 
         const toggleModal = () => {
           setOpenmodal(!openModal);
         }
-      
-      /*if (currentMode === 'Light') {
-        console.log("it works holy shit (light ver.)")
-      } 
-      else if (currentMode === 'Dark') {
-        console.log("it works holy shit (dark ver.)")
-      }*/
 
       return (
         <div>
-          <div className='bodyBackground'>
-
-            <div className='aboutMe seperationMargin common' id='AboutMe'>
-              
+          
+          <div className='bodyBackground whiteToPurple'>
+ 
+            <div className='aboutMe seperationMargin whiteToBlue common' id='AboutMe'>
+                   {!openModal ?
+                <div className='darkenedClick' style={{display: 'none'}}></div> :
+                <div className='darkenedClick' style={{display: 'block'}} onClick={toggleModal}></div>
+              }
               <img src={imageOfMe} className='pictureOfMe'></img>
               <img src={autismPositives} className='positivesAutism' onClick={toggleModal}></img>
 
               {!openModal ?
                 <img src={autismPositives} className='positivesAutismClicked' style={{display: 'none'}}></img> :
-                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'block'}}></img>
+                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
               }
               
               <div className='introduction'><h1>Introduction</h1>
@@ -120,7 +117,7 @@ function Body() {
               <div className='CV'>CV PDF link</div>
             </div>
 
-            <div className='toolsSkills common seperationMargin' id='ToolsAndSkills'>
+            <div className='toolsSkills common seperationMargin blueToWhite' id='ToolsAndSkills'>
               
               <div className='codeLanguages'><h1>Coding Languages:</h1><FaHtml5 color="#E54C21" className='toolsSkillsCommon' title='HTML5' /><FaCss3Alt color="#304CDC" className='toolsSkillsCommon' title='CSS3' />
               <SiJavascript color="#f7e018" className='toolsSkillsCommon' title='Javascript' /><SiMysql color="#00718b" className='toolsSkillsCommon' title='MySql' /><SiPhp color="#777bb3" className='toolsSkillsCommon' title='PHP' />
@@ -132,7 +129,7 @@ function Body() {
 
             </div>
 
-            <div className='projects common seperationMargin' id='Projects'>
+            <div className='projects common seperationMargin whiteToBlue' id='Projects'>
 
                 <div className='Yahtzee projectsCommon'>
                   <a href='https://zoruastar64.github.io/javascript-php/H6/Yathzee.html' className='projectLinks' title='Yahtzee Javascript game'>
@@ -163,15 +160,15 @@ function Body() {
                   </a>
                 </div>
 
-                <div className='Startracker projectsCommon'>
+                <div className='Startracker aquaColor projectsCommon'>
                 <a href='https://startracker.sb-dev.nl/index.php' className='projectLinks' title='Star game tracker to track game progress. Made with HTML5/CSS3/Javascript/MYSQL/PHP/Online Database'>
-                  <h1 className='starH1'>Startracker</h1>
-                  <h3 className='starH3'>(Fullstack project)</h3>
+                  <h1 className='starH1 aquaColor'>Startracker</h1>
+                  <h3 className='starH3 aquaColor'>(Fullstack project)</h3>
 
                   <div className='starsContainer'>
-                    <motion.img src={star} className='stars' animate={{scale: [0.99, 0.98, 0.97, 0.96, 0.95, 0.96, 0.97, 0.98, 0.99, 1]}} transition={{duration: 1, repeat: Infinity}}></motion.img>
-                    <motion.img src={star} className='stars' animate={{scale: [0.99, 0.98, 0.97, 0.96, 0.95, 0.96, 0.97, 0.98, 0.99, 1]}} transition={{duration: 1.1, repeat: Infinity}}></motion.img>
-                    <motion.img src={star} className='stars' animate={{scale: [0.99, 0.98, 0.97, 0.96, 0.95, 0.96, 0.97, 0.98, 0.99, 1]}} transition={{duration: 1.2, repeat: Infinity}}></motion.img>
+                    <motion.img src={star} className='stars aquaColor' animate={{scale: [0.99, 0.98, 0.97, 0.96, 0.95, 0.96, 0.97, 0.98, 0.99, 1]}} transition={{duration: 1, repeat: Infinity}}></motion.img>
+                    <motion.img src={star} className='stars aquaColor' animate={{scale: [0.99, 0.98, 0.97, 0.96, 0.95, 0.96, 0.97, 0.98, 0.99, 1]}} transition={{duration: 1.1, repeat: Infinity}}></motion.img>
+                    <motion.img src={star} className='stars aquaColor' animate={{scale: [0.99, 0.98, 0.97, 0.96, 0.95, 0.96, 0.97, 0.98, 0.99, 1]}} transition={{duration: 1.2, repeat: Infinity}}></motion.img>
 
                   </div>
                   </a>
@@ -179,7 +176,7 @@ function Body() {
               
             </div>
 
-            <div className='contactBox common' id='Contact'>
+            <div className='contactBox common blueToWhite' id='Contact'>
               <h1 className='contactH1'>Contact me</h1>
               <h3 className='contactH3'>Feel free to contact me by sending an E-mail with the form below.</h3>
 
@@ -233,13 +230,9 @@ function Body() {
                   >Verzend E-mail</Button>
                 </form>
               </div>
-
             </div>
-
           </div>
-          
-        </div>
-        
+        </div> 
       );
     }
 

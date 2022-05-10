@@ -6,6 +6,38 @@
     box-sizing: border-box;
 }
 
+.aquaColor {
+    color: aqua;
+}
+.navLinkColorLight {
+    color: #E693FD;
+}
+.navLinkColorDark {
+    color: #6A57FF
+}
+.whiteToPurple {
+    background-image: linear-gradient(white, #7304e2 );
+}
+.purpleToWhite {
+    background-image: linear-gradient(#7304e2, white);
+}
+.whiteToBlue {
+    background-image: linear-gradient(white, #6a57FF );
+}
+.blueToWhite {
+    background-image: linear-gradient(#6a57FF, white);
+}
+
+.blueToDarkBlue {
+    background-image: linear-gradient(#100566, #05002E );
+}
+.navLightGradient {
+    background-image: linear-gradient(#36006B, #7304e2);
+}
+.navDarkGradient {
+    background-image: linear-gradient(#05002E, #100566);
+}
+
 .navbar {
     width: 100vw;
     height: 120px;
@@ -13,14 +45,12 @@
     top: 0;
     left: 0;
     z-index: 1;
-    background-image: linear-gradient(#36006B, #7304e2);
     display: flex;
     justify-content: space-evenly;
 }
 
 .headerLinks {
     margin-top: 25px;
-    color: #E693FD;
     text-shadow: 0px 0px 30px #6A57FF;
     font-family: 'Lora', serif;
     text-decoration: none;
@@ -38,7 +68,6 @@
     justify-content: space-evenly;
     width: 100vw;
     height: 80vh;
-    background-image: linear-gradient(#7100E2, white);
 }
 
 .darkModeButton {
@@ -118,7 +147,6 @@
 /* Body */
 
 .bodyBackground {
-    background-image: linear-gradient(white, #7100E2 );
     height: 3100px;
 }
 
@@ -146,7 +174,6 @@ h3.softAbout {
 
 .aboutMe {
     position: relative;
-    background-image: linear-gradient(white, #6a57FF );
     height: 1000px;
     display: grid;
     grid-template-columns: 250px auto auto;
@@ -177,6 +204,12 @@ h3.softAbout {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.darkenedClick {
+    height: 1000px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
 }
 
 .introduction {
@@ -232,7 +265,6 @@ h3.softAbout {
 }
 
 .toolsSkills {
-    background-image: linear-gradient(#6a57FF, white  );
     height: 400px;
     display: grid;
     grid-template-columns: auto;
@@ -255,7 +287,6 @@ h3.softAbout {
 }
 
 .projects {
-    background-image: linear-gradient(white, #6a57FF );
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -270,6 +301,7 @@ h3.softAbout {
     text-decoration: none;
     color: black;
 }
+
 .Yahtzee {
     background-color: orange;
 }
@@ -309,10 +341,8 @@ h3.softAbout {
     margin: 5px 0 5px 10%;
 }
 
-
 .Startracker {
     background-color: darkblue;
-    color:aqua;
 }
 .starsContainer {
     margin-top: 10%;
@@ -321,21 +351,16 @@ h3.softAbout {
     justify-content: space-evenly;
 }
 .stars {
-    color: aqua;
     width: 50px;
 }
 .starH1 {
-    color: aqua;
     margin: 5px 0 5px 11%;
 }
 .starH3 {
-    color: aqua;
     margin: 5px 0 5px 13%;
 }
 
-
 .contactBox {
-    background-image: linear-gradient(#6a57FF, white  );
     height: 750px;
 }   
 .contactH1 {
@@ -353,7 +378,6 @@ h3.softAbout {
 .textFieldCommon {
     margin-top: 10px;
 }
-
 
 /* Footer */
 
