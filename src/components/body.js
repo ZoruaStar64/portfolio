@@ -25,12 +25,6 @@ function Body({toggleStyle}) {
         const toggleModal = () => {
           setOpenmodal(!openModal);
         }
-      //   const backgroundDiv = '';
-      //   {!toggleStyle ?
-      //     backgroundDiv = 'whiteToPurple'
-      //   :
-      //   backgroundDiv = 'darkBlueToBlue'
-      // }
 
       return (
         <div>
@@ -390,6 +384,7 @@ function Body({toggleStyle}) {
               <h3 className='contactH3 whiteText'>Feel free to contact me by sending an E-mail with the form below.</h3>
 
               <div>
+                {/* InputLabelProps can change the label's css */}
                 <form className='formHolder' >
                   <TextField
                     id='name' 
