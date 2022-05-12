@@ -54,9 +54,9 @@ function Body({toggleStyle}) {
               When it comes to videogames (especially things about Nintendo or Terraria)<br></br>
               I can talk about it for almost forever</p></div>
 
-              <div className='softAbout'><h1>About me as a Software Developer</h1>
+              <div className='softAbout'><h1 className='softAboutH1MarginTop'>About me as a Software Developer</h1>
               <p>As of April 2022 I have worked on school projects with languages such as: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java<br></br> and the creation of a online database!<br></br>
-              Aside from those I am currently learning on how to use ReactJS and the Framer library with it.<br></br>
+              Aside from those I am currently learning<br></br>on how to use ReactJS and the Framer library with it.<br></br>
               Afterwards I wish to learn C++ with Unity to be able to create videogames.<br></br>
               as for my skills with the current coding languages:<br></br>
               <div className='skillsSoftAbout'>
@@ -113,7 +113,7 @@ function Body({toggleStyle}) {
               Finally I just like watching videos on youtube and talking with my friends online using Discord.</p></div>
 
               <div className='social'>Possible social media area? idk</div>
-              <div className='CV'>CV PDF link</div>
+              <div className='CV'>No CV link</div>
             </div>
 
             <div className='toolsSkills common seperationMargin blueToWhite' id='ToolsAndSkills'>
@@ -184,6 +184,9 @@ function Body({toggleStyle}) {
                   <TextField 
                     id='name' 
                     label='Naam' 
+                    InputLabelProps={{
+                      style: { zIndex: '0' }
+                    }}
                     variant='filled'
                     margin='normal'
                     sx={{mr: 1, width: '49.5%'}}
@@ -194,6 +197,9 @@ function Body({toggleStyle}) {
                   <TextField 
                     id='email' 
                     label='E-mail' 
+                    InputLabelProps={{
+                      style: { zIndex: '0' }
+                    }}
                     variant='filled'
                     margin='normal'
                     sx={{width: '49.5%'}}
@@ -204,6 +210,9 @@ function Body({toggleStyle}) {
                   <TextField 
                     id='subject' 
                     label='Onderwerp' 
+                    InputLabelProps={{
+                      style: { zIndex: '0' }
+                    }}
                     variant='filled'
                     margin='normal'
                     fullWidth 
@@ -214,6 +223,9 @@ function Body({toggleStyle}) {
                   <TextField 
                     id='message' 
                     label='Bericht' 
+                    InputLabelProps={{
+                      style: { zIndex: '0' }
+                    }}
                     variant='filled'
                     margin='normal'
                     multiline
@@ -258,9 +270,9 @@ function Body({toggleStyle}) {
               When it comes to videogames (especially things about Nintendo or Terraria)<br></br>
               I can talk about it for almost forever</p></div>
 
-              <div className='softAbout whiteText'><h1>About me as a Software Developer</h1>
+              <div className='softAbout whiteText'><h1 className='softAboutH1MarginTop'>About me as a Software Developer</h1>
               <p>As of April 2022 I have worked on school projects with languages such as: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java<br></br> and the creation of a online database!<br></br>
-              Aside from those I am currently learning on how to use ReactJS and the Framer library with it.<br></br>
+              Aside from those I am currently learning<br></br>on how to use ReactJS and the Framer library with it.<br></br>
               Afterwards I wish to learn C++ with Unity to be able to create videogames.<br></br>
               as for my skills with the current coding languages:<br></br>
               <div className='skillsSoftAbout whiteText'>
@@ -390,7 +402,7 @@ function Body({toggleStyle}) {
                     id='name' 
                     label='Naam' 
                     InputLabelProps={{
-                      style: { color: 'white' }
+                      style: { color: 'white', zIndex: '0' }
                     }}
                     variant='filled'
                     margin='normal'
@@ -403,7 +415,7 @@ function Body({toggleStyle}) {
                     id='email' 
                     label='E-mail' 
                     InputLabelProps={{
-                      style: { color: 'white' }
+                      style: { color: 'white', zIndex: '0' }
                     }}
                     variant='filled'
                     margin='normal'
@@ -416,7 +428,7 @@ function Body({toggleStyle}) {
                     id='subject' 
                     label='Onderwerp' 
                     InputLabelProps={{
-                      style: { color: 'white' }
+                      style: { color: 'white', zIndex: '0' }
                     }}
                     variant='filled'
                     margin='normal'
@@ -430,7 +442,7 @@ function Body({toggleStyle}) {
                     id='message' 
                     label='Bericht' 
                     InputLabelProps={{
-                      style: { color: 'white' }
+                      style: { color: 'white', zIndex: '0' }
                     }}
                     variant='filled'
                     margin='normal'

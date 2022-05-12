@@ -17,6 +17,9 @@
 .navLightGradient {
     background-image: linear-gradient(#36006B, #7304e2);
 }
+.footerLightGradient {
+    background-image: linear-gradient(#7304e2, #36006B);
+}
 .whiteToPurple {
     background-image: linear-gradient(white, #7304e2 );
 }
@@ -51,6 +54,7 @@
     background-image: linear-gradient(#05002E, #1f0f9a );
 }
 
+@media all and (min-width: 320px) {
 /* Navbar stuff */
 .stick {
     position: sticky;
@@ -409,4 +413,1355 @@ h3.softAbout {
     position: absolute;
     top: 5px;
     left: 50px;
+}
+}
+@media all and (min-width: 768px) {
+
+    /* Navbar stuff */
+.navbar {
+    width: 100vw;
+    height: 120px;
+}
+.headerLinks {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+/* Header */
+.headerBackground {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+}
+
+.darkModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+    width: 105px;
+}
+.lightModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+}
+
+.starContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+}
+.nameAndProfession {
+    height: 400px;
+}
+.nameH1 {
+    font-size: 45px;
+}
+.nameH1P1 {
+    top: 150px;
+    left: 34%;
+}
+.nameH1P2 {
+    top: 190px;
+    left: 29%;
+}
+.professionH1 {
+    font-size: 25px;
+    display: none;
+    top: 15px;
+    left: 15px;
+}
+
+.statusContainer {
+    height: 400px;
+}
+.statusLabel {
+    top: 150px;
+    left: 37%;
+}
+.statusContent {
+    top: 190px;
+    left: 29%;
+}
+
+/* Body */
+.bodyBackground {
+    height: 3100px;
+}
+
+p.aboutMe, h1.aboutMe, h2.aboutMe {
+    font-size: 20px;
+}
+
+h3.softAbout {
+    margin-top: 15px;
+}
+
+.aboutMe {
+    position: relative;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 250px auto auto;
+    grid-template-rows: 250px auto auto 50px;
+    grid-template-areas: 
+    "Picture intro HA"
+    "AP SA SA"
+    "CV SA SA"
+    "Social SA SA";
+}
+
+.pictureOfMe {
+    margin: 15px 0 5px 15px;
+    height: 250px;
+    width: 250px;
+    grid-area: Picture;
+}
+.positivesAutism {
+    margin: 25px 0 5px 15px;
+    height: 300px;
+    width: 250px;
+    grid-area: AP;
+}
+.positivesAutismClicked {
+    position: absolute;
+    height: 850px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.darkenedClick {
+    height: 1000px;
+    width: 100vw;
+}
+
+.introduction {
+    grid-area: intro;
+    margin: 15px 0 0 25px;
+}
+.softAbout {
+    grid-area: SA;
+    margin: 15px 0 0 25px;
+}
+.skillsSoftAbout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "HTML Mysql"
+    "CSS PHP"
+    "JS Java";
+}
+.skillsSoftCommon {
+    margin-top: 10px;
+}
+.htmlSoftAbout {
+    grid-area: HTML;
+}
+.cssSoftAbout {
+    grid-area: CSS;
+}
+.jsSoftAbout {
+    grid-area: JS;
+}
+.mysqlSoftAbout {
+    grid-area: Mysql;
+}
+.phpSoftAbout {
+    grid-area: PHP;
+}
+.javaSoftAbout {
+    grid-area: Java;
+}
+
+.hobbyAbout {
+    grid-area: HA;
+    margin: 15px 0 0 25px;
+}
+.social {
+    grid-area: Social;
+    margin: 0 0 5px 25px;
+}
+
+.toolsSkills {
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "CL"
+    "OT";
+}
+.toolsSkillsCommon {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.codeLanguages {
+    grid-area: CL;
+    margin: 5% 0 0 15px;
+}
+.otherTools {
+    grid-area: OT;
+    margin: 2.5% 0 0 15px;
+}
+
+.projects {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.projectsCommon {
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 0;
+}
+
+.yatH1 {
+    margin: 5px 0 5px 22.5%;
+}
+.yatH3 {
+    margin: 5px 25% 5px 25%;
+}
+.diceContainer {
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diceCommon {
+    width: 25px;
+    height: 25px;
+}
+
+.coinContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coin {
+    width: 50px;
+}
+.coinH1 {
+    margin: 5px 0 5px 11%;
+}
+.coinH3 {
+    margin: 5px 0 5px 10%;
+}
+
+.starsContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    width: 50px;
+}
+.starH1 {
+    margin: 5px 0 5px 11%;
+}
+.starH3 {
+    margin: 5px 0 5px 13%;
+}
+
+.contactBox {
+    height: 750px;
+}   
+.contactH1 {
+    margin: 15px 0 0 44%;
+}
+.contactH3 {
+    margin-left: 35%;
+}
+
+/* Footer */
+
+.footer {
+    width: 100vw;
+    height: 50px;
+}
+
+.footerText {
+    top: 5px;
+    left: 50px;
+}
+}
+@media all and (min-width: 1024px) {
+
+    /* Navbar stuff */
+.navbar {
+    width: 100vw;
+    height: 120px;
+}
+.headerLinks {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+/* Header */
+.headerBackground {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+}
+
+.darkModeButton {
+    top: 130px;
+    left: 87vw;
+    height: 100px;
+    width: 105px;
+}
+.lightModeButton {
+    top: 130px;
+    left: 87vw;
+    height: 100px;
+}
+
+.starContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+}
+.nameAndProfession {
+    height: 400px;
+}
+.nameH1 {
+    font-size: 45px;
+}
+.nameH1P1 {
+    top: 150px;
+    left: 34%;
+}
+.nameH1P2 {
+    top: 190px;
+    left: 29%; 
+}
+.professionH1 {
+    font-size: 25px;
+    display: none;
+    top: 15px;
+    left: 15px;
+}
+
+.statusContainer {
+    height: 400px;
+}
+.statusLabel {
+    top: 150px;
+    left: 37%;   
+}
+.statusContent {
+    top: 190px;
+    left: 29%;   
+}
+
+/* Body */
+.bodyBackground {
+    height: 3100px;
+}
+
+.softAboutH1MarginTop {
+    margin-top: 30px;
+}
+h3.softAbout {
+    margin-top: 15px;
+}
+
+.aboutMe {
+    position: relative;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: 200px auto auto 50px;
+    grid-template-areas: 
+    "Picture intro HA"
+    "AP SA SA"
+    "CV SA SA"
+    "Social SA SA";
+    font-size: 13.5px;
+}
+
+.pictureOfMe {
+    margin: 15px 0 5px 15px;
+    height: 200px;
+    width: 200px;
+    grid-area: Picture;
+}
+.positivesAutism {
+    margin: 25px 0 5px 15px;
+    height: 250px;
+    width: 200px;
+    grid-area: AP;
+}
+.positivesAutismClicked {
+    position: absolute;
+    height: 650px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.darkenedClick {
+    height: 1000px;
+    width: 100vw;
+}
+
+.introduction {
+    grid-area: intro;
+    margin: 15px 0 0 25px;
+}
+.softAbout {
+    grid-area: SA;
+    margin: 15px 0 0 25px;
+}
+.skillsSoftAbout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "HTML Mysql"
+    "CSS PHP"
+    "JS Java";
+}
+.skillsSoftCommon {
+    margin-top: 10px;
+}
+.htmlSoftAbout {
+    grid-area: HTML;
+}
+.cssSoftAbout {
+    grid-area: CSS;
+}
+.jsSoftAbout {
+    grid-area: JS;
+}
+.mysqlSoftAbout {
+    grid-area: Mysql;
+}
+.phpSoftAbout {
+    grid-area: PHP;
+}
+.javaSoftAbout {
+    grid-area: Java;
+}
+
+.hobbyAbout {
+    grid-area: HA;
+    margin: 15px 0 0 25px;
+}
+.social {
+    grid-area: Social;
+    margin: 0 0 5px 25px;
+}
+
+.toolsSkills {
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "CL"
+    "OT";
+}
+.toolsSkillsCommon {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.codeLanguages {
+    grid-area: CL;
+    margin: 5% 0 0 15px;
+}
+.otherTools {
+    grid-area: OT;
+    margin: 2.5% 0 0 15px;
+}
+
+.projects {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.projectsCommon {
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 0;
+}
+
+.yatH1 {
+    margin: 5px 0 5px 22.5%;
+}
+.yatH3 {
+    margin: 5px 25% 5px 25%;
+}
+.diceContainer {
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diceCommon {
+    width: 25px;
+    height: 25px;
+}
+
+.coinContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coin {
+    width: 50px;
+}
+.coinH1 {
+    margin: 5px 0 5px 11%;
+}
+.coinH3 {
+    margin: 5px 0 5px 10%;
+}
+
+.starsContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    width: 50px;
+}
+.starH1 {
+    margin: 5px 0 5px 11%;
+}
+.starH3 {
+    margin: 5px 0 5px 13%;
+}
+
+.contactBox {
+    height: 750px;
+}   
+.contactH1 {
+    margin: 15px 0 0 44%;
+}
+.contactH3 {
+    margin-left: 35%;
+}
+
+/* Footer */
+
+.footer {
+    width: 100vw;
+    height: 50px;
+}
+
+.footerText {
+    top: 5px;
+    left: 50px;
+}
+}
+@media all and (min-width: 1440px) {
+
+    /* Navbar stuff */
+.navbar {
+    width: 100vw;
+    height: 120px;
+}
+.headerLinks {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+/* Header */
+.headerBackground {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+}
+
+.darkModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+    width: 105px;
+}
+.lightModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+}
+
+.starContainer { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+}
+.nameAndProfession {
+    height: 400px;
+}
+.nameH1 {
+    font-size: 45px;
+}
+.nameH1P1 {
+    top: 150px;
+    left: 34%;
+}
+.nameH1P2 {
+    top: 190px;
+    left: 29%; 
+}
+.professionH1 {
+    font-size: 25px;
+    display: none;
+    top: 15px;
+    left: 15px;
+}
+
+.statusContainer {
+    position: relative;
+    height: 400px;
+}
+.statusLabel {
+    top: 150px;
+    left: 37%;    
+}
+.statusContent {
+    top: 190px;
+    left: 29%;   
+}
+
+/* Body */
+.bodyBackground {
+    height: 3100px;
+}
+
+p.aboutMe, h1.aboutMe, h2.aboutMe {
+    font-size: 20px;
+}
+
+h3.softAbout {
+    margin-top: 15px;
+}
+
+.aboutMe {
+    position: relative;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 250px auto auto;
+    grid-template-rows: 250px auto auto 50px;
+    grid-template-areas: 
+    "Picture intro HA"
+    "AP SA SA"
+    "CV SA SA"
+    "Social SA SA";
+}
+
+.pictureOfMe {
+    margin: 15px 0 5px 15px;
+    height: 250px;
+    width: 250px;
+    grid-area: Picture;
+}
+.positivesAutism {
+    margin: 25px 0 5px 15px;
+    height: 300px;
+    width: 250px;
+    grid-area: AP;
+}
+.positivesAutismClicked {
+    position: absolute;
+    height: 850px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.darkenedClick {
+    height: 1000px;
+    width: 100vw;
+}
+
+.introduction {
+    grid-area: intro;
+    margin: 15px 0 0 25px;
+}
+.softAbout {
+    grid-area: SA;
+    margin: 15px 0 0 25px;
+}
+.skillsSoftAbout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "HTML Mysql"
+    "CSS PHP"
+    "JS Java";
+}
+.skillsSoftCommon {
+    margin-top: 10px;
+}
+.htmlSoftAbout {
+    grid-area: HTML;
+}
+.cssSoftAbout {
+    grid-area: CSS;
+}
+.jsSoftAbout {
+    grid-area: JS;
+}
+.mysqlSoftAbout {
+    grid-area: Mysql;
+}
+.phpSoftAbout {
+    grid-area: PHP;
+}
+.javaSoftAbout {
+    grid-area: Java;
+}
+
+.hobbyAbout {
+    grid-area: HA;
+    margin: 15px 0 0 25px;
+}
+.social {
+    grid-area: Social;
+    margin: 0 0 5px 25px;
+}
+
+.toolsSkills {
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "CL"
+    "OT";
+}
+.toolsSkillsCommon {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.codeLanguages {
+    grid-area: CL;
+    margin: 5% 0 0 15px;
+}
+.otherTools {
+    grid-area: OT;
+    margin: 2.5% 0 0 15px;
+}
+
+.projects {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.projectsCommon {
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 0;
+}
+
+.yatH1 {
+    margin: 5px 0 5px 22.5%;
+}
+.yatH3 {
+    margin: 5px 25% 5px 25%;
+}
+.diceContainer {
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diceCommon {
+    width: 25px;
+    height: 25px;
+}
+
+.coinContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coin {
+    width: 50px;
+}
+.coinH1 {
+    margin: 5px 0 5px 11%;
+}
+.coinH3 {
+    margin: 5px 0 5px 10%;
+}
+
+.starsContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    width: 50px;
+}
+.starH1 {
+    margin: 5px 0 5px 11%;
+}
+.starH3 {
+    margin: 5px 0 5px 13%;
+}
+
+.contactBox {
+    height: 750px;
+}   
+.contactH1 {
+    margin: 15px 0 0 44%;
+}
+.contactH3 {
+    margin-left: 35%;
+}
+
+/* Footer */
+
+.footer {
+    width: 100vw;
+    height: 50px;
+}
+
+.footerText {
+    top: 5px;
+    left: 50px;
+}
+}
+@media all and (min-width: 1680px) {
+
+    /* Navbar stuff */
+.navbar {
+    width: 100vw;
+    height: 120px;
+}
+.headerLinks {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+/* Header */
+.headerBackground {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+}
+
+.darkModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+    width: 105px;
+}
+.lightModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+}
+
+.starContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+}
+.nameAndProfession {
+    height: 400px;
+}
+.nameH1 {
+    font-size: 45px;
+}
+.nameH1P1 {
+    top: 150px;
+    left: 34%;  
+}
+.nameH1P2 {
+    top: 190px;
+    left: 29%;
+}
+.professionH1 {
+    font-size: 25px;
+    display: none;
+    top: 15px;
+    left: 15px;
+}
+
+.statusContainer {
+    height: 400px;
+}
+.statusLabel {
+    top: 150px;
+    left: 37%;
+}
+.statusContent {
+    top: 190px;
+    left: 29%;  
+}
+
+/* Body */
+.bodyBackground {
+    height: 3100px;
+}
+
+p.aboutMe, h1.aboutMe, h2.aboutMe {
+    font-size: 20px;
+}
+
+h3.softAbout {
+    margin-top: 15px;
+}
+
+.aboutMe {
+    position: relative;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 250px auto auto;
+    grid-template-rows: 250px auto auto 50px;
+    grid-template-areas: 
+    "Picture intro HA"
+    "AP SA SA"
+    "CV SA SA"
+    "Social SA SA";
+}
+
+.pictureOfMe {
+    margin: 15px 0 5px 15px;
+    height: 250px;
+    width: 250px;
+    grid-area: Picture;
+}
+.positivesAutism {
+    margin: 25px 0 5px 15px;
+    height: 300px;
+    width: 250px;
+    grid-area: AP;
+}
+.positivesAutismClicked {
+    height: 850px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.darkenedClick {
+    height: 1000px;
+    width: 100vw;
+}
+
+.introduction {
+    grid-area: intro;
+    margin: 15px 0 0 25px;
+}
+.softAbout {
+    grid-area: SA;
+    margin: 15px 0 0 25px;
+}
+.skillsSoftAbout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "HTML Mysql"
+    "CSS PHP"
+    "JS Java";
+}
+.skillsSoftCommon {
+    margin-top: 10px;
+}
+.htmlSoftAbout {
+    grid-area: HTML;
+}
+.cssSoftAbout {
+    grid-area: CSS;
+}
+.jsSoftAbout {
+    grid-area: JS;
+}
+.mysqlSoftAbout {
+    grid-area: Mysql;
+}
+.phpSoftAbout {
+    grid-area: PHP;
+}
+.javaSoftAbout {
+    grid-area: Java;
+}
+
+.hobbyAbout {
+    grid-area: HA;
+    margin: 15px 0 0 25px;
+}
+.social {
+    grid-area: Social;
+    margin: 0 0 5px 25px;
+}
+
+.toolsSkills {
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "CL"
+    "OT";
+}
+.toolsSkillsCommon {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.codeLanguages {
+    grid-area: CL;
+    margin: 5% 0 0 15px;
+}
+.otherTools {
+    grid-area: OT;
+    margin: 2.5% 0 0 15px;
+}
+
+.projects {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.projectsCommon {
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 0;
+}
+
+.yatH1 {
+    margin: 5px 0 5px 22.5%;
+}
+.yatH3 {
+    margin: 5px 25% 5px 25%;
+}
+.diceContainer {
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diceCommon {
+    width: 25px;
+    height: 25px;
+}
+
+.coinContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coin {
+    width: 50px;
+}
+.coinH1 {
+    margin: 5px 0 5px 11%;
+}
+.coinH3 {
+    margin: 5px 0 5px 10%;
+}
+
+.starsContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    width: 50px;
+}
+.starH1 {
+    margin: 5px 0 5px 11%;
+}
+.starH3 {
+    margin: 5px 0 5px 13%;
+}
+
+.contactBox {
+    height: 750px;
+}   
+.contactH1 {
+    margin: 15px 0 0 44%;
+}
+.contactH3 {
+    margin-left: 35%;
+}
+
+.textFieldCommon {
+    margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100vw;
+    height: 50px;
+}
+
+.footerText {
+    top: 5px;
+    left: 50px;
+}
+}
+@media all and (min-width: 1920px) {
+
+    /* Navbar stuff */
+.navbar {
+    width: 100vw;
+    height: 120px;
+}
+.headerLinks {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+/* Header */
+.headerBackground {
+    width: 100vw;
+    height: 80vh;
+}
+
+.darkModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+    width: 105px;
+}
+.lightModeButton {
+    top: 125px;
+    left: 90vw;
+    height: 100px;
+}
+
+.starContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+}
+.nameAndProfession {
+    height: 400px;
+}
+.nameH1 {
+    font-size: 45px;
+}
+.nameH1P1 {
+    top: 150px;
+    left: 34%;
+}
+.nameH1P2 {
+    top: 190px;
+    left: 29%;
+}
+.professionH1 {
+    font-size: 25px;
+    display: none;
+    top: 15px;
+    left: 15px;
+}
+
+.statusContainer {
+    height: 400px;
+}
+.statusLabel {
+    top: 150px;
+    left: 37%;
+}
+.statusContent {
+    top: 190px;
+    left: 29%;
+}
+
+/* Body */
+.bodyBackground {
+    height: 3100px;
+}
+
+p.aboutMe, h1.aboutMe, h2.aboutMe {
+    font-size: 20px;
+}
+
+h3.softAbout {
+    margin-top: 15px;
+}
+
+.aboutMe {
+    position: relative;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 250px auto auto;
+    grid-template-rows: 250px auto auto 50px;
+    grid-template-areas: 
+    "Picture intro HA"
+    "AP SA SA"
+    "CV SA SA"
+    "Social SA SA";
+}
+
+.pictureOfMe {
+    margin: 15px 0 5px 15px;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    grid-area: Picture;
+}
+.positivesAutism {
+    margin: 25px 0 5px 15px;
+    height: 300px;
+    width: 250px;
+    grid-area: AP;
+}
+.positivesAutismClicked {
+    position: absolute;
+    height: 850px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.darkenedClick {
+    height: 1000px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.introduction {
+    grid-area: intro;
+    margin: 15px 0 0 25px;
+}
+.softAbout {
+    grid-area: SA;
+    margin: 15px 0 0 25px;
+}
+.skillsSoftAbout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "HTML Mysql"
+    "CSS PHP"
+    "JS Java";
+}
+.skillsSoftCommon {
+    margin-top: 10px;
+}
+.htmlSoftAbout {
+    grid-area: HTML;
+}
+.cssSoftAbout {
+    grid-area: CSS;
+}
+.jsSoftAbout {
+    grid-area: JS;
+}
+.mysqlSoftAbout {
+    grid-area: Mysql;
+}
+.phpSoftAbout {
+    grid-area: PHP;
+}
+.javaSoftAbout {
+    grid-area: Java;
+}
+
+.hobbyAbout {
+    grid-area: HA;
+    margin: 15px 0 0 25px;
+}
+.social {
+    grid-area: Social;
+    margin: 0 0 5px 25px;
+}
+
+.projects {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.projectsCommon {
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 0;
+}
+
+.yatH1 {
+    margin: 5px 0 5px 22.5%;
+}
+.yatH3 {
+    margin: 5px 25% 5px 25%;
+}
+.diceContainer {
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diceCommon {
+    width: 25px;
+    height: 25px;
+}
+
+.coinContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coin {
+    width: 50px;
+}
+.coinH1 {
+    margin: 5px 0 5px 11%;
+}
+.coinH3 {
+    margin: 5px 0 5px 10%;
+}
+
+.starsContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    width: 50px;
+}
+.starH1 {
+    margin: 5px 0 5px 11%;
+}
+.starH3 {
+    margin: 5px 0 5px 13%;
+}
+
+.contactH1 {
+    margin: 15px 0 0 44%;
+}
+.contactH3 {
+    margin-left: 35%;
+}
+
+/* Footer */
+
+.footer {
+    width: 100vw;
+    height: 50px;
+}
+
+.footerText {
+    top: 5px;
+    left: 50px;
+}
 }

@@ -46,7 +46,7 @@ function Page() {
           {/* send the toggle data to the header and body */}
         <Header toggleStyle={currentStyleState} />
         <Body toggleStyle={currentStyleState} />
-        <Footer />
+        <Footer toggleStyle={currentStyleState} />
         </div>
       ); 
 

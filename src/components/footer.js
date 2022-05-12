@@ -1,18 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './footer.css';
 
 // This is just the footer really nothing special here tbh
-class Footer extends React.Component {
-    render() {
-      return (
-        
-        <div className='footer'>
-          <h1 className='footerText'>sb-dev 2022</h1>
-          </div>
-        
-      );
-    }
+function Footer({toggleStyle}) {
+    
+    return (
+      <div>
+      {!toggleStyle ?
+      <div className='footer footerLightGradient'>
+        <h1 className='footerText'>sb-dev 2022</h1>
+        </div>
+        :
+        <div className='footer blueToDarkBlue'>
+        <h1 className='footerText whiteText'>sb-dev 2022</h1>
+        </div>
+      }
+      </div>
+    );
 }
+
 
 export default Footer;
