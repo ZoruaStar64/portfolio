@@ -43,7 +43,7 @@ function Page() {
           <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyle} src={lightModeButton} className='darkModeButton' title='Light mode button'>
           </motion.img>
           }
-          {/* send the toggle data to the header and body */}
+          {/* send the toggle data to the header, body and footer */}
         <Header toggleStyle={currentStyleState} />
         <Body toggleStyle={currentStyleState} />
         <Footer toggleStyle={currentStyleState} />

@@ -64,7 +64,7 @@
 }
 .navbar {
     width: 100vw;
-    height: 120px;
+    height: 60px;
     position: sticky;
     top: 0;
     left: 0;
@@ -77,7 +77,7 @@
     text-shadow: 0px 0px 30px #6A57FF;
     font-family: 'Lora', serif;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 15px;
     -webkit-text-stroke: 1px #1F09CC;
 }
 .headerLinks:hover {
@@ -89,21 +89,21 @@
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
-    height: 80vh;
+    height: 20vh;
 }
 
 .darkModeButton {
     position: absolute;
-    top: 125px;
-    left: 90vw;
-    height: 100px;
-    width: 105px;
+    top: 60px;
+    left: 85vw;
+    height: 40px;
+    width: 45px;
 }
 .lightModeButton {
     position: absolute;
-    top: 125px;
-    left: 90vw;
-    height: 100px;
+    top: 60px;
+    left: 85vw;
+    height: 40px;
 }
 
 .starContainer {
@@ -111,33 +111,33 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 400px;
+    height: 100px;
 }
 .nameAndProfession {
     position: relative;
     color: #4F3DDB;
     -webkit-text-stroke: 1px #400156;
-    height: 400px;
+    height: 100px;
 }
 .nameH1 {
-    font-size: 45px;
+    font-size: 12px;
     display: block;
     text-shadow: 0px 0px 50px #8000FF;
 }
 .nameH1P1 {
     position: absolute;
-    top: 150px;
-    left: 34%;
+    top: 35px;
+    left: 33%;
     
 }
 .nameH1P2 {
     position: absolute;
-    top: 190px;
-    left: 29%;
+    top: 50px;
+    left: 27.5%;
     
 }
 .professionH1 {
-    font-size: 25px;
+    font-size: 13px;
     display: none;
     position: absolute;
     top: 15px;
@@ -151,19 +151,19 @@
 }
 .statusContainer {
     position: relative;
-    height: 400px;
+    height: 100px;
 }
 .statusLabel {
     position: absolute;
-    top: 150px;
-    left: 37%;
-    
+    top: 35px;
+    left: 33%;
+    font-size: 13px;
 }
 .statusContent {
     position: absolute;
-    top: 190px;
+    top: 50px;
     left: 29%;
-    
+    font-size: 6px;
 }
 
 /* Body */
@@ -174,7 +174,7 @@
 p.aboutMe, h1.aboutMe, h2.aboutMe {
     font-family: 'Lora', serif;
     color: black;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 h3.softAbout {
@@ -182,7 +182,7 @@ h3.softAbout {
 }
 
 .seperationMargin {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .common {
@@ -195,28 +195,28 @@ h3.softAbout {
 
 .aboutMe {
     position: relative;
-    height: 1000px;
+    height: 1500px;
     display: grid;
-    grid-template-columns: 250px auto auto;
-    grid-template-rows: 250px auto auto 50px;
+    grid-template-columns: 50px auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
-    "Picture intro HA"
-    "AP SA SA"
-    "CV SA SA"
-    "Social SA SA";
+    "Picture intro"
+    "AP HA"
+    "Social SA";
+    font-size: 10px;
 }
 
 .pictureOfMe {
     margin: 15px 0 5px 15px;
-    height: 250px;
-    width: 250px;
+    height: 50px;
+    width: 50px;
     background-color: white;
     grid-area: Picture;
 }
 .positivesAutism {
     margin: 25px 0 5px 15px;
-    height: 300px;
-    width: 250px;
+    height: 100px;
+    width: 50px;
     grid-area: AP;
 }
 .positivesAutismClicked {
@@ -308,14 +308,14 @@ h3.softAbout {
 }
 
 .projects {
-    height: 400px;
+    height: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .projectsCommon {
-    height: 200px;
-    width: 200px;
+    height: 80px;
+    width: 80px;
     margin: 5% 0 0 0;
 }
 .projectLinks {
@@ -327,10 +327,12 @@ h3.softAbout {
     background-color: orange;
 }
 .yatH1 {
-    margin: 5px 0 5px 22.5%;
+    margin: 5px 0 5px 30%;
+    font-size: 10px;
 }
 .yatH3 {
-    margin: 5px 25% 5px 25%;
+    margin: 5px 20% 5px 20%;
+    font-size: 10px;
 }
 .diceContainer {
     margin-top: 45%;
@@ -339,8 +341,8 @@ h3.softAbout {
     justify-content: space-evenly;
 }
 .diceCommon {
-    width: 25px;
-    height: 25px;
+    width: 10px;
+    height: 10px;
 }
 
 .coinGame {
@@ -353,13 +355,15 @@ h3.softAbout {
     justify-content: space-evenly;
 }
 .coin {
-    width: 50px;
+    width: 15px;
 }
 .coinH1 {
-    margin: 5px 0 5px 11%;
+    margin: 5px 0 5px 18%;
+    font-size: 10px;
 }
 .coinH3 {
-    margin: 5px 0 5px 10%;
+    margin: 5px 0 5px 22%;
+    font-size: 10px;
 }
 
 .Startracker {
@@ -372,23 +376,25 @@ h3.softAbout {
     justify-content: space-evenly;
 }
 .stars {
-    width: 50px;
+    width: 20px;
 }
 .starH1 {
-    margin: 5px 0 5px 11%;
+    margin: 5px 0 5px 18%;
+    font-size: 10px;
 }
 .starH3 {
-    margin: 5px 0 5px 13%;
+    margin: 5px 0 5px 20%;
+    font-size: 10px;
 }
 
 .contactBox {
     height: 750px;
 }   
 .contactH1 {
-    margin: 15px 0 0 44%;
+    margin: 15px 0 0 25%;
 }
 .contactH3 {
-    margin-left: 35%;
+    margin-left: 18%;
 }
 
 .formHolder {
@@ -420,11 +426,11 @@ h3.softAbout {
     /* Navbar stuff */
 .navbar {
     width: 100vw;
-    height: 120px;
+    height: 100px;
 }
 .headerLinks {
     margin-top: 25px;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 /* Header */
@@ -432,63 +438,65 @@ h3.softAbout {
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
-    height: 80vh;
+    height: 50vh;
 }
 
 .darkModeButton {
-    top: 125px;
-    left: 90vw;
-    height: 100px;
-    width: 105px;
+    top: 110px;
+    left: 86vw;
+    height: 90px;
+    width: 95px;
 }
 .lightModeButton {
-    top: 125px;
-    left: 90vw;
-    height: 100px;
+    top: 110px;
+    left: 86vw;
+    height: 90px;
 }
 
 .starContainer {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 400px;
+    height: 300px;
 }
 .nameAndProfession {
-    height: 400px;
+    height: 300px;
 }
 .nameH1 {
-    font-size: 45px;
+    font-size: 35px;
 }
 .nameH1P1 {
-    top: 150px;
-    left: 34%;
+    top: 110px;
+    left: 33%;
 }
 .nameH1P2 {
-    top: 190px;
-    left: 29%;
+    top: 150px;
+    left: 28%;
 }
 .professionH1 {
     font-size: 25px;
     display: none;
-    top: 15px;
+    top: 150px;
     left: 15px;
 }
 
 .statusContainer {
-    height: 400px;
+    height: 300px;
 }
 .statusLabel {
-    top: 150px;
-    left: 37%;
+    top: 110px;
+    left: 35%;
+    font-size: 30px;
 }
 .statusContent {
-    top: 190px;
-    left: 29%;
+    font-size: 18px;
+    top: 150px;
+    left: 28%;
 }
 
 /* Body */
 .bodyBackground {
-    height: 3100px;
+    height: 3300px;
 }
 
 p.aboutMe, h1.aboutMe, h2.aboutMe {
@@ -501,27 +509,27 @@ h3.softAbout {
 
 .aboutMe {
     position: relative;
-    height: 1000px;
+    height: 1300px;
     display: grid;
-    grid-template-columns: 250px auto auto;
-    grid-template-rows: 250px auto auto 50px;
+    grid-template-columns: 150px auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
-    "Picture intro HA"
-    "AP SA SA"
-    "CV SA SA"
+    "Picture intro intro"
+    "AP HA HA"
     "Social SA SA";
+    font-size: 13px;
 }
 
 .pictureOfMe {
-    margin: 15px 0 5px 15px;
-    height: 250px;
-    width: 250px;
+    margin: 55px 0 5px 15px;
+    height: 150px;
+    width: 150px;
     grid-area: Picture;
 }
 .positivesAutism {
     margin: 25px 0 5px 15px;
-    height: 300px;
-    width: 250px;
+    height: 200px;
+    width: 150px;
     grid-area: AP;
 }
 .positivesAutismClicked {
@@ -532,8 +540,8 @@ h3.softAbout {
     transform: translate(-50%, -50%);
 }
 .darkenedClick {
-    height: 1000px;
-    width: 100vw;
+    height: 1300px;
+    width: 95vw;
 }
 
 .introduction {
@@ -607,7 +615,7 @@ h3.softAbout {
 }
 
 .projects {
-    height: 400px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -620,9 +628,11 @@ h3.softAbout {
 
 .yatH1 {
     margin: 5px 0 5px 22.5%;
+    font-size: 30px;
 }
 .yatH3 {
-    margin: 5px 25% 5px 25%;
+    margin: 5px 20% 5px 20%;
+    font-size: 25px;
 }
 .diceContainer {
     margin-top: 45%;
@@ -646,9 +656,11 @@ h3.softAbout {
 }
 .coinH1 {
     margin: 5px 0 5px 11%;
+    font-size: 30px;
 }
 .coinH3 {
-    margin: 5px 0 5px 10%;
+    margin: 5px 0 5px 8%;
+    font-size: 20px;
 }
 
 .starsContainer {
@@ -662,19 +674,21 @@ h3.softAbout {
 }
 .starH1 {
     margin: 5px 0 5px 11%;
+    font-size: 30px;
 }
 .starH3 {
-    margin: 5px 0 5px 13%;
+    margin: 5px 0 5px 10%;
+    font-size: 20px;
 }
 
 .contactBox {
     height: 750px;
 }   
 .contactH1 {
-    margin: 15px 0 0 44%;
+    margin: 15px 0 0 40%;
 }
 .contactH3 {
-    margin-left: 35%;
+    margin-left: 15%;
 }
 
 /* Footer */
@@ -752,12 +766,14 @@ h3.softAbout {
     height: 400px;
 }
 .statusLabel {
-    top: 150px;
-    left: 37%;   
+    font-size: 40px;
+    top: 140px;
+    left: 36%;   
 }
 .statusContent {
+    font-size: 25px;
     top: 190px;
-    left: 29%;   
+    left: 28%;   
 }
 
 /* Body */
@@ -896,7 +912,7 @@ h3.softAbout {
     margin: 5px 0 5px 22.5%;
 }
 .yatH3 {
-    margin: 5px 25% 5px 25%;
+    margin: 5px 20% 5px 20%;
 }
 .diceContainer {
     margin-top: 45%;
@@ -945,10 +961,10 @@ h3.softAbout {
     height: 750px;
 }   
 .contactH1 {
-    margin: 15px 0 0 44%;
+    margin: 15px 0 0 40%;
 }
 .contactH3 {
-    margin-left: 35%;
+    margin-left: 25%;
 }
 
 /* Footer */
@@ -1027,7 +1043,7 @@ h3.softAbout {
     height: 400px;
 }
 .statusLabel {
-    top: 150px;
+    top: 140px;
     left: 37%;    
 }
 .statusContent {
@@ -1171,7 +1187,7 @@ h3.softAbout {
     margin: 5px 0 5px 22.5%;
 }
 .yatH3 {
-    margin: 5px 25% 5px 25%;
+    margin: 5px 20% 5px 20%;
 }
 .diceContainer {
     margin-top: 45%;
@@ -1197,7 +1213,7 @@ h3.softAbout {
     margin: 5px 0 5px 11%;
 }
 .coinH3 {
-    margin: 5px 0 5px 10%;
+    margin: 5px 0 5px 8%;
 }
 
 .starsContainer {
@@ -1213,7 +1229,7 @@ h3.softAbout {
     margin: 5px 0 5px 11%;
 }
 .starH3 {
-    margin: 5px 0 5px 13%;
+    margin: 5px 0 5px 11%;
 }
 
 .contactBox {
