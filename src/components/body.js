@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import { motion } from 'framer-motion';
 import '../index.js';
@@ -14,14 +14,13 @@ import coin from "../images/coin.png";
 import star from "../images/darkModeButton.png";
 import {FaHtml5, FaCss3Alt, FaDatabase, FaJava, FaTrello, FaGithub, FaFigma} from 'react-icons/fa';
 import {SiJavascript, SiMysql, SiPhp, SiAdobexd, SiVisualstudiocode, SiPhpstorm} from 'react-icons/si';
-import { TextField } from '@mui/material';
-import { Button } from '@mui/material';
-import { display } from '@mui/system';
-      
+import {EmailModalLight, EmailModalDark} from './emailmodal.js';
+
 function Body({toggleStyle}) {
       
         // to open the modal for the autism positives thingie
         const [openModal, setOpenmodal] = useState(false);
+
         const toggleModal = () => {
           setOpenmodal(!openModal);
         }
@@ -53,7 +52,7 @@ function Body({toggleStyle}) {
               I recommend clicking on the image under my picture!<br></br>
               When it comes to videogames (especially things about Nintendo or Terraria)<br></br>
               I can talk about it for almost forever</p></div>
-
+              
               <div className='softAbout'><h1 className='softAboutH1MarginTop'>About me as a Software Developer</h1>
               <p>As of April 2022 I have worked on school projects with languages such as: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java<br></br> and the creation of a online database!<br></br>
               Aside from those I am currently learning<br></br>on how to use ReactJS and the Framer library with it.<br></br>
@@ -178,69 +177,7 @@ function Body({toggleStyle}) {
             <div className='contactBox common blueToWhite' id='Contact'>
               <h1 className='contactH1'>Contact me</h1>
               <h3 className='contactH3'>Feel free to contact me by sending an E-mail with the form below.</h3>
-
-              <div>
-                <form className='formHolder'>
-                  <TextField 
-                    id='name' 
-                    label='Naam' 
-                    InputLabelProps={{
-                      style: { zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    sx={{mr: 1, width: '49.5%'}}
-                    required
-                    autoComplete='off'
-                  />
-
-                  <TextField 
-                    id='email' 
-                    label='E-mail' 
-                    InputLabelProps={{
-                      style: { zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    sx={{width: '49.5%'}}
-                    required
-                    autoComplete='off'
-                  />
-
-                  <TextField 
-                    id='subject' 
-                    label='Onderwerp' 
-                    InputLabelProps={{
-                      style: { zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    fullWidth 
-                    required
-                    autoComplete='off'
-                  />
-
-                  <TextField 
-                    id='message' 
-                    label='Bericht' 
-                    InputLabelProps={{
-                      style: { zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    multiline
-                    fullWidth
-                    rows={8}
-                    required
-                    autoComplete='off'
-                  />
-                  <Button
-                  sx={{backgroundColor: '#6a57FF', color: '#05002E'}}
-                  variant='contained'
-                  fullWidth
-                  >Verzend E-mail</Button>
-                </form>
-              </div>
+              <EmailModalLight />
             </div>
           </div> 
           :
@@ -394,72 +331,7 @@ function Body({toggleStyle}) {
             <div className='contactBox common blueToDarkBlue' id='Contact'>
               <h1 className='contactH1 whiteText'>Contact me</h1>
               <h3 className='contactH3 whiteText'>Feel free to contact me by sending an E-mail with the form below.</h3>
-
-              <div>
-                {/* InputLabelProps can change the label's css */}
-                <form className='formHolder' >
-                  <TextField
-                    id='name' 
-                    label='Naam' 
-                    InputLabelProps={{
-                      style: { color: 'white', zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    sx={{mr: 1, width: '49.5%', backgroundColor: '#1f0f9a'}}
-                    required
-                    autoComplete='off'
-                  />
-
-                  <TextField 
-                    id='email' 
-                    label='E-mail' 
-                    InputLabelProps={{
-                      style: { color: 'white', zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    sx={{width: '49.5%', backgroundColor: '#1f0f9a'}}
-                    required
-                    autoComplete='off'
-                  />
-
-                  <TextField 
-                    id='subject' 
-                    label='Onderwerp' 
-                    InputLabelProps={{
-                      style: { color: 'white', zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    sx={{backgroundColor: '#1f0f9a'}}
-                    fullWidth 
-                    required
-                    autoComplete='off'
-                  />
-
-                  <TextField 
-                    id='message' 
-                    label='Bericht' 
-                    InputLabelProps={{
-                      style: { color: 'white', zIndex: '0' }
-                    }}
-                    variant='filled'
-                    margin='normal'
-                    sx={{backgroundColor: '#1f0f9a'}}
-                    multiline
-                    fullWidth
-                    rows={8}
-                    required
-                    autoComplete='off'
-                  />
-                  <Button
-                  sx={{backgroundColor: '#1D00FF', color: 'white'}}
-                  variant='contained'
-                  fullWidth
-                  >Verzend E-mail</Button>
-                </form>
-              </div>
+              <EmailModalDark />
             </div>
           </div>
 }
