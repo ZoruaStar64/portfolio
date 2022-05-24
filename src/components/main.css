@@ -141,11 +141,10 @@
     
 }
 .professionH1 {
-    font-size: 16px;
-    display: none;
+    font-size: 17px;
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 55px;
+    left: 28%;
 }
 
 .statusColors {
@@ -488,9 +487,8 @@ h3.softAbout {
 }
 .professionH1 {
     font-size: 25px;
-    display: none;
-    top: 150px;
-    left: 15px;
+    top: 120px;
+    left: 17%;
 }
 
 .statusContainer {
@@ -777,10 +775,9 @@ h3.softAbout {
     left: 29%; 
 }
 .professionH1 {
-    font-size: 25px;
-    display: none;
-    top: 15px;
-    left: 15px;
+    font-size: 45px;
+    top: 150px;
+    left: 28%;
 }
 
 .statusContainer {
@@ -1055,9 +1052,8 @@ h3.softAbout {
 }
 .professionH1 {
     font-size: 60px;
-    display: none;
-    top: 15px;
-    left: 15px;
+    top: 170px;
+    left: 28%;
 }
 
 .statusContainer {
@@ -1338,9 +1334,8 @@ h3.softAbout {
     }
     .professionH1 {
         font-size: 70px;
-        display: none;
-        top: 15px;
-        left: 15px;
+        top: 210px;
+        left: 28%;
     }
     
     .statusContainer {
@@ -1634,9 +1629,8 @@ h3.softAbout {
 }
 .professionH1 {
     font-size: 80px;
-    display: none;
-    top: 15px;
-    left: 15px;
+    top: 250px;
+    left: 28%;
 }
 
 .statusContainer {
