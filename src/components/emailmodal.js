@@ -52,7 +52,8 @@ return (
           }}
           variant='filled'
           margin='normal'
-          sx={{mr: 1, width: '49.5%'}}
+          // sx={{mr: 1, width: 1/2}}
+          fullWidth
           required
           autoComplete='off'
         />
@@ -66,7 +67,8 @@ return (
           }}
           variant='filled'
           margin='normal'
-          sx={{width: '49.5%'}}
+          // sx={{width: 1/2}}
+          fullWidth
           required
           autoComplete='off'
         />

@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import '../index.js';
 import { motion } from 'framer-motion';
 import starContainerImg from "../images/starContainer.png"; 
@@ -8,9 +7,7 @@ import darkStarContainerImg from "../images/darkStarContainer.png";
 function Header({toggleStyle}) {
 
   /* add a dutch/english toggle button */ 
-  /* toggle light/dark mode */
-  /* responsive css */
-  /* email thingie actually sending emails */
+  /* css that's more responsive than me waking up after 6- hours of sleep */
   /* oh and remove any unneeded code after you're done just don't remove anything usefull on accident */
   
       return (

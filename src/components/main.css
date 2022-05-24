@@ -68,7 +68,7 @@
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -100,12 +100,14 @@
     left: 85vw;
     height: 40px;
     width: 45px;
+    z-index: 1;
 }
 .lightModeButton {
     position: absolute;
     top: 80px;
     left: 85vw;
     height: 40px;
+    z-index: 1;
 }
 
 .starContainer {
@@ -197,21 +199,22 @@ h3.softAbout {
 
 .aboutMe {
     position: relative;
-    height: 1900px;
+    height: 1800px;
     display: grid;
     grid-template-columns: 50px auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas: 
-    "Picture intro"
-    "AP HA"
+    "Picture ."
+    "AP intro"
+    ". HA"
     "Social SA";
     font-size: 11px;
 }
 
 .pictureOfMe {
-    margin: 15px 0 5px 15px;
-    height: 50px;
-    width: 50px;
+    margin: 15px 0 5px 25vw;
+    height: 150px;
+    width: 150px;
     background-color: white;
     grid-area: Picture;
 }
@@ -311,14 +314,15 @@ h3.softAbout {
 }
 
 .projects {
-    height: 120px;
+    height: 300px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .projectsCommon {
-    height: 80px;
-    width: 80px;
+    height: 125px;
+    width: 125px;
     margin: 5% 0 0 0;
 }
 .projectLinks {
@@ -330,64 +334,68 @@ h3.softAbout {
     background-color: orange;
 }
 .yatH1 {
-    margin: 5px 0 5px 30%;
-    font-size: 10px;
+    margin: 5px 0 5px 24%;
+    font-size: 20px;
 }
 .yatH3 {
-    margin: 5px 20% 5px 20%;
-    font-size: 10px;
+    margin: 5px 10% 5px 10%;
+    font-size: 20px;
 }
 .diceContainer {
-    margin-top: 45%;
+    margin-top: 5%;
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .diceCommon {
-    width: 10px;
-    height: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
 }
 
 .coinGame {
     background-color: green;
 }
 .coinContainer {
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .coin {
-    width: 15px;
+    width: 20px;
 }
 .coinH1 {
-    margin: 5px 0 5px 18%;
-    font-size: 10px;
+    margin: 5px 0 5px 12%;
+    font-size: 20px;
 }
 .coinH3 {
-    margin: 5px 0 5px 22%;
-    font-size: 10px;
+    margin: 5px 0 5px 20%;
+    font-size: 18px;
 }
 
 .Startracker {
     background-color: darkblue;
 }
 .starsContainer {
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .stars {
-    width: 20px;
+    width: 35px;
 }
 .starH1 {
-    margin: 5px 0 5px 18%;
-    font-size: 10px;
+    margin: 5px 0 5px 12%;
+    font-size: 20px;
 }
 .starH3 {
-    margin: 5px 0 5px 20%;
-    font-size: 10px;
+    margin: 5px 0 5px 18%;
+    font-size: 18px;
 }
 
 .contactBox {
@@ -545,7 +553,7 @@ h3.softAbout {
     transform: translate(-50%, -50%);
 }
 .darkenedClick {
-    height: 1300px;
+    height: 1400px;
     width: 95vw;
 }
 
@@ -623,6 +631,8 @@ h3.softAbout {
 }
 
 .projects {
+    margin-top: 0;
+    margin-left: 0;
     height: 300px;
     display: flex;
     flex-direction: row;
@@ -643,14 +653,17 @@ h3.softAbout {
     font-size: 25px;
 }
 .diceContainer {
-    margin-top: 45%;
+    margin-left: 0;
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .diceCommon {
-    width: 25px;
-    height: 25px;
+    margin-top: 0;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
 }
 
 .coinContainer {
@@ -831,7 +844,7 @@ h3.softAbout {
 }
 .darkenedClick {
     height: 1000px;
-    width: 100vw;
+    width: 95vw;
 }
 
 .introduction {
@@ -923,14 +936,14 @@ h3.softAbout {
     margin: 5px 20% 5px 20%;
 }
 .diceContainer {
-    margin-top: 45%;
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .diceCommon {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 }
 
 .coinContainer {
@@ -1105,8 +1118,8 @@ h3.softAbout {
     transform: translate(-50%, -50%);
 }
 .darkenedClick {
-    height: 1000px;
-    width: 100vw;
+    height: 1200px;
+    width: 95vw;
 }
 
 .introduction {
@@ -1200,14 +1213,14 @@ h3.softAbout {
     font-size: 30px;
 }
 .diceContainer {
-    margin-top: 45%;
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .diceCommon {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
 }
 
 .coinContainer {
@@ -1389,7 +1402,7 @@ h3.softAbout {
         transform: translate(-50%, -50%);
     }
     .darkenedClick {
-        height: 1200px;
+        height: 1300px;
         width: 95vw;
     }
     
@@ -1484,14 +1497,14 @@ h3.softAbout {
         font-size: 30px;
     }
     .diceContainer {
-        margin-top: 45%;
+        margin-top: 5%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .diceCommon {
-        width: 40px;
-        height: 40px;
+    .diceCommon { 
+        width: 80px;
+        height: 80px;
     }
     
     .coinContainer {
@@ -1611,7 +1624,7 @@ h3.softAbout {
     font-size: 80px;
 }
 .nameH1P1 {
-    top: 230px;
+    top: 240px;
     left: 33%;
 }
 .nameH1P2 {
@@ -1631,14 +1644,14 @@ h3.softAbout {
     height: 700px;
 }
 .statusLabel {
-    top: 230px;
+    top: 240px;
     left: 35%;   
     font-size: 70px; 
 }
 .statusContent {
-    top: 300px;
-    left: 26%;   
-    font-size: 55px; 
+    top: 320px;
+    left: 28%;   
+    font-size: 50px; 
 }
 
 /* Body */
@@ -1780,14 +1793,14 @@ h3.softAbout {
     font-size: 30px;
 }
 .diceContainer {
-    margin-top: 45%;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .diceCommon {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
 }
 
 .coinContainer {

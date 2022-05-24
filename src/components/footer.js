@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 // This is just the footer really nothing special here tbh
 function Footer({toggleStyle}) {

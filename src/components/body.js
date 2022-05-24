@@ -1,5 +1,4 @@
-import React, { useState, useRef } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import '../index.js';
 import imageOfMe from "../images/me5.jpg";
@@ -36,12 +35,12 @@ function Body({toggleStyle}) {
                 <div className='darkenedClick' style={{display: 'none'}}></div> :
                 <div className='darkenedClick' style={{display: 'block'}} onClick={toggleModal}></div>
               }
-              <img src={imageOfMe} className='pictureOfMe'></img>
-              <img src={autismPositives} className='positivesAutism' onClick={toggleModal}></img>
+              <img src={imageOfMe} alt='me infront my pc' className='pictureOfMe'></img>
+              <img src={autismPositives} alt='details on the positives of autism' className='positivesAutism' onClick={toggleModal}></img>
 
               {!openModal ?
-                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'none'}}></img> :
-                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
+                <img src={autismPositives} alt='close up of the autism positives details but it is inactive' className='positivesAutismClicked' style={{display: 'none'}}></img> :
+                <img src={autismPositives} alt='close up of the autism positives details but it is active' className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
               }
               
               <div className='introduction'><h1>Introduction</h1>
@@ -112,7 +111,7 @@ function Body({toggleStyle}) {
               Finally I just like watching videos on youtube and talking with my friends online using Discord.</p></div>
 
               <div className='social'>Possible social media area? idk</div>
-              <div className='CV'>No CV link</div>
+              
             </div>
 
             <div className='toolsSkills common seperationMargin blueToWhite' id='ToolsAndSkills'>
@@ -190,12 +189,12 @@ function Body({toggleStyle}) {
                 <div className='darkenedClick' style={{display: 'none'}}></div> :
                 <div className='darkenedClick' style={{display: 'block'}} onClick={toggleModal}></div>
               }
-              <img src={imageOfMe} className='pictureOfMe'></img>
-              <img src={autismPositives} className='positivesAutism' onClick={toggleModal}></img>
+              <img src={imageOfMe} alt='me infront my pc' className='pictureOfMe'></img>
+              <img src={autismPositives} alt='details on the positives of autism' className='positivesAutism' onClick={toggleModal}></img>
 
               {!openModal ?
-                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'none'}}></img> :
-                <img src={autismPositives} className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
+                <img src={autismPositives} alt='close up of the autism positives details but it is inactive' className='positivesAutismClicked' style={{display: 'none'}}></img> :
+                <img src={autismPositives} alt='close up of the autism positives details but it is active' className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
               }
               
               <div className='introduction whiteText'><h1>Introduction</h1>
@@ -266,7 +265,7 @@ function Body({toggleStyle}) {
               Finally I just like watching videos on youtube and talking with my friends online using Discord.</p></div>
 
               <div className='social'>Possible social media area? idk</div>
-              <div className='CV'>CV PDF link</div>
+              
             </div>
 
             <div className='toolsSkills common seperationMargin BlueToDarkBlue' id='ToolsAndSkills'>
