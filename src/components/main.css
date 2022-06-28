@@ -401,7 +401,7 @@ h3.softAbout {
     height: 750px;
 }   
 .contactH1 {
-    margin: 25px 0 10px 25%;
+    margin: 25px 0 20px 25%;
     transform: translate(0%, -50%);
 }
 .contactH3 {
@@ -852,8 +852,8 @@ h3.softAbout {
     margin: 15px 0 0 25px;
 }
 .softAboutH1MarginTop {
-    margin-top: 30px;
-    font-size: 1.8em;
+    margin-top: 60px;
+    font-size: 1.7em;
 }
 .skillsSoftAbout {
     display: grid;
@@ -888,7 +888,7 @@ h3.softAbout {
 
 .hobbyAbout {
     grid-area: HA;
-    margin: 15px 0 0 25px;
+    margin: 15px 10px 0 25px;
 }
 .social {
     grid-area: Social;
@@ -1086,7 +1086,7 @@ h3.softAbout {
 
 .aboutMe {
     position: relative;
-    height: 1300px;
+    height: 1400px;
     display: grid;
     grid-template-columns: 250px auto auto;
     grid-template-rows: 300px auto auto 50px;
@@ -1131,8 +1131,8 @@ h3.softAbout {
     margin: 15px 0 0 25px;
 }
 .softAboutH1MarginTop {
-    margin-top: 30px;
-    font-size: 1.8em;
+    margin-top: 60px;
+    font-size: 1.7em;
 }
 .skillsSoftAbout {
     display: grid;
@@ -1167,7 +1167,7 @@ h3.softAbout {
 
 .hobbyAbout {
     grid-area: HA;
-    margin: 15px 0 0 25px;
+    margin: 15px 10px 0 25px;
 }
 .social {
     grid-area: Social;
@@ -1332,11 +1332,11 @@ h3.softAbout {
         font-size: 70px;
     }
     .nameH1P1 {
-        top: 200px;
+        top: 210px;
         left: 33%;
     }
     .nameH1P2 {
-        top: 280px;
+        top: 290px;
         left: 28%; 
     }
     .professionH1 {
@@ -1351,19 +1351,19 @@ h3.softAbout {
         height: 600px;
     }
     .statusLabel {
-        top: 200px;
+        top: 210px;
         left: 35%;   
         font-size: 60px; 
     }
     .statusContent {
-        top: 260px;
+        top: 270px;
         left: 27%;   
         font-size: 45px; 
     }
     
     /* Body */
     .bodyBackground {
-        height: 3200px;
+        height: 3500px;
     }
     
     h3.softAbout {
@@ -1372,7 +1372,7 @@ h3.softAbout {
     
     .aboutMe {
         position: relative;
-        height: 1300px;
+        height: 1500px;
         display: grid;
         grid-template-columns: 250px auto auto;
         grid-template-rows: 250px auto auto 50px;
@@ -1418,8 +1418,8 @@ h3.softAbout {
         margin: 15px 0 0 25px;
     }
     .softAboutH1MarginTop {
-        margin-top: 60px;
-        font-size: 2em;
+        margin-top: 140px;
+        font-size: 1.7em;
     }
     .skillsSoftAbout {
         display: grid;
@@ -1622,42 +1622,42 @@ h3.softAbout {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 700px;
+    height: 600px;
 }
 .nameAndProfession {
-    height: 700px;
+    height: 600px;
 }
 .nameH1 {
-    font-size: 80px;
+    font-size: 70px;
 }
 .nameH1P1 {
-    top: 240px;
+    top: 210px;
     left: 33%;
 }
 .nameH1P2 {
-    top: 340px;
+    top: 300px;
     left: 28%; 
 }
 .professionH1 {
-    font-size: 80px;
-    top: 250px;
-    left: 28%;
+    font-size: 70px;
+    top: 220px;
+    left: 27%;
 }
 
 .statusContainer {
     
     position: relative;
-    height: 700px;
+    height: 600px;
 }
 .statusLabel {
-    top: 240px;
+    top: 210px;
     left: 35%;   
-    font-size: 70px; 
+    font-size: 60px; 
 }
 .statusContent {
-    top: 320px;
+    top: 280px;
     left: 28%;   
-    font-size: 50px; 
+    font-size: 40px; 
 }
 
 /* Body */
@@ -1671,7 +1671,7 @@ h3.softAbout {
 
 .aboutMe {
     position: relative;
-    height: 1500px;
+    height: 1600px;
     display: grid;
     grid-template-columns: 250px auto auto;
     grid-template-rows: 250px auto auto 50px;
@@ -1715,6 +1715,9 @@ h3.softAbout {
 .softAbout {
     grid-area: SA;
     margin: 65px 0 0 25px;
+}
+.softAboutH1MarginTop {
+    font-size: 1.7em;
 }
 .skillsSoftAbout {
     display: grid;

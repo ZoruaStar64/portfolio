@@ -44,71 +44,71 @@ function Body({toggleStyle}) {
               }
               
               <div className='introduction'><h1>Introductie</h1>
-              <p>Hoi! en welkom in mijn portfolio. Mijn naam is Sander Borgman and ik ben geboren op 30 Januari 2003<br></br>
-              Ik ben een heel enthousiaste persoon als het gaat om mijn ideeën voor websites/games<br></br>
-              Daarnaast heb ik Klassiek Autisme en ADHD<br></br>(Klassiek Autisme betekent dat je iets van elk deel uit het autistische spectrum hebt)<br></br>
-              Als je meer wilt leren over de positieven van autisme<br></br>
-              Dan raad ik aan op het plaatje onder mijn foto te klikken!<br></br>
-              Als het gaat om videogames (zodiezo als het om Nintendo of Terraria gaat)<br></br>
-              Kan ik er bijna constant over praten</p></div>
+              <p>Hoi, welkom in mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003.<br></br>
+              Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br>
+              Al je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.<br></br> 
+              Deze eigenschappen hebben ondere andere te maken met mijn diagnose in het autistisch spectrum, Klassiek Autisme en ADHD (ik heb van alles een beetje).<br></br>
+              Als je meer wilt leren over de positieve kanten van autisme, dan raad ik je aan om op het plaatje onder mijn foto te klikken! <br></br>
+              Over videogames (zodiezo als het om Nintendo of Terraria gaat) kan ik bijna continu praten. <br></br>
+            </p></div>
               
-              <div className='softAbout'><h1 className='softAboutH1MarginTop'>Over mij als een Software Developer</h1>
-              <p>Sinds April 2022 heb ik aan vele projecten gewerkt met deze codetalen: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>de creatie van een online database<br></br>
-              en ReactJS!(deze website)<br></br>
-              Ik ben nu bezig met het leren van videogames maken in Unity<br></br>
-              Daarnaast nog wat opmerkingen van de basis code talen:<br></br>
+              <div className='softAbout'><h1 className='softAboutH1MarginTop'>Mijn skills als een Software Developer</h1>
+              <p>Tot April 2022 heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
+              &#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>
+              de ontwikkeling van een online database<br></br>
+              en ReactJS. (deze website)<br></br>
+              Op dit moment leer ik hoe ik videogames kan maken in Unity.<br></br>
+              <br></br><br></br>
+              Verder volgen hier nog een aantal opmerkingen over de basis code talen:<br></br>
               <div className='skillsSoftAbout'>
               <div className='htmlSoftAbout skillsSoftCommon'>
               <h3>HTML5:</h3> Elke website heeft wel iets qua HTML nodig.<br></br>
-              Want je bent toch nu op een website?<br></br>
               Alles wat je hier ziet is een soort HTML element,<br></br>
-              bijvoorbeeld dit text of deze container waar het in zit.
+              bijvoorbeeld deze tekst of de container waar het in zit.
               </div>
               <div className='cssSoftAbout skillsSoftCommon'>
               <h3>CSS3:</h3> CSS wordt gebruikt om een HTML element te bewerken.<br></br>
-              CSS code wordt steed verbeterd en steeds cooler!<br></br>
-              en websites zouden er natuurlijk niet uit zien zonder wat CSS magie.
+              CSS code wordt steeds verbeterd en steeds cooler!<br></br>
+              Websites zouden er natuurlijk niet uit zien zonder een beetje CSS magie.
               </div>
               <div className='jsSoftAbout skillsSoftCommon'>
-              <h3>Javascript:</h3> Ik zou persoonlijk zeggen dat ik best goed in Javascript ben<br></br>
+              <h3>Javascript:</h3> Ik vind dat ik best goed in Javascript ben<br></br>
               Ik heb zelfs een project (Yahtzee) met Javascript gemaakt!<br></br>
-              Dit werd zelfs zo'n grote success<br></br>Dat mijn opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
+              Dit werd zelfs zo'n groot succes, dat mijn opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
               </div>
               <div className='mysqlSoftAbout skillsSoftCommon'>
-              <h3>Mysql:</h3> Ik ben niet de allerbeste in Databases maken,<br></br>maar ik heb best een goeie kunnen maken voor mijn Fullstack project.<br></br>
-              Het fullstack project was juist voor mijn opleiding bedoelt als opdracht.<br></br>Waarin ik alle 5 basis code talen moest samen gebruiken.<br></br>
-              Het Fullstack project is bedoelt om videogame voortgang zelf te tracken.<br></br>
+              <h3>Mysql:</h3> Ik ben niet de allerbeste in databases maken, maar ik heb een redelijk goede kunnen maken voor mijn Fullstack project.<br></br>
+              Het Fullstack project was een opdracht van mijn opleiding waarin ik alle 5 basis code talen samen moest gebruiken.<br></br>
+              Als Fullstack project heb ik een database gemaakt die de voortgang van je videogames kan tracken.<br></br>
               (bijvoorbeeld een voorwerp die je later met een andere moet combineren)
               </div>
               <div className='phpSoftAbout skillsSoftCommon'>
-              <h3>PHP:</h3> Zoals ik heb gezegd bij het Mysql gedeelte, heb ik een fullstack project gemaakt genaamd Startracker.<br></br>
-              die gebruikt wordt om videogame voortgang te tracken.<br></br>
-              Met het behulp van formuliers om accounts te creeren in de database waar die info aan vast zit.
+              <h3>PHP:</h3> Zoals ik heb vermeld bij het Mysql gedeelte, heb ik een Fullstack project gemaakt genaamd Startracker,
+              die gebruikt wordt om de voortgang van je videogames te tracken.<br></br>
+              Met behulp van formulieren kan je een account creeren. Daarvoor wordt gebruik gemaakt van informatie uit een database. 
               </div>
               <div className='javaSoftAbout skillsSoftCommon'>
-              <h3>Java:</h3> Ook al is het een tijd geleden sinds ik Java heb gebruikt,<br></br>
-              Ik had wel een Java opdracht van school omgezet in Javascript<br></br>
+              <h3>Java:</h3> Aan het begin van mijn opleiding heb ik een Java opdracht van school gekregen, die ik later heb omgezet naar Javascript<br></br>
               (Ik heb deze project Coin Game genoemd.)<br></br>
-              (Ik ga waarschijnlijk wel wat veranderen vanwege copyright.)</div>
+              (Ik ga waarschijnlijk wel wat veranderen vanwege copyright op de afbeeldingen.)</div>
               </div></p>
               <br></br>
-              <h3>Als toevoeging: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
+              <h3>Als laatste: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
 
               <div className='hobbyAbout'><h1>Mijn hobbies</h1>
-              <p>Qua hobbies heb ik er nu 3:<br></br><br></br>
+              <p>Ik heb in principe 3 hobbies.<br></br><br></br>
 
-              Mijn favoriet is videogames spelen.<br></br>
-              Ik hou er gewoon zoveel van hoeveel aandacht in elk gedeelte van een game gaat:<br></br>
-              de Graphics, Omgeving, Muziek, Verhaal, de karakters, de gameplay,<br></br>
-              het komt gewoon allemaal bij elkaar om een prachtig verhaal en game te maken.
-              en dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:<br></br>
-              om ze de passie te laten voelen dat in de game gestoken werd en om ze een onvergetelijke ervaring te geven.<br></br><br></br>
+              Mijn favoriete bezigheid is videogames spelen.<br></br>
+              Ik hou ervan hoeveel aandacht er is besteed aan elk detail van een game:<br></br>
+              de graphics, de spelomgeving, de muziek, het verhaal, de karakters, de gameplay
+              en hoe het resulteert in een prachtig verhaal en game.<br></br>
+              Dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:
+              de passie die in de game gestoken werd en om ze natuurlijk een onvergetelijke ervaring te bezorgen.<br></br><br></br>
 
-              Naast mijn liefde voor videogames.<br></br>
-              Heb ik veel gecode de laatste tijd en ik wordt er steeds beter in<br></br>
-              het gevoel om iets nieuws te leren en dat te gebruiken en die irritante bug te fixen is altijd geweldig.<br></br><br></br>
+              Naast mijn liefde voor videogames, heb ik veel de laatste tijd gecode en ik word er steeds beter in.<br></br>
+              Het gevoel om iets nieuws te leren en dat te gebruiken en irritante bugs te fixen is geweldig.<br></br><br></br>
 
-              Als laatste vindt ik het gewoon leuk om videos of youtube te kijken en te praten met vrienden op Discord.</p></div>
+              Als laatste vind ik het leuk om video's op YouTube te kijken en te praten met vrienden op Discord.</p></div>
 
               {/* <div className='social'>Possible social media area? idk</div> */}
               
@@ -174,8 +174,8 @@ function Body({toggleStyle}) {
             </div>
 
             <div className='contactBox common blueToWhite' id='Contact'>
-              <h1 className='contactH1'>Neem contact</h1>
-              <h3 className='contactH3'>Stuur gerust een E-mail naar mij met de formulier hieronder!</h3>
+              <h1 className='contactH1'>Contact</h1>
+              <h3 className='contactH3'>Voor vragen en/of opmerkingen kan je via dit formulier een e-mail naar mij versturen.</h3>
               <EmailModalLight />
             </div>
           </div> 
@@ -198,71 +198,71 @@ function Body({toggleStyle}) {
               }
               
               <div className='introduction whiteText'><h1>Introductie</h1>
-              <p>Hoi! en welkom in mijn portfolio. Mijn naam is Sander Borgman and ik ben geboren op 30 Januari 2003<br></br>
-              Ik ben een heel enthousiaste persoon als het gaat om mijn ideeën voor websites/games<br></br>
-              Daarnaast heb ik Klassiek Autisme en ADHD<br></br>(Klassiek Autisme betekent dat je iets van elk deel uit het autistische spectrum hebt)<br></br>
-              Als je meer wilt leren over de positieven van autisme<br></br>
-              Dan raad ik aan op het plaatje onder mijn foto te klikken!<br></br>
-              Als het gaat om videogames (zodiezo als het om Nintendo of Terraria gaat)<br></br>
-              Kan ik er bijna constant over praten</p></div>
+              <p>Hoi, welkom in mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003.<br></br>
+              Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br>
+              Al je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.<br></br> 
+              Deze eigenschappen hebben ondere andere te maken met mijn diagnose in het autistisch spectrum, Klassiek Autisme en ADHD (ik heb van alles een beetje).<br></br>
+              Als je meer wilt leren over de positieve kanten van autisme, dan raad ik je aan om op het plaatje onder mijn foto te klikken! <br></br>
+              Over videogames (zodiezo als het om Nintendo of Terraria gaat) kan ik bijna continu praten. <br></br>
+            </p></div>
 
-              <div className='softAbout whiteText'><h1 className='softAboutH1MarginTop'>Over mij als een Software Developer</h1>
-              <p>Sinds April 2022 heb ik aan vele projecten gewerkt met deze codetalen: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>de creatie van een online database<br></br>
-              en ReactJS!(deze website)<br></br>
-              Ik ben nu bezig met het leren van videogames maken in Unity<br></br>
-              Daarnaast nog wat opmerkingen van de basis code talen:<br></br>
+              <div className='softAbout whiteText'><h1 className='softAboutH1MarginTop'>Mijn skills als een Software Developer</h1>
+              <p>Tot April 2022 heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
+              &#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>
+              de ontwikkeling van een online database<br></br>
+              en ReactJS. (deze website)<br></br>
+              Op dit moment leer ik hoe ik videogames kan maken in Unity.<br></br>
+              <br></br><br></br>
+              Verder volgen hier nog een aantal opmerkingen over de basis code talen:<br></br>
               <div className='skillsSoftAbout whiteText'>
               <div className='htmlSoftAbout skillsSoftCommon'>
               <h3>HTML5:</h3> Elke website heeft wel iets qua HTML nodig.<br></br>
-              Want je bent toch nu op een website?<br></br>
               Alles wat je hier ziet is een soort HTML element,<br></br>
-              bijvoorbeeld dit text of deze container waar het in zit.
+              bijvoorbeeld deze tekst of de container waar het in zit.
               </div>
               <div className='cssSoftAbout skillsSoftCommon'>
               <h3>CSS3:</h3> CSS wordt gebruikt om een HTML element te bewerken.<br></br>
-              CSS code wordt steed verbeterd en steeds cooler!<br></br>
-              en websites zouden er natuurlijk niet uit zien zonder wat CSS magie.
+              CSS code wordt steeds verbeterd en steeds cooler!<br></br>
+              Websites zouden er natuurlijk niet uit zien zonder een beetje CSS magie.
               </div>
               <div className='jsSoftAbout skillsSoftCommon'>
-              <h3>Javascript:</h3> Ik zou persoonlijk zeggen dat ik best goed in Javascript ben<br></br>
+              <h3>Javascript:</h3> Ik vind dat ik best goed in Javascript ben<br></br>
               Ik heb zelfs een project (Yahtzee) met Javascript gemaakt!<br></br>
-              Dit werd zelfs zo'n grote success<br></br>Dat mijn opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
+              Dit werd zelfs zo'n groot succes, dat mijn opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
               </div>
               <div className='mysqlSoftAbout skillsSoftCommon'>
-              <h3>Mysql:</h3> Ik ben niet de allerbeste in Databases maken,<br></br>maar ik heb best een goeie kunnen maken voor mijn Fullstack project.<br></br>
-              Het fullstack project was juist voor mijn opleiding bedoelt als opdracht.<br></br>Waarin ik alle 5 basis code talen moest samen gebruiken.<br></br>
-              Het Fullstack project is bedoelt om videogame voortgang zelf te tracken.<br></br>
+              <h3>Mysql:</h3> Ik ben niet de allerbeste in databases maken, maar ik heb een redelijk goede kunnen maken voor mijn Fullstack project.<br></br>
+              Het Fullstack project was een opdracht van mijn opleiding waarin ik alle 5 basis code talen samen moest gebruiken.<br></br>
+              Als Fullstack project heb ik een database gemaakt die de voortgang van je videogames kan tracken.<br></br>
               (bijvoorbeeld een voorwerp die je later met een andere moet combineren)
               </div>
               <div className='phpSoftAbout skillsSoftCommon'>
-              <h3>PHP:</h3> Zoals ik heb gezegd bij het Mysql gedeelte, heb ik een fullstack project gemaakt genaamd Startracker.<br></br>
-              die gebruikt wordt om videogame voortgang te tracken.<br></br>
-              Met het behulp van formuliers om accounts te creeren in de database waar die info aan vast zit.
+              <h3>PHP:</h3> Zoals ik heb vermeld bij het Mysql gedeelte, heb ik een Fullstack project gemaakt genaamd Startracker,
+              die gebruikt wordt om de voortgang van je videogames te tracken.<br></br>
+              Met behulp van formulieren kan je een account creeren. Daarvoor wordt gebruik gemaakt van informatie uit een database. 
               </div>
               <div className='javaSoftAbout skillsSoftCommon'>
-              <h3>Java:</h3> Ook al is het een tijd geleden sinds ik Java heb gebruikt,<br></br>
-              Ik had wel een Java opdracht van school omgezet in Javascript<br></br>
+              <h3>Java:</h3> Aan het begin van mijn opleiding heb ik een Java opdracht van school gekregen, die ik later heb omgezet naar Javascript<br></br>
               (Ik heb deze project Coin Game genoemd.)<br></br>
-              (Ik ga waarschijnlijk wel wat veranderen vanwege copyright.)</div>
+              (Ik ga waarschijnlijk wel wat veranderen vanwege copyright op de afbeeldingen.)</div>
               </div></p>
               <br></br>
-              <h3 className='whiteText'>Als toevoeging: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
+              <h3 className='whiteText'>Als laatste: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
 
-              <div className='hobbyAbout whiteText'><h1>My hobbies</h1>
-              <p>Qua hobbies heb ik er nu 3:<br></br><br></br>
+              <div className='hobbyAbout whiteText'><h1>Mijn hobbies</h1>
+              <p>Ik heb in principe 3 hobbies.<br></br><br></br>
 
-              Mijn favoriet is videogames spelen.<br></br>
-              Ik hou er gewoon zoveel van hoeveel aandacht in elk gedeelte van een game gaat:<br></br>
-              de Graphics, Omgeving, Muziek, Verhaal, de karakters, de gameplay,<br></br>
-              het komt gewoon allemaal bij elkaar om een prachtig verhaal en game te maken.
-              en dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:<br></br>
-              om ze de passie te laten voelen dat in de game gestoken werd en om ze een onvergetelijke ervaring te geven.<br></br><br></br>
+              Mijn favoriete bezigheid is videogames spelen.<br></br>
+              Ik hou ervan hoeveel aandacht er is besteed aan elk detail van een game:<br></br>
+              de graphics, de spelomgeving, de muziek, het verhaal, de karakters, de gameplay
+              en hoe het resulteert in een prachtig verhaal en game.<br></br>
+              Dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:
+              de passie die in de game gestoken werd en om ze natuurlijk een onvergetelijke ervaring te bezorgen.<br></br><br></br>
 
-              Naast mijn liefde voor videogames.<br></br>
-              Heb ik veel gecode de laatste tijd en ik wordt er steeds beter in<br></br>
-              het gevoel om iets nieuws te leren en dat te gebruiken en die irritante bug te fixen is altijd geweldig.<br></br><br></br>
+              Naast mijn liefde voor videogames, heb ik veel de laatste tijd gecode en ik word er steeds beter in.<br></br>
+              Het gevoel om iets nieuws te leren en dat te gebruiken en irritante bugs te fixen is geweldig.<br></br><br></br>
 
-              Als laatste vindt ik het gewoon leuk om videos of youtube te kijken en te praten met vrienden op Discord.</p></div>
+              Als laatste vind ik het leuk om video's op YouTube te kijken en te praten met vrienden op Discord.</p></div>
 
               {/* <div className='social'>Possible social media area? idk</div> */}
               
@@ -328,8 +328,8 @@ function Body({toggleStyle}) {
             </div>
 
             <div className='contactBox common blueToDarkBlue' id='Contact'>
-              <h1 className='contactH1 whiteText'>Neem contact</h1>
-              <h3 className='contactH3 whiteText'>Stuur gerust een E-mail naar mij met de formulier hieronder!</h3>
+              <h1 className='contactH1 whiteText'>Contact</h1>
+              <h3 className='contactH3 whiteText'>Voor vragen en/of opmerkingen kan je via dit formulier een e-mail naar mij versturen.</h3>
               <EmailModalDark />
             </div>
           </div>
