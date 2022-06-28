@@ -111,7 +111,7 @@
 }
 
 .starContainer {
-    
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -630,7 +630,6 @@ h3.softAbout {
 
 .projects {
     margin-top: 0;
-    margin-left: 0;
     height: 300px;
     display: flex;
     flex-direction: row;
@@ -851,6 +850,10 @@ h3.softAbout {
 .softAbout {
     grid-area: SA;
     margin: 15px 0 0 25px;
+}
+.softAboutH1MarginTop {
+    margin-top: 30px;
+    font-size: 1.8em;
 }
 .skillsSoftAbout {
     display: grid;
@@ -1074,7 +1077,7 @@ h3.softAbout {
 
 /* Body */
 .bodyBackground {
-    height: 3100px;
+    height: 3200px;
 }
 
 h3.softAbout {
@@ -1083,10 +1086,10 @@ h3.softAbout {
 
 .aboutMe {
     position: relative;
-    height: 1200px;
+    height: 1300px;
     display: grid;
     grid-template-columns: 250px auto auto;
-    grid-template-rows: 250px auto auto 50px;
+    grid-template-rows: 300px auto auto 50px;
     grid-template-areas: 
     "Picture intro HA"
     "AP SA SA"
@@ -1126,6 +1129,10 @@ h3.softAbout {
 .softAbout {
     grid-area: SA;
     margin: 15px 0 0 25px;
+}
+.softAboutH1MarginTop {
+    margin-top: 30px;
+    font-size: 1.8em;
 }
 .skillsSoftAbout {
     display: grid;
@@ -1409,6 +1416,10 @@ h3.softAbout {
     .softAbout {
         grid-area: SA;
         margin: 15px 0 0 25px;
+    }
+    .softAboutH1MarginTop {
+        margin-top: 60px;
+        font-size: 2em;
     }
     .skillsSoftAbout {
         display: grid;

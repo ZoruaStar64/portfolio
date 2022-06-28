@@ -43,84 +43,84 @@ function Body({toggleStyle}) {
                 <img src={autismPositives} alt='close up of the autism positives details but it is active' className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
               }
               
-              <div className='introduction'><h1>Introduction</h1>
-              <p>Hello! and welcome to my portfolio. My name is Sander Borgman and I was born on the 30th of January 2003<br></br>
-              I am an enthousiastic guy when it comes to developing websites and telling about my ideas for various projects.<br></br>
-              Other than that I am also diagnosed with ADHD and classic autism.<br></br>(that means I have a part of every type of the autistic spectrum)<br></br>
-              If you would like to learn more about the positives of Autism<br></br>
-              I recommend clicking on the image under my picture!<br></br>
-              When it comes to videogames (especially things about Nintendo or Terraria)<br></br>
-              I can talk about it for almost forever</p></div>
+              <div className='introduction'><h1>Introductie</h1>
+              <p>Hoi! en welkom in mijn portfolio. Mijn naam is Sander Borgman and ik ben geboren op 30 Januari 2003<br></br>
+              Ik ben een heel enthousiaste persoon als het gaat om mijn ideeën voor websites/games<br></br>
+              Daarnaast heb ik Klassiek Autisme en ADHD<br></br>(Klassiek Autisme betekent dat je iets van elk deel uit het autistische spectrum hebt)<br></br>
+              Als je meer wilt leren over de positieven van autisme<br></br>
+              Dan raad ik aan op het plaatje onder mijn foto te klikken!<br></br>
+              Als het gaat om videogames (zodiezo als het om Nintendo of Terraria gaat)<br></br>
+              Kan ik er bijna constant over praten</p></div>
               
-              <div className='softAbout'><h1 className='softAboutH1MarginTop'>About me as a Software Developer</h1>
-              <p>As of April 2022 I have worked on school projects with languages such as: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java<br></br> and the creation of a online database!<br></br>
-              Aside from those I am currently learning<br></br>on how to use ReactJS and the Framer library with it.<br></br>
-              Afterwards I wish to learn C++ with Unity to be able to create videogames.<br></br>
-              as for my skills with the current coding languages:<br></br>
+              <div className='softAbout'><h1 className='softAboutH1MarginTop'>Over mij als een Software Developer</h1>
+              <p>Sinds April 2022 heb ik aan vele projecten gewerkt met deze codetalen: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>de creatie van een online database<br></br>
+              en ReactJS!(deze website)<br></br>
+              Ik ben nu bezig met het leren van videogames maken in Unity<br></br>
+              Daarnaast nog wat opmerkingen van de basis code talen:<br></br>
               <div className='skillsSoftAbout'>
               <div className='htmlSoftAbout skillsSoftCommon'>
-              <h3>HTML5:</h3> Every single website needs to have some sort of HTML<br></br>
-              I mean aren't you looking at a website right now?<br></br>
-              Everything you see is some sort of HTML5 element,<br></br>
-              be it this text or the box it's inside of!
+              <h3>HTML5:</h3> Elke website heeft wel iets qua HTML nodig.<br></br>
+              Want je bent toch nu op een website?<br></br>
+              Alles wat je hier ziet is een soort HTML element,<br></br>
+              bijvoorbeeld dit text of deze container waar het in zit.
               </div>
               <div className='cssSoftAbout skillsSoftCommon'>
-              <h3>CSS3:</h3> CSS is used to edit HTML elements like color, size and more!<br></br>
-              CSS code keeps getting developed further and becoming more awesome<br></br>
-              and websites would be impossible without a little bit of CSS magic
+              <h3>CSS3:</h3> CSS wordt gebruikt om een HTML element te bewerken.<br></br>
+              CSS code wordt steed verbeterd en steeds cooler!<br></br>
+              en websites zouden er natuurlijk niet uit zien zonder wat CSS magie.
               </div>
               <div className='jsSoftAbout skillsSoftCommon'>
-              <h3>Javascript:</h3> I would say my skills with Javascript are rather good<br></br>
-              I even made my own little project (Yahtzee) with Javascript<br></br>
-              This ended up being such a success<br></br>that my study decided to replace the old Javascript end assignment with mine!
+              <h3>Javascript:</h3> Ik zou persoonlijk zeggen dat ik best goed in Javascript ben<br></br>
+              Ik heb zelfs een project (Yahtzee) met Javascript gemaakt!<br></br>
+              Dit werd zelfs zo'n grote success<br></br>Dat mijn opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
               </div>
               <div className='mysqlSoftAbout skillsSoftCommon'>
-              <h3>Mysql:</h3> I'm not the best at making databases,<br></br>but i'd say I made a good one for my Fullstack project<br></br>
-              The project is also an assignment I got for school.<br></br>in which I had to utilise all my knowledge that I had at the time<br></br>
-              Said Fullstack project is about keeping track of videogame progress<br></br>
-              (such as an item you need to combine with another to make a better item)
+              <h3>Mysql:</h3> Ik ben niet de allerbeste in Databases maken,<br></br>maar ik heb best een goeie kunnen maken voor mijn Fullstack project.<br></br>
+              Het fullstack project was juist voor mijn opleiding bedoelt als opdracht.<br></br>Waarin ik alle 5 basis code talen moest samen gebruiken.<br></br>
+              Het Fullstack project is bedoelt om videogame voortgang zelf te tracken.<br></br>
+              (bijvoorbeeld een voorwerp die je later met een andere moet combineren)
               </div>
               <div className='phpSoftAbout skillsSoftCommon'>
-              <h3>PHP:</h3> As I said at the Mysql section, I made a fullstack project called Startracker.<br></br>
-              Which is used to keep track of Videogame progress.<br></br>
-              With the help of database and account creation to store and use said information.
+              <h3>PHP:</h3> Zoals ik heb gezegd bij het Mysql gedeelte, heb ik een fullstack project gemaakt genaamd Startracker.<br></br>
+              die gebruikt wordt om videogame voortgang te tracken.<br></br>
+              Met het behulp van formuliers om accounts te creeren in de database waar die info aan vast zit.
               </div>
               <div className='javaSoftAbout skillsSoftCommon'>
-              <h3>Java:</h3> While it has been a while since I coded in Java,<br></br>
-              I did convert an old java school assignment to Javascript<br></br>
-              (This Project is what I have dubbed: Coin Game.)<br></br>
-              (I might however change a certain thing about it to avoid potential copyright)</div>
+              <h3>Java:</h3> Ook al is het een tijd geleden sinds ik Java heb gebruikt,<br></br>
+              Ik had wel een Java opdracht van school omgezet in Javascript<br></br>
+              (Ik heb deze project Coin Game genoemd.)<br></br>
+              (Ik ga waarschijnlijk wel wat veranderen vanwege copyright.)</div>
               </div></p>
               <br></br>
-              <h3>As a note: I am currently nearing the end of my second year of my Software Developer study.</h3></div>
+              <h3>Als toevoeging: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
 
-              <div className='hobbyAbout'><h1>My hobbies</h1>
-              <p>As hobbies go I currently have 3:<br></br><br></br>
+              <div className='hobbyAbout'><h1>Mijn hobbies</h1>
+              <p>Qua hobbies heb ik er nu 3:<br></br><br></br>
 
-              My favorite being playing videogames.<br></br>
-              I just love how much attention and detail goes in every aspect of a videogame:<br></br>
-              the Graphics, Enviroment, Music, Story, the characters, the gameplay,<br></br>
-              it just all comes together to create an amazing story and experience.
-              That's exactly what I want others to experience whenever I create a videogame:<br></br>
-              to make them feel the passion that went into such a project and to give them an unforgettable experience.<br></br><br></br>
+              Mijn favoriet is videogames spelen.<br></br>
+              Ik hou er gewoon zoveel van hoeveel aandacht in elk gedeelte van een game gaat:<br></br>
+              de Graphics, Omgeving, Muziek, Verhaal, de karakters, de gameplay,<br></br>
+              het komt gewoon allemaal bij elkaar om een prachtig verhaal en game te maken.
+              en dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:<br></br>
+              om ze de passie te laten voelen dat in de game gestoken werd en om ze een onvergetelijke ervaring te geven.<br></br><br></br>
 
-              My feelings for videogames aside.<br></br>
-              I have grown to love coding things and getting better at it day by day<br></br>
-              and afterwards learning something new that I can apply to the next project and so on.<br></br><br></br>
+              Naast mijn liefde voor videogames.<br></br>
+              Heb ik veel gecode de laatste tijd en ik wordt er steeds beter in<br></br>
+              het gevoel om iets nieuws te leren en dat te gebruiken en die irritante bug te fixen is altijd geweldig.<br></br><br></br>
 
-              Finally I just like watching videos on youtube and talking with my friends online using Discord.</p></div>
+              Als laatste vindt ik het gewoon leuk om videos of youtube te kijken en te praten met vrienden op Discord.</p></div>
 
-              <div className='social'>Possible social media area? idk</div>
+              {/* <div className='social'>Possible social media area? idk</div> */}
               
             </div>
 
             <div className='toolsSkills common seperationMargin blueToWhite' id='ToolsAndSkills'>
               
-              <div className='codeLanguages'><h1>Coding Languages:</h1><FaHtml5 color="#E54C21" className='toolsSkillsCommon' title='HTML5' /><FaCss3Alt color="#304CDC" className='toolsSkillsCommon' title='CSS3' />
+              <div className='codeLanguages'><h1>Code Talen:</h1><FaHtml5 color="#E54C21" className='toolsSkillsCommon' title='HTML5' /><FaCss3Alt color="#304CDC" className='toolsSkillsCommon' title='CSS3' />
               <SiJavascript color="#f7e018" className='toolsSkillsCommon' title='Javascript' /><SiMysql color="#00718b" className='toolsSkillsCommon' title='MySql' /><SiPhp color="#777bb3" className='toolsSkillsCommon' title='PHP' />
               <FaDatabase className='toolsSkillsCommon' title='Database' /><FaJava color="#4f809f" className='toolsSkillsCommon' title='Java' /></div>
 
-              <div className='otherTools'><h1>Other Tools:</h1><SiAdobexd color="#450135" className='toolsSkillsCommon' title='AdobeXD' /><FaFigma color="#ea4c1d" className='toolsSkillsCommon' title='Figma' />
+              <div className='otherTools'><h1>Andere Hulpmiddelen:</h1><SiAdobexd color="#450135" className='toolsSkillsCommon' title='AdobeXD' /><FaFigma color="#ea4c1d" className='toolsSkillsCommon' title='Figma' />
               <FaTrello color="#0d60d6" className='toolsSkillsCommon' title='Trello' /><FaGithub color="#1b1f23" className='toolsSkillsCommon' title='Github' />
               <SiVisualstudiocode color="#3ea6eb" className='toolsSkillsCommon' title='Visual Studio Code (VSC)' /><SiPhpstorm color="#a146ec" className='toolsSkillsCommon' title='PHPStorm' /></div>
 
@@ -174,8 +174,8 @@ function Body({toggleStyle}) {
             </div>
 
             <div className='contactBox common blueToWhite' id='Contact'>
-              <h1 className='contactH1'>Contact me</h1>
-              <h3 className='contactH3'>Feel free to contact me by sending an E-mail with the form below.</h3>
+              <h1 className='contactH1'>Neem contact</h1>
+              <h3 className='contactH3'>Stuur gerust een E-mail naar mij met de formulier hieronder!</h3>
               <EmailModalLight />
             </div>
           </div> 
@@ -197,84 +197,84 @@ function Body({toggleStyle}) {
                 <img src={autismPositives} alt='close up of the autism positives details but it is active' className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
               }
               
-              <div className='introduction whiteText'><h1>Introduction</h1>
-              <p>Hello! and welcome to my portfolio. My name is Sander Borgman and I was born on the 30th of January 2003<br></br>
-              I am an enthousiastic guy when it comes to developing websites and telling about my ideas for various projects.<br></br>
-              Other than that I am also diagnosed with ADHD and classic autism.<br></br>(that means I have a part of every type of the autistic spectrum)<br></br>
-              If you would like to learn more about the positives of Autism<br></br>
-              I recommend clicking on the image under my picture!<br></br>
-              When it comes to videogames (especially things about Nintendo or Terraria)<br></br>
-              I can talk about it for almost forever</p></div>
+              <div className='introduction whiteText'><h1>Introductie</h1>
+              <p>Hoi! en welkom in mijn portfolio. Mijn naam is Sander Borgman and ik ben geboren op 30 Januari 2003<br></br>
+              Ik ben een heel enthousiaste persoon als het gaat om mijn ideeën voor websites/games<br></br>
+              Daarnaast heb ik Klassiek Autisme en ADHD<br></br>(Klassiek Autisme betekent dat je iets van elk deel uit het autistische spectrum hebt)<br></br>
+              Als je meer wilt leren over de positieven van autisme<br></br>
+              Dan raad ik aan op het plaatje onder mijn foto te klikken!<br></br>
+              Als het gaat om videogames (zodiezo als het om Nintendo of Terraria gaat)<br></br>
+              Kan ik er bijna constant over praten</p></div>
 
-              <div className='softAbout whiteText'><h1 className='softAboutH1MarginTop'>About me as a Software Developer</h1>
-              <p>As of April 2022 I have worked on school projects with languages such as: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java<br></br> and the creation of a online database!<br></br>
-              Aside from those I am currently learning<br></br>on how to use ReactJS and the Framer library with it.<br></br>
-              Afterwards I wish to learn C++ with Unity to be able to create videogames.<br></br>
-              as for my skills with the current coding languages:<br></br>
+              <div className='softAbout whiteText'><h1 className='softAboutH1MarginTop'>Over mij als een Software Developer</h1>
+              <p>Sinds April 2022 heb ik aan vele projecten gewerkt met deze codetalen: <br></br>&#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>de creatie van een online database<br></br>
+              en ReactJS!(deze website)<br></br>
+              Ik ben nu bezig met het leren van videogames maken in Unity<br></br>
+              Daarnaast nog wat opmerkingen van de basis code talen:<br></br>
               <div className='skillsSoftAbout whiteText'>
               <div className='htmlSoftAbout skillsSoftCommon'>
-              <h3>HTML5:</h3> Every single website needs to have some sort of HTML<br></br>
-              I mean aren't you looking at a website right now?<br></br>
-              Everything you see is some sort of HTML5 element,<br></br>
-              be it this text or the box it's inside of!
+              <h3>HTML5:</h3> Elke website heeft wel iets qua HTML nodig.<br></br>
+              Want je bent toch nu op een website?<br></br>
+              Alles wat je hier ziet is een soort HTML element,<br></br>
+              bijvoorbeeld dit text of deze container waar het in zit.
               </div>
               <div className='cssSoftAbout skillsSoftCommon'>
-              <h3>CSS3:</h3> CSS is used to edit HTML elements like color, size and more!<br></br>
-              CSS code keeps getting developed further and becoming more awesome<br></br>
-              and websites would be impossible without a little bit of CSS magic
+              <h3>CSS3:</h3> CSS wordt gebruikt om een HTML element te bewerken.<br></br>
+              CSS code wordt steed verbeterd en steeds cooler!<br></br>
+              en websites zouden er natuurlijk niet uit zien zonder wat CSS magie.
               </div>
               <div className='jsSoftAbout skillsSoftCommon'>
-              <h3>Javascript:</h3> I would say my skills with Javascript are rather good<br></br>
-              I even made my own little project (Yahtzee) with Javascript<br></br>
-              This ended up being such a success<br></br>that my study decided to replace the old Javascript end assignment with mine!
+              <h3>Javascript:</h3> Ik zou persoonlijk zeggen dat ik best goed in Javascript ben<br></br>
+              Ik heb zelfs een project (Yahtzee) met Javascript gemaakt!<br></br>
+              Dit werd zelfs zo'n grote success<br></br>Dat mijn opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
               </div>
               <div className='mysqlSoftAbout skillsSoftCommon'>
-              <h3>Mysql:</h3> I'm not the best at making databases,<br></br>but i'd say I made a good one for my Fullstack project<br></br>
-              The project is also an assignment I got for school.<br></br>in which I had to utilise all my knowledge that I had at the time<br></br>
-              Said Fullstack project is about keeping track of videogame progress<br></br>
-              (such as an item you need to combine with another to make a better item)
+              <h3>Mysql:</h3> Ik ben niet de allerbeste in Databases maken,<br></br>maar ik heb best een goeie kunnen maken voor mijn Fullstack project.<br></br>
+              Het fullstack project was juist voor mijn opleiding bedoelt als opdracht.<br></br>Waarin ik alle 5 basis code talen moest samen gebruiken.<br></br>
+              Het Fullstack project is bedoelt om videogame voortgang zelf te tracken.<br></br>
+              (bijvoorbeeld een voorwerp die je later met een andere moet combineren)
               </div>
               <div className='phpSoftAbout skillsSoftCommon'>
-              <h3>PHP:</h3> As I said at the Mysql section, I made a fullstack project called Startracker.<br></br>
-              Which is used to keep track of Videogame progress.<br></br>
-              With the help of database and account creation to store and use said information.
+              <h3>PHP:</h3> Zoals ik heb gezegd bij het Mysql gedeelte, heb ik een fullstack project gemaakt genaamd Startracker.<br></br>
+              die gebruikt wordt om videogame voortgang te tracken.<br></br>
+              Met het behulp van formuliers om accounts te creeren in de database waar die info aan vast zit.
               </div>
               <div className='javaSoftAbout skillsSoftCommon'>
-              <h3>Java:</h3> While it has been a while since I coded in Java,<br></br>
-              I did convert an old java school assignment to Javascript<br></br>
-              (This Project is what I have dubbed: Coin Game.)<br></br>
-              (I might however change a certain thing about it to avoid potential copyright)</div>
+              <h3>Java:</h3> Ook al is het een tijd geleden sinds ik Java heb gebruikt,<br></br>
+              Ik had wel een Java opdracht van school omgezet in Javascript<br></br>
+              (Ik heb deze project Coin Game genoemd.)<br></br>
+              (Ik ga waarschijnlijk wel wat veranderen vanwege copyright.)</div>
               </div></p>
               <br></br>
-              <h3 className='whiteText'>As a note: I am currently nearing the end of my second year of my Software Developer study.</h3></div>
+              <h3 className='whiteText'>Als toevoeging: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
 
               <div className='hobbyAbout whiteText'><h1>My hobbies</h1>
-              <p>As hobbies go I currently have 3:<br></br><br></br>
+              <p>Qua hobbies heb ik er nu 3:<br></br><br></br>
 
-              My favorite being playing videogames.<br></br>
-              I just love how much attention and detail goes in every aspect of a videogame:<br></br>
-              the Graphics, Enviroment, Music, Story, the characters, the gameplay,<br></br>
-              it just all comes together to create an amazing story and experience.
-              That's exactly what I want others to experience whenever I create a videogame:<br></br>
-              to make them feel the passion that went into such a project and to give them an unforgettable experience.<br></br><br></br>
+              Mijn favoriet is videogames spelen.<br></br>
+              Ik hou er gewoon zoveel van hoeveel aandacht in elk gedeelte van een game gaat:<br></br>
+              de Graphics, Omgeving, Muziek, Verhaal, de karakters, de gameplay,<br></br>
+              het komt gewoon allemaal bij elkaar om een prachtig verhaal en game te maken.
+              en dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:<br></br>
+              om ze de passie te laten voelen dat in de game gestoken werd en om ze een onvergetelijke ervaring te geven.<br></br><br></br>
 
-              My feelings for videogames aside.<br></br>
-              I have grown to love coding things and getting better at it day by day<br></br>
-              and afterwards learning something new that I can apply to the next project and so on.<br></br><br></br>
+              Naast mijn liefde voor videogames.<br></br>
+              Heb ik veel gecode de laatste tijd en ik wordt er steeds beter in<br></br>
+              het gevoel om iets nieuws te leren en dat te gebruiken en die irritante bug te fixen is altijd geweldig.<br></br><br></br>
 
-              Finally I just like watching videos on youtube and talking with my friends online using Discord.</p></div>
+              Als laatste vindt ik het gewoon leuk om videos of youtube te kijken en te praten met vrienden op Discord.</p></div>
 
-              <div className='social'>Possible social media area? idk</div>
+              {/* <div className='social'>Possible social media area? idk</div> */}
               
             </div>
 
             <div className='toolsSkills common seperationMargin BlueToDarkBlue' id='ToolsAndSkills'>
               
-              <div className='codeLanguages'><h1 className='whiteText'>Coding Languages:</h1><FaHtml5 color="#E54C21" className='toolsSkillsCommon' title='HTML5' /><FaCss3Alt color="#304CDC" className='toolsSkillsCommon' title='CSS3' />
+              <div className='codeLanguages'><h1 className='whiteText'>Code Talen:</h1><FaHtml5 color="#E54C21" className='toolsSkillsCommon' title='HTML5' /><FaCss3Alt color="#304CDC" className='toolsSkillsCommon' title='CSS3' />
               <SiJavascript color="#f7e018" className='toolsSkillsCommon' title='Javascript' /><SiMysql color="#00718b" className='toolsSkillsCommon' title='MySql' /><SiPhp color="#777bb3" className='toolsSkillsCommon' title='PHP' />
               <FaDatabase className='toolsSkillsCommon' title='Database' /><FaJava color="#4f809f" className='toolsSkillsCommon' title='Java' /></div>
 
-              <div className='otherTools'><h1 className='whiteText'>Other Tools:</h1><SiAdobexd color="#450135" className='toolsSkillsCommon' title='AdobeXD' /><FaFigma color="#ea4c1d" className='toolsSkillsCommon' title='Figma' />
+              <div className='otherTools'><h1 className='whiteText'>Andere Hulpmiddelen:</h1><SiAdobexd color="#450135" className='toolsSkillsCommon' title='AdobeXD' /><FaFigma color="#ea4c1d" className='toolsSkillsCommon' title='Figma' />
               <FaTrello color="#0d60d6" className='toolsSkillsCommon' title='Trello' /><FaGithub color="#1b1f23" className='toolsSkillsCommon' title='Github' />
               <SiVisualstudiocode color="#3ea6eb" className='toolsSkillsCommon' title='Visual Studio Code (VSC)' /><SiPhpstorm color="#a146ec" className='toolsSkillsCommon' title='PHPStorm' /></div>
 
@@ -328,8 +328,8 @@ function Body({toggleStyle}) {
             </div>
 
             <div className='contactBox common blueToDarkBlue' id='Contact'>
-              <h1 className='contactH1 whiteText'>Contact me</h1>
-              <h3 className='contactH3 whiteText'>Feel free to contact me by sending an E-mail with the form below.</h3>
+              <h1 className='contactH1 whiteText'>Neem contact</h1>
+              <h3 className='contactH3 whiteText'>Stuur gerust een E-mail naar mij met de formulier hieronder!</h3>
               <EmailModalDark />
             </div>
           </div>

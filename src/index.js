@@ -11,7 +11,7 @@ import lightModeButton from "./images/lightModeButton.png";
 function Page() {
 
 // this function toggles the page style once the theme button gets clicked
-  const [togglePageStyle, setPageStyle] = useState(false);
+  const [togglePageStyle, setPageStyle] = useState(true);
   const toggleStyle = () => {
       setPageStyle(!togglePageStyle);
   }
