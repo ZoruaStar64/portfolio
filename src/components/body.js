@@ -12,7 +12,7 @@ import dice6 from "../images/Dice6.png";
 import coin from "../images/coin.png";
 import star from "../images/darkModeButton.png";
 import {FaHtml5, FaCss3Alt, FaDatabase, FaJava, FaTrello, FaGithub, FaFigma} from 'react-icons/fa';
-import {SiJavascript, SiMysql, SiPhp, SiAdobexd, SiVisualstudiocode, SiPhpstorm} from 'react-icons/si';
+import {SiJavascript, SiMysql, SiPhp, SiAdobexd, SiVisualstudiocode, SiPhpstorm, SiCsharp, SiUnity, SiReact} from 'react-icons/si';
 import {EmailModalLight, EmailModalDark} from './emailmodal.js';
 
 function Body({toggleStyle}) {
@@ -53,11 +53,11 @@ function Body({toggleStyle}) {
             </p></div>
               
               <div className='softAbout'><h1 className='softAboutH1MarginTop'>Mijn skills als een Software Developer</h1>
-              <p>Tot April 2022 heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
+              <p>Vanaf het begin van mijn MBO tot en met nu heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
               &#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>
-              de ontwikkeling van een online database<br></br>
-              en ReactJS. (deze website)<br></br>
-              Op dit moment leer ik hoe ik videogames kan maken in Unity.<br></br>
+              &#9733; de ontwikkeling van een online database,<br></br>
+              &#9733; ReactJS (deze website),<br></br>
+              &#9733; Unity en C#.<br></br>
               <br></br><br></br>
               Verder volgen hier nog een aantal opmerkingen over de basis code talen:<br></br>
               <div className='skillsSoftAbout'>
@@ -74,11 +74,11 @@ function Body({toggleStyle}) {
               <div className='jsSoftAbout skillsSoftCommon'>
               <h3>Javascript:</h3> Ik vind dat ik best goed in Javascript ben<br></br>
               Ik heb zelfs een project (Yahtzee) met Javascript gemaakt!<br></br>
-              Dit werd zelfs zo'n groot succes, dat mijn opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
+              Dit werd zelfs zo'n groot succes, dat mijn MBO opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
               </div>
               <div className='mysqlSoftAbout skillsSoftCommon'>
               <h3>Mysql:</h3> Ik ben niet de allerbeste in databases maken, maar ik heb een redelijk goede kunnen maken voor mijn Fullstack project.<br></br>
-              Het Fullstack project was een opdracht van mijn opleiding waarin ik alle 5 basis code talen samen moest gebruiken.<br></br>
+              Het Fullstack project was een opdracht van mijn MBO opleiding waarin ik alle 5 basis code talen samen moest gebruiken.<br></br>
               Als Fullstack project heb ik een database gemaakt die de voortgang van je videogames kan tracken.<br></br>
               (bijvoorbeeld een voorwerp die je later met een andere moet combineren)
               </div>
@@ -88,12 +88,19 @@ function Body({toggleStyle}) {
               Met behulp van formulieren kan je een account creeren. Daarvoor wordt gebruik gemaakt van informatie uit een database. 
               </div>
               <div className='javaSoftAbout skillsSoftCommon'>
-              <h3>Java:</h3> Aan het begin van mijn opleiding heb ik een Java opdracht van school gekregen, die ik later heb omgezet naar Javascript<br></br>
+              <h3>Java:</h3> Aan het begin van mijn MBO opleiding heb ik een Java opdracht van school gekregen, die ik later heb omgezet naar Javascript<br></br>
               (Ik heb deze project Coin Game genoemd.)<br></br>
               (Ik ga waarschijnlijk wel wat veranderen vanwege copyright op de afbeeldingen.)</div>
+              <div className='cSharpSoftAbout skillsSoftCommon'>
+              <h3>C#:</h3> Tijdens het 3de en 4de periode van mijn 1ste jaar aan mijn Associates Degree opleiding ben ik met een team bezig geweest aan 2 projecten voor school.<br></br>
+              Het 1ste project was een pac-man geinspireerde game waarmee wij met het basis werkte van C# (Console Applicatie).<br></br>
+              Het 2de project is een web-applicatie voor een dierentuin waarin wij CRUD functionaliteiten en meer moeten uitvoeren.<br></br>
+              Als laatste wil ik vermelden dat er een duidelijk verschil is tussen basis C# gebruiken en de C# gebruiken dat binnen Unity gebruikt wordt.
+              </div>
               </div></p>
               <br></br>
-              <h3>Als laatste: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
+                  <h3>Als laatste: <br></br>Ik ben nu in het 4de en laatste periode van mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding.</h3>
+              </div>
 
               <div className='hobbyAbout'><h1>Mijn hobbies</h1>
               <p>Ik heb in principe 3 hobbies.<br></br><br></br>
@@ -118,7 +125,8 @@ function Body({toggleStyle}) {
               
               <div className='codeLanguages'><h1>Code Talen:</h1><FaHtml5 color="#E54C21" className='toolsSkillsCommon' title='HTML5' /><FaCss3Alt color="#304CDC" className='toolsSkillsCommon' title='CSS3' />
               <SiJavascript color="#f7e018" className='toolsSkillsCommon' title='Javascript' /><SiMysql color="#00718b" className='toolsSkillsCommon' title='MySql' /><SiPhp color="#777bb3" className='toolsSkillsCommon' title='PHP' />
-              <FaDatabase className='toolsSkillsCommon' title='Database' /><FaJava color="#4f809f" className='toolsSkillsCommon' title='Java' /></div>
+              <FaDatabase className='toolsSkillsCommon' title='Database' /><FaJava color="#4f809f" className='toolsSkillsCommon' title='Java' /><SiCsharp color='#9c75d5' className='toolsSkillsCommon' title='CSharp'/>
+              <SiUnity color="black" className='toolsSkillsCommon' title='Unity' /><SiReact color="#5ed3f3" className='toolsSkillsCommon' title='ReactJS' /></div>
 
               <div className='otherTools'><h1>Andere Hulpmiddelen:</h1><SiAdobexd color="#450135" className='toolsSkillsCommon' title='AdobeXD' /><FaFigma color="#ea4c1d" className='toolsSkillsCommon' title='Figma' />
               <FaTrello color="#0d60d6" className='toolsSkillsCommon' title='Trello' /><FaGithub color="#1b1f23" className='toolsSkillsCommon' title='Github' />
@@ -207,11 +215,11 @@ function Body({toggleStyle}) {
             </p></div>
 
               <div className='softAbout whiteText'><h1 className='softAboutH1MarginTop'>Mijn skills als een Software Developer</h1>
-              <p>Tot April 2022 heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
+              <p>Vanaf het begin van mijn MBO tot en met nu heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
               &#9733; HTML5/CSS3,<br></br>&#9733; Javascript,<br></br>&#9733; Mysql,<br></br>&#9733; PHP,<br></br>&#9733; Java,<br></br>
-              de ontwikkeling van een online database<br></br>
-              en ReactJS. (deze website)<br></br>
-              Op dit moment leer ik hoe ik videogames kan maken in Unity.<br></br>
+              &#9733; de ontwikkeling van een online database,<br></br>
+              &#9733; ReactJS (deze website),<br></br>
+              &#9733; Unity en C#.<br></br>
               <br></br><br></br>
               Verder volgen hier nog een aantal opmerkingen over de basis code talen:<br></br>
               <div className='skillsSoftAbout whiteText'>
@@ -245,9 +253,15 @@ function Body({toggleStyle}) {
               <h3>Java:</h3> Aan het begin van mijn opleiding heb ik een Java opdracht van school gekregen, die ik later heb omgezet naar Javascript<br></br>
               (Ik heb deze project Coin Game genoemd.)<br></br>
               (Ik ga waarschijnlijk wel wat veranderen vanwege copyright op de afbeeldingen.)</div>
+              <div className='cSharpSoftAbout skillsSoftCommon'>
+              <h3>C#:</h3> Tijdens het 3de en 4de periode van mijn 1ste jaar aan mijn Associates Degree opleiding ben ik met een team bezig geweest aan 2 projecten voor school.<br></br>
+              Het 1ste project was een pac-man geinspireerde game waarmee wij met het basis werkte van C# (Console Applicatie).<br></br>
+              Het 2de project is een web-applicatie voor een dierentuin waarin wij CRUD functionaliteiten en meer moeten uitvoeren.<br></br>
+              Als laatste wil ik vermelden dat er een duidelijk verschil is tussen basis C# gebruiken en de C# gebruiken dat binnen Unity gebruikt wordt.</div>
               </div></p>
               <br></br>
-              <h3 className='whiteText'>Als laatste: ik ben nu aan het eind van mijn tweede schooljaar.</h3></div>
+                  <h3 className='whiteText'>Als laatste: <br></br>Ik ben nu in het 4de en laatste periode van mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding.</h3>
+              </div>
 
               <div className='hobbyAbout whiteText'><h1>Mijn hobbies</h1>
               <p>Ik heb in principe 3 hobbies.<br></br><br></br>
@@ -272,7 +286,8 @@ function Body({toggleStyle}) {
               
               <div className='codeLanguages'><h1 className='whiteText'>Code Talen:</h1><FaHtml5 color="#E54C21" className='toolsSkillsCommon' title='HTML5' /><FaCss3Alt color="#304CDC" className='toolsSkillsCommon' title='CSS3' />
               <SiJavascript color="#f7e018" className='toolsSkillsCommon' title='Javascript' /><SiMysql color="#00718b" className='toolsSkillsCommon' title='MySql' /><SiPhp color="#777bb3" className='toolsSkillsCommon' title='PHP' />
-              <FaDatabase className='toolsSkillsCommon' title='Database' /><FaJava color="#4f809f" className='toolsSkillsCommon' title='Java' /></div>
+              <FaDatabase className='toolsSkillsCommon' title='Database' /><FaJava color="#4f809f" className='toolsSkillsCommon' title='Java' /><SiCsharp color='#9c75d5' className='toolsSkillsCommon' title='CSharp'/>
+                  <SiUnity color="black" className='toolsSkillsCommon' title='Unity' /><SiReact color="#5ed3f3" className='toolsSkillsCommon' title='ReactJS' /></div>
 
               <div className='otherTools'><h1 className='whiteText'>Andere Hulpmiddelen:</h1><SiAdobexd color="#450135" className='toolsSkillsCommon' title='AdobeXD' /><FaFigma color="#ea4c1d" className='toolsSkillsCommon' title='Figma' />
               <FaTrello color="#0d60d6" className='toolsSkillsCommon' title='Trello' /><FaGithub color="#1b1f23" className='toolsSkillsCommon' title='Github' />

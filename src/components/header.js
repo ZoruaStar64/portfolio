@@ -38,7 +38,7 @@ function Header({toggleStyle}) {
           <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} className='statusContainer'>
           <motion.img animate={{rotateZ: -360}} transition={{type: "spring",duration: 2}}   src={starContainerImg} className='starContainer'></motion.img>
           <motion.h1 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusLabel'>Status :</motion.h1>
-          <motion.h2 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusContent'>Leren van Unity</motion.h2>
+          <motion.h2 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusContent'>Opdracht voor de gemeente Almere</motion.h2>
 
           </motion.div>
           </div> :
@@ -59,7 +59,7 @@ function Header({toggleStyle}) {
             <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} className='statusContainer'>
             <motion.img animate={{rotateZ: -360}} transition={{type: "spring",duration: 2}}   src={darkStarContainerImg} className='starContainer'></motion.img>
               <motion.h1 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusLabel'>Status :</motion.h1>
-              <motion.h2 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusContent'>Leren van Unity</motion.h2>
+              <motion.h2 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusContent'>Opdracht voor de gemeente Almere</motion.h2>
 
             </motion.div>
 

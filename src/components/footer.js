@@ -7,11 +7,11 @@ function Footer({toggleStyle}) {
       <div>
       {!toggleStyle ?
       <div className='footer footerLightGradient'>
-        <h1 className='footerText'>sb-dev 2022</h1>
+        <h1 className='footerText'>sb-dev 2022-2024</h1>
         </div>
         :
         <div className='footer blueToDarkBlue'>
-        <h1 className='footerText whiteText'>sb-dev 2022</h1>
+        <h1 className='footerText whiteText'>sb-dev 2022-2024</h1>
         </div>
       }
       </div>
