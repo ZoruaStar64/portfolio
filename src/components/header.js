@@ -23,45 +23,45 @@ function Header({toggleStyle}) {
           {!toggleStyle ?
           <div className='headerBackground purpleToWhite'> 
 
-          <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} onClick={toggleStarText} className='nameAndProfession'>
-          <motion.img animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}}  src={starContainerImg}  className='starContainer'></motion.img>
+          <div onClick={toggleStarText} className='nameAndProfession'>
+          <img src={starContainerImg}  className='starContainer'></img>
             {!switchStarText ?
             <div>
-            <motion.h1 animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}} className='nameH1 nameH1P1'>Sander</motion.h1>
-            <motion.h1 animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}} className='nameH1 nameH1P2'>Borgman</motion.h1>
+            <h1 className='nameH1 nameH1P1'>Sander</h1>
+            <h1 className='nameH1 nameH1P2'>Borgman</h1>
             </div>
             :
-            <motion.h1 animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}} className='professionH1'>Software Developer</motion.h1>   
+            <h1 className='professionH1'>Software Developer</h1>   
           }
-          </motion.div>
+          </div>
 
-          <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} className='statusContainer'>
-          <motion.img animate={{rotateZ: -360}} transition={{type: "spring",duration: 2}}   src={starContainerImg} className='starContainer'></motion.img>
-          <motion.h1 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusLabel'>Status :</motion.h1>
-          <motion.h2 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusContent'>Opdracht voor de gemeente Almere</motion.h2>
+          <div className='statusContainer'>
+          <img src={starContainerImg} className='starContainer'></img>
+          <h1 className='statusColors statusLabel'>Status :</h1>
+          <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
 
-          </motion.div>
+          </div>
           </div> :
           <div className='headerBackground blueToDarkBlue'>
 
-            <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} onClick={toggleStarText} className='nameAndProfession'>
-             <motion.img animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}}  src={darkStarContainerImg}  className='starContainer'></motion.img>
+            <div onClick={toggleStarText} className='nameAndProfession'>
+             <img src={darkStarContainerImg}  className='starContainer'></img>
              {!switchStarText ?
             <div>
-            <motion.h1 animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}} className='nameH1 nameH1P1'>Sander</motion.h1>
-            <motion.h1 animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}} className='nameH1 nameH1P2'>Borgman</motion.h1>
+            <h1 className='nameH1 nameH1P1'>Sander</h1>
+            <h1 className='nameH1 nameH1P2'>Borgman</h1>
             </div>
             :
-            <motion.h1 animate={{rotateZ: 360}} transition={{type: "spring", duration: 2}} className='professionH1'>Software Developer</motion.h1>   
+            <h1 className='professionH1'>Software Developer</h1>   
           } 
-            </motion.div>
+            </div>
 
-            <motion.div whileHover={{rotateY: 180}} transition={{duration: 1}} className='statusContainer'>
-            <motion.img animate={{rotateZ: -360}} transition={{type: "spring",duration: 2}}   src={darkStarContainerImg} className='starContainer'></motion.img>
-              <motion.h1 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusLabel'>Status :</motion.h1>
-              <motion.h2 animate={{rotateZ: -360}} transition={{type: "spring", duration: 2}} className='statusColors statusContent'>Opdracht voor de gemeente Almere</motion.h2>
+            <div className='statusContainer'>
+            <img src={darkStarContainerImg} className='starContainer'></img>
+              <h1 className='statusColors statusLabel'>Status :</h1>
+              <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
 
-            </motion.div>
+            </div>
 
           </div>}
         

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import '../index.js';
-import imageOfMe from "../images/me5.jpg";
+import imageOfMe from "../images/me6.png";
 import autismPositives from "../images/autismPositives.jpg";
 import dice1 from "../images/Dice1.png";
 import dice2 from "../images/Dice2.png";
@@ -31,26 +31,33 @@ function Body({toggleStyle}) {
           <div className='bodyBackground whiteToPurple'>
             
             <div className='aboutMe seperationMargin whiteToBlue common' id='AboutMe'>
-                   {!openModal ?
+              {/* {!openModal ?
                 <div className='darkenedClick' style={{display: 'none'}}></div> :
                 <div className='darkenedClick' style={{display: 'block'}} onClick={toggleModal}></div>
-              }
+              } */}
               <img src={imageOfMe} alt='me infront my pc' className='pictureOfMe'></img>
-              <img src={autismPositives} alt='details on the positives of autism' className='positivesAutism' onClick={toggleModal}></img>
+              {/* <img src={autismPositives} alt='details on the positives of autism' className='positivesAutism' onClick={toggleModal}></img> */}
 
-              {!openModal ?
+              {/* {!openModal ?
                 <img src={autismPositives} alt='close up of the autism positives details but it is inactive' className='positivesAutismClicked' style={{display: 'none'}}></img> :
                 <img src={autismPositives} alt='close up of the autism positives details but it is active' className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
-              }
+              } */}
               
               <div className='introduction'><h1>Introductie</h1>
-              <p>Hoi, welkom in mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003.<br></br>
-              Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br>
-              Al je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.<br></br> 
-              Deze eigenschappen hebben ondere andere te maken met mijn diagnose in het autistisch spectrum, Klassiek Autisme en ADHD (ik heb van alles een beetje).<br></br>
-              Als je meer wilt leren over de positieve kanten van autisme, dan raad ik je aan om op het plaatje onder mijn foto te klikken! <br></br>
-              Over videogames (zodiezo als het om Nintendo of Terraria gaat) kan ik bijna continu praten. <br></br>
-            </p></div>
+              <p>
+                Hoi, welkom op mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003. Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br><br></br>
+                Na het afronden van mijn MBO opleiding (cum laude) tot software developer heb ik besloten om door te gaan naar het HBO waar ik nu HBO software developer - AD volg. Het eerste jaar heb ik goed afgesloten met het maximaal te behalen aantal studiepunten.<br></br>
+                <br></br>
+                Als je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.
+                </p>
+                {/*<p>Hoi, welkom in mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003.<br></br>
+                Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br>
+                Al je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.<br></br> 
+                Deze eigenschappen hebben ondere andere te maken met mijn diagnose in het autistisch spectrum, Klassiek Autisme en ADHD (ik heb van alles een beetje).<br></br>
+                Als je meer wilt leren over de positieve kanten van autisme, dan raad ik je aan om op het plaatje onder mijn foto te klikken! <br></br>
+                Over videogames (zodiezo als het om Nintendo of Terraria gaat) kan ik bijna continu praten. <br></br>
+                </p> */}
+              </div>
               
               <div className='softAbout'><h1 className='softAboutH1MarginTop'>Mijn skills als een Software Developer</h1>
               <p>Vanaf het begin van mijn MBO tot en met nu heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
@@ -99,7 +106,7 @@ function Body({toggleStyle}) {
               </div>
               </div></p>
               <br></br>
-                  <h3>Als laatste: <br></br>Ik ben nu in het 4de en laatste periode van mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding.</h3>
+                  <h3>Als laatste: <br></br>Ik heb nu mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding afgerond met alle (60) studiepunten.<br></br>Op dit moment ben ik opzoek naar een leuke stageplek!</h3>
               </div>
 
               <div className='hobbyAbout'><h1>Mijn hobbies</h1>
@@ -107,13 +114,13 @@ function Body({toggleStyle}) {
 
               Mijn favoriete bezigheid is videogames spelen.<br></br>
               Ik hou ervan hoeveel aandacht er is besteed aan elk detail van een game:<br></br>
-              de graphics, de spelomgeving, de muziek, het verhaal, de karakters, de gameplay
-              en hoe het resulteert in een prachtig verhaal en game.<br></br>
+              de graphics, de spelomgeving, het muziek, het verhaal, de karakters, de gameplay
+              en hoe het resulteert in een prachtige videogame.<br></br>
               Dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:
-              de passie die in de game gestoken werd en om ze natuurlijk een onvergetelijke ervaring te bezorgen.<br></br><br></br>
+              de passie die in een game gestoken werd en om ze natuurlijk een onvergetelijke ervaring te bezorgen.<br></br><br></br>
 
-              Naast mijn liefde voor videogames, heb ik veel de laatste tijd gecode en ik word er steeds beter in.<br></br>
-              Het gevoel om iets nieuws te leren en dat te gebruiken en irritante bugs te fixen is geweldig.<br></br><br></br>
+              Naast mijn liefde voor videogames, heb ik de laatste tijd veel gecodeerd en ik word er steeds beter in.<br></br>
+              Het gevoel om iets nieuws te leren en dat te gebruiken om irritante bugs te fixen is geweldig.<br></br><br></br>
 
               Als laatste vind ik het leuk om video's op YouTube te kijken en te praten met vrienden op Discord.</p></div>
 
@@ -193,26 +200,33 @@ function Body({toggleStyle}) {
             <div className='bodyBackground darkBlueToBlue'>
     
             <div className='aboutMe seperationMargin darkBlueToBlue common' id='AboutMe'>
-                    {!openModal ?
+              {/* {!openModal ?
                 <div className='darkenedClick' style={{display: 'none'}}></div> :
                 <div className='darkenedClick' style={{display: 'block'}} onClick={toggleModal}></div>
-              }
+              } */}
               <img src={imageOfMe} alt='me infront my pc' className='pictureOfMe'></img>
-              <img src={autismPositives} alt='details on the positives of autism' className='positivesAutism' onClick={toggleModal}></img>
+              {/* <img src={autismPositives} alt='details on the positives of autism' className='positivesAutism' onClick={toggleModal}></img> */}
 
-              {!openModal ?
+              {/* {!openModal ?
                 <img src={autismPositives} alt='close up of the autism positives details but it is inactive' className='positivesAutismClicked' style={{display: 'none'}}></img> :
                 <img src={autismPositives} alt='close up of the autism positives details but it is active' className='positivesAutismClicked' style={{display: 'block'}} onClick={toggleModal}></img>
-              }
+              } */}
               
               <div className='introduction whiteText'><h1>Introductie</h1>
-              <p>Hoi, welkom in mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003.<br></br>
-              Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br>
-              Al je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.<br></br> 
-              Deze eigenschappen hebben ondere andere te maken met mijn diagnose in het autistisch spectrum, Klassiek Autisme en ADHD (ik heb van alles een beetje).<br></br>
-              Als je meer wilt leren over de positieve kanten van autisme, dan raad ik je aan om op het plaatje onder mijn foto te klikken! <br></br>
-              Over videogames (zodiezo als het om Nintendo of Terraria gaat) kan ik bijna continu praten. <br></br>
-            </p></div>
+                <p>
+                Hoi, welkom op mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003. Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br><br></br>
+                Na het afronden van mijn MBO opleiding (cum laude) tot software developer heb ik besloten om door te gaan naar het HBO waar ik nu HBO software developer - AD volg. Het eerste jaar heb ik goed afgesloten met het maximaal te behalen aantal studiepunten.<br></br>
+                <br></br>
+                Als je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.
+                </p>
+                {/*<p>Hoi, welkom in mijn portfolio. Mijn naam is Sander Borgman en ik ben geboren op 30 Januari 2003.<br></br>
+                Ik ben een heel enthousiast persoon en ik praat graag over mijn ideeën voor websites en games.<br></br>
+                Al je me beter leert kennen zul je merken dat ik nieuwe skills heel snel leer.<br></br> 
+                Deze eigenschappen hebben ondere andere te maken met mijn diagnose in het autistisch spectrum, Klassiek Autisme en ADHD (ik heb van alles een beetje).<br></br>
+                Als je meer wilt leren over de positieve kanten van autisme, dan raad ik je aan om op het plaatje onder mijn foto te klikken! <br></br>
+                Over videogames (zodiezo als het om Nintendo of Terraria gaat) kan ik bijna continu praten. <br></br>
+              </p> */}
+            </div>
 
               <div className='softAbout whiteText'><h1 className='softAboutH1MarginTop'>Mijn skills als een Software Developer</h1>
               <p>Vanaf het begin van mijn MBO tot en met nu heb ik aan veel projecten gewerkt<br></br> met de volgende codetalen: <br></br>
@@ -260,7 +274,7 @@ function Body({toggleStyle}) {
               Als laatste wil ik vermelden dat er een duidelijk verschil is tussen basis C# gebruiken en de C# gebruiken dat binnen Unity gebruikt wordt.</div>
               </div></p>
               <br></br>
-                  <h3 className='whiteText'>Als laatste: <br></br>Ik ben nu in het 4de en laatste periode van mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding.</h3>
+              <h3>Als laatste: <br></br>Ik heb nu mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding afgerond met alle (60) studiepunten.<br></br>Op dit moment ben ik opzoek naar een leuke stageplek!</h3>
               </div>
 
               <div className='hobbyAbout whiteText'><h1>Mijn hobbies</h1>
@@ -268,13 +282,13 @@ function Body({toggleStyle}) {
 
               Mijn favoriete bezigheid is videogames spelen.<br></br>
               Ik hou ervan hoeveel aandacht er is besteed aan elk detail van een game:<br></br>
-              de graphics, de spelomgeving, de muziek, het verhaal, de karakters, de gameplay
-              en hoe het resulteert in een prachtig verhaal en game.<br></br>
+              de graphics, de spelomgeving, het muziek, het verhaal, de karakters, de gameplay
+              en hoe het resulteert in een prachtige videogame.<br></br>
               Dat is precies wat ik anderen later wil laten voelen zodra ik een game maak:
-              de passie die in de game gestoken werd en om ze natuurlijk een onvergetelijke ervaring te bezorgen.<br></br><br></br>
+              de passie die in een game gestoken werd en om ze natuurlijk een onvergetelijke ervaring te bezorgen.<br></br><br></br>
 
-              Naast mijn liefde voor videogames, heb ik veel de laatste tijd gecode en ik word er steeds beter in.<br></br>
-              Het gevoel om iets nieuws te leren en dat te gebruiken en irritante bugs te fixen is geweldig.<br></br><br></br>
+              Naast mijn liefde voor videogames, heb ik de laatste tijd veel gecodeerd en ik word er steeds beter in.<br></br>
+              Het gevoel om iets nieuws te leren en dat te gebruiken om irritante bugs te fixen is geweldig.<br></br><br></br>
 
               Als laatste vind ik het leuk om video's op YouTube te kijken en te praten met vrienden op Discord.</p></div>
 

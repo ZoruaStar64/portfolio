@@ -167,7 +167,8 @@ return (
             InputProps = {{ style: {color: 'white'}}}
             variant='filled'
             margin='normal'
-            sx={{mr: 1, width: '49.5%', backgroundColor: '#1f0f9a'}}
+            sx={{/*mr: 1, width: '49.5%',*/ backgroundColor: '#1f0f9a'}}
+            fullWidth
             required
             autoComplete='off'
           />
@@ -182,7 +183,8 @@ return (
             InputProps = {{ style: {color: 'white'}}}
             variant='filled'
             margin='normal'
-            sx={{width: '49.5%', backgroundColor: '#1f0f9a'}}
+            sx={{/*width: '49.5%',*/ backgroundColor: '#1f0f9a'}}
+            fullWidth
             required
             autoComplete='off'
           />
