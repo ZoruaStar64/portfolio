@@ -60,13 +60,17 @@ function Page() {
           <div className='headerBackground purpleToWhite'> 
 
             <div onClick={toggleStarText} className='nameAndProfession starContainer'>
+              
               {!switchStarText ?
-              <div>
-              <h1 className='nameH1 nameH1P1'>Sander</h1>
-              <h1 className='nameH1 nameH1P2'>Borgman</h1>
+              <div className='nameH1'>
+                <h1>Sander</h1>
+                <h1>Borgman</h1>
               </div>
               :
-              <h1 className='professionH1'>Software Developer</h1>   
+              <div className='nameH1'>
+                <h1>Software</h1>   
+                <h1>Developer</h1>
+              </div>
             }
             </div>
             <div className='styleButtonContainer'>
@@ -74,21 +78,25 @@ function Page() {
               </motion.img>
             </div>
             <div className='statusContainer starContainer'>
-            <h1 className='statusColors statusLabel'>Status :</h1>
-            <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
-
+              <div className='statusH1'>
+                <h1>Status :</h1>
+                <h3 className='status'>Opdracht voor de gemeente Almere</h3>
+              </div>
             </div>
           </div> :
           <div className='headerBackground blueToDarkBlue'>
 
               <div onClick={toggleStarText} className='nameAndProfession darkStarContainer'>
               {!switchStarText ?
-              <div>
-              <h1 className='nameH1 nameH1P1'>Sander</h1>
-              <h1 className='nameH1 nameH1P2'>Borgman</h1>
+              <div className='nameH1'>
+                <h1>Sander</h1>
+                <h1>Borgman</h1>
               </div>
               :
-              <h1 className='professionH1'>Software Developer</h1>   
+              <div className='nameH1'>
+                <h1>Software</h1>   
+                <h1>Developer</h1>
+              </div>
             } 
               </div>
               <div className='styleButtonContainer'>
@@ -96,9 +104,10 @@ function Page() {
                 </motion.img>
               </div>
               <div className='statusContainer darkStarContainer'>
-                <h1 className='statusColors statusLabel'>Status :</h1>
-                <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
-
+              <div className='statusH1'>
+                <h1>Status :</h1>
+                <h3 className='status'>Opdracht voor de gemeente Almere</h3>
+              </div>
               </div>
 
           </div>}
