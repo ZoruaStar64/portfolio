@@ -23,8 +23,7 @@ function Header({toggleStyle}) {
           {!toggleStyle ?
           <div className='headerBackground purpleToWhite'> 
 
-          <div onClick={toggleStarText} className='nameAndProfession'>
-          <img src={starContainerImg}  className='starContainer'></img>
+          <div onClick={toggleStarText} className='nameAndProfession starContainer'>
             {!switchStarText ?
             <div>
             <h1 className='nameH1 nameH1P1'>Sander</h1>
@@ -35,8 +34,7 @@ function Header({toggleStyle}) {
           }
           </div>
 
-          <div className='statusContainer'>
-          <img src={starContainerImg} className='starContainer'></img>
+          <div className='statusContainer starContainer'>
           <h1 className='statusColors statusLabel'>Status :</h1>
           <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
 
@@ -44,8 +42,7 @@ function Header({toggleStyle}) {
           </div> :
           <div className='headerBackground blueToDarkBlue'>
 
-            <div onClick={toggleStarText} className='nameAndProfession'>
-             <img src={darkStarContainerImg}  className='starContainer'></img>
+            <div onClick={toggleStarText} className='nameAndProfession darkStarContainer'>
              {!switchStarText ?
             <div>
             <h1 className='nameH1 nameH1P1'>Sander</h1>
@@ -56,8 +53,7 @@ function Header({toggleStyle}) {
           } 
             </div>
 
-            <div className='statusContainer'>
-            <img src={darkStarContainerImg} className='starContainer'></img>
+            <div className='statusContainer darkStarContainer'>
               <h1 className='statusColors statusLabel'>Status :</h1>
               <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
 

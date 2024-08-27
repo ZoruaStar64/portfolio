@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { motion } from 'framer-motion';
-import './components/main.css';
+import './components/main2.css';
 import Header from './components/header.js';
 import Body from './components/body.js';
 import Footer from './components/footer.js';
@@ -17,6 +17,16 @@ function Page() {
   }
   // Variable so the current theme can get sent to the Header and Body
   const currentStyleState = togglePageStyle;
+
+    /* add a dutch/english toggle button */ 
+  /* responsive css for the Email Modal */
+  /* oh and remove any unneeded code after you're done just don't remove anything usefull on accident */
+  
+  const [switchStarText, switchStarTextNow] = useState(false)
+
+  const toggleStarText = () => {
+    switchStarTextNow(!switchStarText);
+  }
       return (
         
           <div>
@@ -36,15 +46,64 @@ function Page() {
           </div>
           }
           {/* toggle to change the theme button */}
+          {/*<div className='styleButtonContainer'>
           {!togglePageStyle ? 
-          <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyle} src={darkModeButton} className='darkModeButton' title='Dark mode button'>
-          </motion.img>
+            <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyle} src={darkModeButton} className='darkModeButton' title='Dark mode button'>
+            </motion.img>
           :
-          <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyle} src={lightModeButton} className='darkModeButton' title='Light mode button'>
-          </motion.img>
+            <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyle} src={lightModeButton} className='darkModeButton' title='Light mode button'>
+            </motion.img>
           }
+          </div> */}
+          {/* Toggle to change the header's background and the starcontainer images */}
+          {!togglePageStyle ?
+          <div className='headerBackground purpleToWhite'> 
+
+            <div onClick={toggleStarText} className='nameAndProfession starContainer'>
+              {!switchStarText ?
+              <div>
+              <h1 className='nameH1 nameH1P1'>Sander</h1>
+              <h1 className='nameH1 nameH1P2'>Borgman</h1>
+              </div>
+              :
+              <h1 className='professionH1'>Software Developer</h1>   
+            }
+            </div>
+            <div className='styleButtonContainer'>
+              <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyle} src={darkModeButton} className='darkModeButton' title='Dark mode button'>
+              </motion.img>
+            </div>
+            <div className='statusContainer starContainer'>
+            <h1 className='statusColors statusLabel'>Status :</h1>
+            <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
+
+            </div>
+          </div> :
+          <div className='headerBackground blueToDarkBlue'>
+
+              <div onClick={toggleStarText} className='nameAndProfession darkStarContainer'>
+              {!switchStarText ?
+              <div>
+              <h1 className='nameH1 nameH1P1'>Sander</h1>
+              <h1 className='nameH1 nameH1P2'>Borgman</h1>
+              </div>
+              :
+              <h1 className='professionH1'>Software Developer</h1>   
+            } 
+              </div>
+              <div className='styleButtonContainer'>
+                <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyle} src={lightModeButton} className='darkModeButton' title='Light mode button'>
+                </motion.img>
+              </div>
+              <div className='statusContainer darkStarContainer'>
+                <h1 className='statusColors statusLabel'>Status :</h1>
+                <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
+
+              </div>
+
+          </div>}
           {/* send the toggle data to the header, body and footer */}
-        <Header toggleStyle={currentStyleState} />
+        {/*<Header toggleStyle={currentStyleState} /> */}
         <Body toggleStyle={currentStyleState} />
         <Footer toggleStyle={currentStyleState} />
         </div>
