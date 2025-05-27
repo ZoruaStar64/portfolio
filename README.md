@@ -32,5 +32,5 @@ and a way to contact me by E-mail!
 3: (UNLIKELY TO HAPPEN) Online multiplayer.
 
 ## [Coingame]:
-1: Choice to play Local multiplayer instead of botplay.
+1: Choice to play Local multiplayer instead of botplay. <br>
 2: (VERY UNLIKELY TO HAPPEN) Online multiplayer.
