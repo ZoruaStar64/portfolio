@@ -7,28 +7,28 @@ and a way to contact me by E-mail!
 
 # Planned updates:
 ## [Portfolio]:
-1: Updated About me text to reference the more obscure/difficult/impressive things i've learned (Mollie, PHPSpreadsheet, Rust, Next.js) instead of the basic coding languages (HTML5, CSS3, JS, MYSQL, PHP).
-2: Proper seperation of sections/styling/translations for easier integration of new additions
-3: Revamped page styling, mainly for the Coding languages/tools, Projects and contact form sections.
-4: Database integration/private backend area for easier portfolio content updates (new projects being added, updating status etc.)
-5: Each project will have their own page containing details about the project. (might become a modal instead, depending on how i feel about it).
-6: Add Newer projects/languages, tools, frameworks etc.
-7: Add the Unity project, with the ability to switch to updated versions later down the line. (and also contain more kinds of info than the normal projects).
-8: Revamped page style selector & Simple light/dark mode.
-9: English page translation
-+1: When new projects have been worked on, add those as well. 
+1: Updated About me text to reference the more obscure/difficult/impressive things i've learned (Mollie, PHPSpreadsheet, Rust, Next.js) instead of the basic coding languages (HTML5, CSS3, JS, MYSQL, PHP). <br>
+2: Proper seperation of sections/styling/translations for easier integration of new additions. <br>
+3: Revamped page styling, mainly for the Coding languages/tools, Projects and contact form sections. <br>
+4: Database integration/private backend area for easier portfolio content updates (new projects being added, updating status etc.) <br>
+5: Each project will have their own page containing details about the project. (might become a modal instead, depending on how i feel about it). <br>
+6: Add Newer projects/languages, tools, frameworks etc. <br>
+7: Add the Unity project, with the ability to switch to updated versions later down the line. (and also contain more kinds of info than the normal projects). <br>
+8: Revamped page style selector & Simple light/dark mode. <br>
+9: English page translation. <br>
++1: When new projects have been worked on, add those as well.
 
 ## [Startracker]:
-1: Updated backend code.
-2: Create a proper file structure.
-3: Seperating functions into seperate files.
-4: Remove underscores from item names when displayed on the website.
-5: Update the Cell Phone recipe within the Terraria section so it goes up towards the Shellphone.
+1: Updated backend code. <br>
+2: Create a proper file structure. <br>
+3: Seperating functions into seperate files. <br>
+4: Remove underscores from item names when displayed on the website. <br>
+5: Update the Cell Phone recipe within the Terraria section so it goes up towards the Shellphone. <br>
 6: Create the Luigi's Mansion page.
 
 ## [Yahtzee]:
-1: Clean up/minimize JS code.
-2: update general styling.
+1: Clean up/minimize JS code. <br>
+2: update general styling. <br>
 3: (UNLIKELY TO HAPPEN) Online multiplayer.
 
 ## [Coingame]:
