@@ -209,32 +209,28 @@ h3.softAbout {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
-    "HTML Mysql"
-    "CSS PHP"
-    "JS Java"
-    "cSharp .";
+    "e-wise DB"
+    "PV cSharp"
+    "GT misc";
 }
 .skillsSoftCommon {
     margin-top: 10px;
     margin-right: 10px;
 }
-.htmlSoftAbout {
-    grid-area: HTML;
+.e-wiseSoftAbout {
+    grid-area: e-wise;
 }
-.cssSoftAbout {
-    grid-area: CSS;
+.pvAlmereSoftAbout {
+    grid-area: PV;
 }
-.jsSoftAbout {
-    grid-area: JS;
+.geckotechSoftAbout {
+    grid-area: GT;
 }
-.mysqlSoftAbout {
-    grid-area: Mysql;
+.databaseSoftAbout {
+    grid-area: DB;
 }
-.phpSoftAbout {
-    grid-area: PHP;
-}
-.javaSoftAbout {
-    grid-area: Java;
+.miscSoftAbout {
+    grid-area: misc;
 }
 .cSharpSoftAbout {
     grid-area: cSharp;
@@ -656,31 +652,27 @@ h3.softAbout {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
-    "HTML Mysql"
-    "CSS PHP"
-    "JS Java"
-    "cSharp .";
+    "e-wise DB"
+    "PV cSharp"
+    "GT misc";;
 }
 .skillsSoftCommon {
     margin-top: 10px;
 }
-.htmlSoftAbout {
-    grid-area: HTML;
+.e-wiseSoftAbout {
+    grid-area: e-wise;
 }
-.cssSoftAbout {
-    grid-area: CSS;
+.pvAlmereSoftAbout {
+    grid-area: PV;
 }
-.jsSoftAbout {
-    grid-area: JS;
+.geckotechSoftAbout {
+    grid-area: GT;
 }
-.mysqlSoftAbout {
-    grid-area: Mysql;
+.databaseSoftAbout {
+    grid-area: DB;
 }
-.phpSoftAbout {
-    grid-area: PHP;
-}
-.javaSoftAbout {
-    grid-area: Java;
+.miscSoftAbout {
+    grid-area: misc;
 }
 .cSharpSoftAbout {
     grid-area: cSharp;

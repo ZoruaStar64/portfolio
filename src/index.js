@@ -80,7 +80,7 @@ function Page() {
             <div className='statusContainer starContainer'>
               <div className='statusH1'>
                 <h1>Status :</h1>
-                <h3 className='status'>Opdracht voor de gemeente Almere</h3>
+                <h3 className='status'>Op zoek naar een afstudeerstage</h3>
               </div>
             </div>
           </div> :
@@ -106,7 +106,7 @@ function Page() {
               <div className='statusContainer darkStarContainer'>
               <div className='statusH1'>
                 <h1>Status :</h1>
-                <h3 className='status'>Opdracht voor de gemeente Almere</h3>
+                <h3 className='status'>Op zoek naar een afstudeerstage</h3>
               </div>
               </div>
 

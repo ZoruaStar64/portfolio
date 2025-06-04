@@ -41,64 +41,84 @@ function Body({toggleStyle}) {
                 &#9733; de ontwikkeling van een online database,<br></br>
                 &#9733; ReactJS (deze website),<br></br>
                 &#9733; Unity en C#.<br></br>
+                &#9733; Rust.<br></br>
                 <br></br><br></br>
-                Verder volgen hier nog een aantal opmerkingen over de basis code talen:<br></br>
+                Verder volgen hier een aantal projecten waar ik aan gewerkt heb en wat ik daar geleerd heb:<br></br>
                 </p>
                 <div className='skillsSoftAbout'>
-                    <div className='htmlSoftAbout skillsSoftCommon'>
-                        <h3>HTML5:</h3>
-                        <p> Elke website heeft wel iets qua HTML nodig.<br></br>
-                        Alles wat je hier ziet is een soort HTML element,<br></br>
-                        bijvoorbeeld deze tekst of de container waar het in zit.
+                    <div className='e-wiseSoftAbout skillsSoftCommon'>
+                        <h3>E-Wise (Laravel):</h3>
+                        <p>
+                            Voordat ik bij E-Wise stageliep heb ik tijdens de zomervakantie van 2022 een oefeningproject gedaan waarin ik de basis van Laravel geleerd heb.<br></br>
+                            Ik gebruikte de TechStack van Laravel, Tailwindcss, PHPUnit en Vite tijdens dit project.<br></br>
+                            Terwijl ik bij E-Wise stageliep heb ik aan de backend gewerkt met Laravel, PHPUnit en AlpineJS.<br></br>
+                            Dit is samen gedaan in teamverband met een aantal E-Wise medewerkers, gebruikmakend van de Scrum methode.
                         </p>
                     </div>
-                    <div className='cssSoftAbout skillsSoftCommon'>
-                        <h3>CSS3:</h3>
-                        <p> CSS wordt gebruikt om een HTML element te bewerken.<br></br>
-                        CSS code wordt steeds verbeterd en steeds cooler!<br></br>
-                        Websites zouden er natuurlijk niet uit zien zonder een beetje CSS magie.
+                    <div className='pvAlmereSoftAbout skillsSoftCommon'>
+                        <h3>Personeelsvereniging Almere (HTML, CSS, JS, MYSQL, PHP & meer):</h3>
+                        <p> 
+                            Tijdens het 1ste schooljaar van mijn Associates Degree studie hebben ik en 3 klasgenoten gewerkt aan een nieuwe Personeelsvereniging website voor de gemeente Almere.<br></br>
+                            Mijn contributies aan tijdens dit project lagen vooral aan de backend, met een klein beetje frontend.<br></br>
+                            Waar ik de meeste tijd aan bestede waren Mollie voor betaalformulieren en PHPSpreadsheet<br></br> 
+                            om met weinig moeite hun Database te kunnen exporteren als een Excel bestand en het te kunnen updaten met gebruik van de Excelsheets die zij geleverd krijgen.<br></br>
+                            Het importeer proces kijkt zorgvuldig of er nieuwe leden aangemaakt moeten worden, leden moet verwijderen of de gegevens van leden uit de database moet updaten.<br></br>
+                            Nadat het project vanuit school eindigde was ik persoonlijk nog niet helemaal tevreden over de kwaliteit van het product dat wij achterlieten.<br></br>
+                            Vanwege deze reden had ik aangeboden om tijdens de zomervakantie een paar extra updates uit te voeren, alhoewel ik kreeg afentoe een aantal verzoeken om nog een aantal dingen toe te voegen of aan te passen.<br></br>
+                            Dit zorgde er voor dat het meer een impromptu zomerbaantje werd. Ik vond dit niet al te erg, omdat ik hierdoor tijdens de zomervakantie kon werken aan het communiceren met een klant.
                         </p>
                     </div>
-                    <div className='jsSoftAbout skillsSoftCommon'>
-                        <h3>Javascript:</h3>
-                        <p>Ik vind dat ik best goed in Javascript ben<br></br>
-                        Ik heb zelfs een project (Yahtzee) met Javascript gemaakt!<br></br>
-                        Dit werd zelfs zo'n groot succes, dat mijn MBO opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
+                    <div className='geckotechSoftAbout skillsSoftCommon'>
+                        <h3>GeckoTech (Rust, Actix Web, HTMX en Tera):</h3>
+                        <p>
+                            Tijdens het 2de schooljaar van mijn Associates Degree opleiding heb ik samen met een klasgenoot stagegelopen bij GeckoTech.
+                            Wij moesten hier meet een compleet nieuwe TechStack werken bestaand uit: Rust, Actix Web, Tera en HTMX.<br></br>
+                            Het was voor ons beide een lastige taak, maar uiteindelijk snapte wij hoe de vier verschillende onderdelen van onze TechStack samenwerkten.
+                            Wij werkte om de beurt aan een verschillende kant (Front/Back-end) van de applicatie, om zo een gevoel te krijgen voor beide gedeeltes van Rust.<br></br>
+                            Tijdens dit hebben wij ook geleerd hoe verschillende soorten testen werktten (unit tests, Integration tests en End-to-end tests).
                         </p>
                     </div>
-                    <div className='mysqlSoftAbout skillsSoftCommon'>
-                        <h3>Mysql:</h3>
-                        <p> Ik ben niet de allerbeste in databases maken, maar ik heb een redelijk goede kunnen maken voor mijn Fullstack project.<br></br>
-                        Het Fullstack project was een opdracht van mijn MBO opleiding waarin ik alle 5 basis code talen samen moest gebruiken.<br></br>
-                        Als Fullstack project heb ik een database gemaakt die de voortgang van je videogames kan tracken.<br></br>
-                        (bijvoorbeeld een voorwerp die je later met een andere moet combineren)
-                        </p>
-                    </div>
-                    <div className='phpSoftAbout skillsSoftCommon'>
-                        <h3>PHP:</h3>
-                        <p>Zoals ik heb vermeld bij het Mysql gedeelte, heb ik een Fullstack project gemaakt genaamd Startracker,
-                        die gebruikt wordt om de voortgang van je videogames te tracken.<br></br>
-                        Met behulp van formulieren kan je een account creeren. Daarvoor wordt gebruik gemaakt van informatie uit een database.
-                        </p>
-                    </div>
-                    <div className='javaSoftAbout skillsSoftCommon'>
-                        <h3>Java:</h3>
-                        <p>Aan het begin van mijn MBO opleiding heb ik een Java opdracht van school gekregen, die ik later heb omgezet naar Javascript<br></br>
-                        (Ik heb deze project Coin Game genoemd.)<br></br>
-                        (Ik ga waarschijnlijk wel wat veranderen vanwege copyright op de afbeeldingen.)
+                    <div className='databaseSoftAbout skillsSoftCommon'>
+                        <h3>Databases maken:</h3>
+                        <p>
+                            Voor de vele projecten waar ik aan gewerkt heb, heb ik ook de gelegenheid gehad om voor deze projecten databases te maken.<br></br>
+                            Ik heb voor mijn Fullstack project (Startracker) een database gemaakt, waarin gebruikers een account kunnen aanmaken en verzamelde voorwerpen kunnen markeren als gevonden.<br></br>
+                            Voor E-Wise heb ik ook een database gemaakt (onder begeleiding van een Senior developer) voor de Turtlebank V2 project. Hierdoor heb ik wat meer geleerd over hoe je goed databases in elkaar moet zetten.<br></br>
+                            Tijdens het maken van de vernieuwde Personeelsvereniging website van de gemeente Almere heb ik samen met een klasgenoot aan een database gewerkt.<br></br> 
+                            Alhoewel er later vanuit mij veel updates eraan kwamen vanwege nieuwe toevoegingen/informatie.
                         </p>
                     </div>
                     <div className='cSharpSoftAbout skillsSoftCommon'>
-                        <h3>C#:</h3>
-                        <p>Tijdens het 3de en 4de periode van mijn 1ste jaar aan mijn Associates Degree opleiding ben ik met een team bezig geweest aan 2 projecten voor school.<br></br>
-                        Het 1ste project was een pac-man geinspireerde game waarmee wij met het basis werkte van C# (Console Applicatie).<br></br>
-                        Het 2de project is een web-applicatie voor een dierentuin waarin wij CRUD functionaliteiten en meer moeten uitvoeren.<br></br>
-                        Als laatste wil ik vermelden dat er een duidelijk verschil is tussen basis C# gebruiken en de C# gebruiken dat binnen Unity gebruikt wordt.
+                        <h3>C#/Unity:</h3>
+                        <p>
+                            De eerste keer dat ik in aanraking met C# kwam was toen ik tijdens mijn MBO opleiding aan het keuzedeel Basis programmeren van videogames werkte.<br></br>
+                            Hierbij heb ik geleerd hoe ik met Unity moest omgaan en met Visual Studio C# code kon creeren, alhoewel Unity's C# heel erg verschilt van de normale C#.<br></br>
+                            Deze project hou ik voor nu liever prive, omdat ik van plan ben om het als een complete videogame series te maken.<br></br>
+                            Daarintegen ben ik wel van plan om binnen de "Projects" gedeelte van deze website het zijn eigen plaats te geven die continu updates zal krijgen.<br></br>
+                            Naast mijn Unity project heb ik nog aan twee andere projecten gewerkt, deze keren binnen een team van 4 medestudenten (inclusief mijzelf).<br></br>
+                            Tijdens de 3rde periode binnen het 1ste jaar van mijn HBO opleiding hadden wij gewerkt aan een basis C# spel als een console applicatie.<br></br>
+                            Het spel zou origineel vele groter zijn, maar in verband met de tijd besloten wij het te houden als een recreatie van pac-man.<br></br>
+                            Binnen de "Projects" gedeelte zal er hier ook een vakje voor bestaan waarin het de originele concept van het spel zal uitleggen.<br></br>
+                            Tijdens de 4de periode van hetzelfde schooljaar moesten wij een web-applicatie maken voor een fictieve dierentuin.<br></br>
+                            De TechStack die wij hierbij moesten gebruiken was: C#, .Net en een SQLite database (i.v.m de volgende regel tekst).<br></br>
+                            Wij moesten ook gebruik maken van Docker, GitHub Actions en Yaml om het project te kunnen verbinden met een Kubernetes cluster van de opleiding.<br></br>
+                            Ik was tijdens deze periode een van de weinige die enigzins snapte hoe het verbinden aan het cluster werkte.<br></br>
+                            Dit kwam voornamelijk omdat ik meerdere dagen tot 17:00 op school bleef, meerdere vragen aan de docenten stelde en heel, heel veel onderzoek.<br></br>
+                            Na al dit kwam ik iniedergeval het verschil tussen C# en Unity's C# goed tegen.
+                        </p>
+                    </div>
+                    <div className='miscSoftAbout skillsSoftCommon'>
+                        <h3>Misc:</h3>
+                        <p>
+                            Hier volgt een snelle opsomming van overige dingen die ik gedaan heb:<br></br>
+                            1: Aan het begin van mijn MBO opleiding heb ik een Java opdracht van school gekregen, deze heb ik later omgezet naar Javascript<br></br>
+                            2: Tijdens de MBO opleiding kwam ik erachter dat alle code van de Javascript module's eindopdracht (Memory) publiekelijk op een van de docent's website's stond.<br></br>
+                            Ik had destijds bedoelt om de code als een hulpmiddel te gebruiken, maar uiteindelijk was het vrijwel klakkeloos overgekopieerd.<br></br>
+                            Hier voelde ik mij niet trots op, dus ik besloot een compleet nieuwe project te maken gebaseerd op Yathzee.<br></br>
+                            De docenten waren positief onder de indruk, zo positief dat ze zelfs besloten de originele opdracht te vervangen met mijn idee, en ik kreeg een cijfer boven de hoogste die te behalen was in het systeem.
                         </p>
                     </div>
                 </div>
-                <br></br>
-                <h3>Als laatste: <br></br>Ik heb nu mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding afgerond met alle (60) studiepunten.<br></br>Op dit moment ben ik opzoek naar een leuke stageplek!</h3>
             </div>
 
             <div className='hobbyAbout'><h1>Mijn hobbies</h1>
@@ -152,7 +172,7 @@ function Body({toggleStyle}) {
             </div>
 
             <div className='coinGame projectsCommon'>
-                <a href='http://sander.webdesignborgman.nl/PHP/EXTRA/wario.html' className='projectLinks' title='Wario Coin game Java to Javascript conversion'>
+                <a href='http://coingame.sb-dev.nl/wario.html' className='projectLinks' title='Wario Coin game Java to Javascript conversion'>
                 <h1 className='coinH1'>Coin Game</h1>
                 <h3 className='coinH3'>(Java To Javascript)</h3>
 
@@ -211,64 +231,84 @@ function Body({toggleStyle}) {
                 &#9733; de ontwikkeling van een online database,<br></br>
                 &#9733; ReactJS (deze website),<br></br>
                 &#9733; Unity en C#.<br></br>
+                &#9733; Rust.<br></br>
                 <br></br><br></br>
-                Verder volgen hier nog een aantal opmerkingen over de basis code talen:<br></br>
+                Verder volgen hier een aantal projecten waar ik aan gewerkt heb en wat ik daar geleerd heb:<br></br>
                 </p>
                 <div className='skillsSoftAbout whiteText'>
-                    <div className='htmlSoftAbout skillsSoftCommon'>
-                        <h3>HTML5:</h3>
-                        <p> Elke website heeft wel iets qua HTML nodig.<br></br>
-                        Alles wat je hier ziet is een soort HTML element,<br></br>
-                        bijvoorbeeld deze tekst of de container waar het in zit.
+                    <div className='e-wiseSoftAbout skillsSoftCommon'>
+                        <h3>E-Wise (Laravel):</h3>
+                        <p>
+                            Voordat ik bij E-Wise stageliep heb ik tijdens de zomervakantie van 2022 een oefeningproject gedaan waarin ik de basis van Laravel geleerd heb.<br></br>
+                            Ik gebruikte de TechStack van Laravel, Tailwindcss, PHPUnit en Vite tijdens dit project.<br></br>
+                            Terwijl ik bij E-Wise stageliep heb ik aan de backend gewerkt met Laravel, PHPUnit en AlpineJS.<br></br>
+                            Dit is samen gedaan in teamverband met een aantal E-Wise medewerkers, gebruikmakend van de Scrum methode.
                         </p>
                     </div>
-                    <div className='cssSoftAbout skillsSoftCommon'>
-                        <h3>CSS3:</h3>
-                        <p> CSS wordt gebruikt om een HTML element te bewerken.<br></br>
-                        CSS code wordt steeds verbeterd en steeds cooler!<br></br>
-                        Websites zouden er natuurlijk niet uit zien zonder een beetje CSS magie.
+                    <div className='pvAlmereSoftAbout skillsSoftCommon'>
+                        <h3>Personeelsvereniging Almere (HTML, CSS, JS, MYSQL, PHP & meer):</h3>
+                        <p> 
+                            Tijdens het 1ste schooljaar van mijn Associates Degree studie hebben ik en 3 klasgenoten gewerkt aan een nieuwe Personeelsvereniging website voor de gemeente Almere.<br></br>
+                            Mijn contributies aan tijdens dit project lagen vooral aan de backend, met een klein beetje frontend.<br></br>
+                            Waar ik de meeste tijd aan bestede waren Mollie voor betaalformulieren en PHPSpreadsheet<br></br> 
+                            om met weinig moeite hun Database te kunnen exporteren als een Excel bestand en het te kunnen updaten met gebruik van de Excelsheets die zij geleverd krijgen.<br></br>
+                            Het importeer proces kijkt zorgvuldig of er nieuwe leden aangemaakt moeten worden, leden moet verwijderen of de gegevens van leden uit de database moet updaten.<br></br>
+                            Nadat het project vanuit school eindigde was ik persoonlijk nog niet helemaal tevreden over de kwaliteit van het product dat wij achterlieten.<br></br>
+                            Vanwege deze reden had ik aangeboden om tijdens de zomervakantie een paar extra updates uit te voeren, alhoewel ik kreeg afentoe een aantal verzoeken om nog een aantal dingen toe te voegen of aan te passen.<br></br>
+                            Dit zorgde er voor dat het meer een impromptu zomerbaantje werd. Ik vond dit niet al te erg, omdat ik hierdoor tijdens de zomervakantie kon werken aan het communiceren met een klant.
                         </p>
                     </div>
-                    <div className='jsSoftAbout skillsSoftCommon'>
-                        <h3>Javascript:</h3>
-                        <p>Ik vind dat ik best goed in Javascript ben<br></br>
-                        Ik heb zelfs een project (Yahtzee) met Javascript gemaakt!<br></br>
-                        Dit werd zelfs zo'n groot succes, dat mijn MBO opleiding besloot hun Javascript eindopdracht te vervangen met mijn Yahtzee project!
+                    <div className='geckotechSoftAbout skillsSoftCommon'>
+                        <h3>GeckoTech (Rust, Actix Web, HTMX en Tera):</h3>
+                        <p>
+                            Tijdens het 2de schooljaar van mijn Associates Degree opleiding heb ik samen met een klasgenoot stagegelopen bij GeckoTech.
+                            Wij moesten hier meet een compleet nieuwe TechStack werken bestaand uit: Rust, Actix Web, Tera en HTMX.<br></br>
+                            Het was voor ons beide een lastige taak, maar uiteindelijk snapte wij hoe de vier verschillende onderdelen van onze TechStack samenwerkten.
+                            Wij werkte om de beurt aan een verschillende kant (Front/Back-end) van de applicatie, om zo een gevoel te krijgen voor beide gedeeltes van Rust.<br></br>
+                            Tijdens dit hebben wij ook geleerd hoe verschillende soorten testen werktten (unit tests, Integration tests en End-to-end tests).
                         </p>
                     </div>
-                    <div className='mysqlSoftAbout skillsSoftCommon'>
-                        <h3>Mysql:</h3>
-                        <p> Ik ben niet de allerbeste in databases maken, maar ik heb een redelijk goede kunnen maken voor mijn Fullstack project.<br></br>
-                        Het Fullstack project was een opdracht van mijn MBO opleiding waarin ik alle 5 basis code talen samen moest gebruiken.<br></br>
-                        Als Fullstack project heb ik een database gemaakt die de voortgang van je videogames kan tracken.<br></br>
-                        (bijvoorbeeld een voorwerp die je later met een andere moet combineren)
-                        </p>
-                    </div>
-                    <div className='phpSoftAbout skillsSoftCommon'>
-                        <h3>PHP:</h3>
-                        <p>Zoals ik heb vermeld bij het Mysql gedeelte, heb ik een Fullstack project gemaakt genaamd Startracker,
-                        die gebruikt wordt om de voortgang van je videogames te tracken.<br></br>
-                        Met behulp van formulieren kan je een account creeren. Daarvoor wordt gebruik gemaakt van informatie uit een database.
-                        </p>
-                    </div>
-                    <div className='javaSoftAbout skillsSoftCommon'>
-                        <h3>Java:</h3>
-                        <p>Aan het begin van mijn MBO opleiding heb ik een Java opdracht van school gekregen, die ik later heb omgezet naar Javascript<br></br>
-                        (Ik heb deze project Coin Game genoemd.)<br></br>
-                        (Ik ga waarschijnlijk wel wat veranderen vanwege copyright op de afbeeldingen.)
+                    <div className='databaseSoftAbout skillsSoftCommon'>
+                        <h3>Databases maken:</h3>
+                        <p>
+                            Voor de vele projecten waar ik aan gewerkt heb, heb ik ook de gelegenheid gehad om voor deze projecten databases te maken.<br></br>
+                            Ik heb voor mijn Fullstack project (Startracker) een database gemaakt, waarin gebruikers een account kunnen aanmaken en verzamelde voorwerpen kunnen markeren als gevonden.<br></br>
+                            Voor E-Wise heb ik ook een database gemaakt (onder begeleiding van een Senior developer) voor de Turtlebank V2 project. Hierdoor heb ik wat meer geleerd over hoe je goed databases in elkaar moet zetten.<br></br>
+                            Tijdens het maken van de vernieuwde Personeelsvereniging website van de gemeente Almere heb ik samen met een klasgenoot aan een database gewerkt.<br></br> 
+                            Alhoewel er later vanuit mij veel updates eraan kwamen vanwege nieuwe toevoegingen/informatie.
                         </p>
                     </div>
                     <div className='cSharpSoftAbout skillsSoftCommon'>
-                        <h3>C#:</h3>
-                        <p>Tijdens het 3de en 4de periode van mijn 1ste jaar aan mijn Associates Degree opleiding ben ik met een team bezig geweest aan 2 projecten voor school.<br></br>
-                        Het 1ste project was een pac-man geinspireerde game waarmee wij met het basis werkte van C# (Console Applicatie).<br></br>
-                        Het 2de project is een web-applicatie voor een dierentuin waarin wij CRUD functionaliteiten en meer moeten uitvoeren.<br></br>
-                        Als laatste wil ik vermelden dat er een duidelijk verschil is tussen basis C# gebruiken en de C# gebruiken dat binnen Unity gebruikt wordt.
+                        <h3>C#/Unity:</h3>
+                        <p>
+                            De eerste keer dat ik in aanraking met C# kwam was toen ik tijdens mijn MBO opleiding aan het keuzedeel Basis programmeren van videogames werkte.<br></br>
+                            Hierbij heb ik geleerd hoe ik met Unity moest omgaan en met Visual Studio C# code kon creeren, alhoewel Unity's C# heel erg verschilt van de normale C#.<br></br>
+                            Deze project hou ik voor nu liever prive, omdat ik van plan ben om het als een complete videogame series te maken.<br></br>
+                            Daarintegen ben ik wel van plan om binnen de "Projects" gedeelte van deze website het zijn eigen plaats te geven die continu updates zal krijgen.<br></br>
+                            Naast mijn Unity project heb ik nog aan twee andere projecten gewerkt, deze keren binnen een team van 4 medestudenten (inclusief mijzelf).<br></br>
+                            Tijdens de 3rde periode binnen het 1ste jaar van mijn HBO opleiding hadden wij gewerkt aan een basis C# spel als een console applicatie.<br></br>
+                            Het spel zou origineel vele groter zijn, maar in verband met de tijd besloten wij het te houden als een recreatie van pac-man.<br></br>
+                            Binnen de "Projects" gedeelte zal er hier ook een vakje voor bestaan waarin het de originele concept van het spel zal uitleggen.<br></br>
+                            Tijdens de 4de periode van hetzelfde schooljaar moesten wij een web-applicatie maken voor een fictieve dierentuin.<br></br>
+                            De TechStack die wij hierbij moesten gebruiken was: C#, .Net en een SQLite database (i.v.m de volgende regel tekst).<br></br>
+                            Wij moesten ook gebruik maken van Docker, GitHub Actions en Yaml om het project te kunnen verbinden met een Kubernetes cluster van de opleiding.<br></br>
+                            Ik was tijdens deze periode een van de weinige die enigzins snapte hoe het verbinden aan het cluster werkte.<br></br>
+                            Dit kwam voornamelijk omdat ik meerdere dagen tot 17:00 op school bleef, meerdere vragen aan de docenten stelde en heel, heel veel onderzoek.<br></br>
+                            Na al dit kwam ik iniedergeval het verschil tussen C# en Unity's C# goed tegen.
+                        </p>
+                    </div>
+                    <div className='miscSoftAbout skillsSoftCommon'>
+                        <h3>Misc:</h3>
+                        <p>
+                            Hier volgt een snelle opsomming van overige dingen die ik gedaan heb:<br></br>
+                            1: Aan het begin van mijn MBO opleiding heb ik een Java opdracht van school gekregen, deze heb ik later omgezet naar Javascript<br></br>
+                            2: Tijdens de MBO opleiding kwam ik erachter dat alle code van de Javascript module's eindopdracht (Memory) publiekelijk op een van de docent's website's stond.<br></br>
+                            Ik had destijds bedoelt om de code als een hulpmiddel te gebruiken, maar uiteindelijk was het vrijwel klakkeloos overgekopieerd.<br></br>
+                            Hier voelde ik mij niet trots op, dus ik besloot een compleet nieuwe project te maken gebaseerd op Yathzee.<br></br>
+                            De docenten waren positief onder de indruk, zo positief dat ze zelfs besloten de originele opdracht te vervangen met mijn idee, en ik kreeg een cijfer boven de hoogste die te behalen was in het systeem.
                         </p>
                     </div>
                 </div>
-                <br></br>
-                <h3>Als laatste: <br></br>Ik heb nu mijn eerste schooljaar van mijn Software developer AD (Associates degree) opleiding afgerond met alle (60) studiepunten.<br></br>Op dit moment ben ik opzoek naar een leuke stageplek!</h3>
             </div>
 
             <div className='hobbyAbout whiteText'><h1>Mijn hobbies</h1>
@@ -322,7 +362,7 @@ function Body({toggleStyle}) {
             </div>
 
             <div className='coinGame projectsCommon'>
-                <a href='http://sander.webdesignborgman.nl/PHP/EXTRA/wario.html' className='projectLinks' title='Wario Coin game Java to Javascript conversion'>
+                <a href='http://coingame.sb-dev.nl/wario.html' className='projectLinks' title='Wario Coin game Java to Javascript conversion'>
                 <h1 className='coinH1'>Coin Game</h1>
                 <h3 className='coinH3'>(Java To Javascript)</h3>
 

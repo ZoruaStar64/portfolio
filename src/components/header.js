@@ -36,7 +36,7 @@ function Header({toggleStyle}) {
 
           <div className='statusContainer starContainer'>
           <h1 className='statusColors statusLabel'>Status :</h1>
-          <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
+          <h2 className='statusColors statusContent'>Op zoek naar een afstudeerstage</h2>
 
           </div>
           </div> :
@@ -55,7 +55,7 @@ function Header({toggleStyle}) {
 
             <div className='statusContainer darkStarContainer'>
               <h1 className='statusColors statusLabel'>Status :</h1>
-              <h2 className='statusColors statusContent'>Opdracht voor de gemeente Almere</h2>
+              <h2 className='statusColors statusContent'>Op zoek naar een afstudeerstage</h2>
 
             </div>
 
