@@ -26,7 +26,7 @@ function Header({toggleStyle}) {
         <div>
           
           {/* Toggle to change the header's background and the starcontainer images */}
-          {!toggleStyle ?
+          {toggleStyle === 'Light' ?
           <div className='headerBackground purpleToWhite'> 
 
             <div onClick={toggleStarText} className='nameAndProfession starContainer'>
@@ -53,7 +53,8 @@ function Header({toggleStyle}) {
                 <h3 className='status'>Op zoek naar een afstudeerstage</h3>
               </div>
             </div>
-          </div> :
+          </div> 
+          : toggleStyle === 'Dark' ?
           <div className='headerBackground blueToDarkBlue'>
 
               <div onClick={toggleStarText} className='nameAndProfession darkStarContainer'>
@@ -80,7 +81,37 @@ function Header({toggleStyle}) {
               </div>
               </div>
 
-          </div>}
+          </div>
+          :
+          //Default
+          <div className='headerBackground blueToDarkBlue'>
+
+              <div onClick={toggleStarText} className='nameAndProfession darkStarContainer'>
+              {!switchStarText ?
+              <div className='nameH1'>
+                <h1>Sander</h1>
+                <h1>Borgman</h1>
+              </div>
+              :
+              <div className='nameH1'>
+                <h1>Software</h1>   
+                <h1>Developer</h1>
+              </div>
+            } 
+              </div>
+              <div className='styleButtonContainer'>
+                <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyleState} src={lightModeButton} className='darkModeButton' title='Light mode button'>
+                </motion.img>
+              </div>
+              <div className='statusContainer darkStarContainer'>
+              <div className='statusH1'>
+                <h1>Status :</h1>
+                <h3 className='status'>Op zoek naar een afstudeerstage</h3>
+              </div>
+              </div>
+
+          </div>
+          }
         
         </div>
       );
