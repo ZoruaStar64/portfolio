@@ -10,50 +10,6 @@
     color: aqua;
 }
 
-/* Light mode colors */
-.navLinkColorLight {
-    color: #E693FD;
-}
-.navLightGradient {
-    background-image: linear-gradient(#36006B, #7304e2);
-}
-.footerLightGradient {
-    background-image: linear-gradient(#7304e2, #36006B);
-}
-.whiteToPurple {
-    background-image: linear-gradient(white, #7304e2 );
-}
-.purpleToWhite {
-    background-image: linear-gradient(#7304e2, white);
-}
-.whiteToBlue {
-    background-image: linear-gradient(white, #6a57FF );
-}
-.blueToWhite {
-    background-image: linear-gradient(#6a57FF, white);
-}
-
-/* Dark Mode Colors */
-.navLinkColorDark {
-    color: #6A57FF
-}
-.whiteText {
-    color: white;
-}
-.blueToDarkBlue {
-    background-image: linear-gradient(#100566, #05002E );
-}
-.darkBlueToBlue {
-    background-image: linear-gradient(#05002E, #100566 );
-}
-.navDarkGradient {
-    background-image: linear-gradient(#05002E, #100566);
-}
-
-.darkBlueToBlue {
-    background-image: linear-gradient(#05002E, #1f0f9a );
-}
-
 @media all and (min-width: 320px) {
 /* Navbar stuff */
 .stick {
@@ -126,7 +82,7 @@
 .nameAndProfession, .statusContainer {
     position: relative;
     color: #4F3DDB;
-    -webkit-text-stroke: 1px #400156;
+    -webkit-text-stroke: 1px #400156; /* Maybe remove this? */
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;

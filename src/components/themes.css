@@ -1,0 +1,59 @@
+/* SB Light */
+.navLinkColorLight {
+    color: #E693FD;
+}
+.navLightGradient {
+    background-image: linear-gradient(#36006B, #7304e2);
+}
+.footerLightGradient {
+    background-image: linear-gradient(#7304e2, #36006B);
+}
+.whiteToPurple {
+    background-image: linear-gradient(white, #7304e2 );
+}
+.purpleToWhite {
+    background-image: linear-gradient(#7304e2, white);
+}
+.whiteToBlue {
+    background-image: linear-gradient(white, #6a57FF );
+}
+.blueToWhite {
+    background-image: linear-gradient(#6a57FF, white);
+}
+
+.starContainer{
+    background-color: #e1c0eb;
+    border: 3px solid #6000fa;
+}
+
+
+/* SB Dark */
+.navLinkColorDark {
+    color: #6A57FF
+}
+.whiteText {
+    color: white;
+}
+.blueToDarkBlue {
+    background-image: linear-gradient(#100566, #05002E );
+}
+.darkBlueToBlue {
+    background-image: linear-gradient(#05002E, #100566 );
+}
+.navDarkGradient {
+    background-image: linear-gradient(#05002E, #100566);
+}
+
+.darkBlueToBlue {
+    background-image: linear-gradient(#05002E, #1f0f9a );
+}
+
+.darkStarContainer { 
+    background-color: #05002E;
+    border: 3px solid #6000fa;
+}
+
+/* Simple Light */
+
+
+/* Simple Dark */

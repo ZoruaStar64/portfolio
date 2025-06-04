@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import '../index.js';
 import { motion } from 'framer-motion';
-import starContainerImg from "../images/starContainer.png"; 
-import darkStarContainerImg from "../images/darkStarContainer.png";
+import darkModeButton from "../images/darkModeButton.png";
+import lightModeButton from "../images/lightModeButton.png";
 
 function Header({toggleStyle}) {
 
@@ -11,6 +11,12 @@ function Header({toggleStyle}) {
   /* oh and remove any unneeded code after you're done just don't remove anything usefull on accident */
   
   const [switchStarText, switchStarTextNow] = useState(false)
+
+  const [togglePageStyle, setPageStyle] = useState(true);
+
+  const toggleStyleState = () => {
+      setPageStyle(!togglePageStyle);
+  }
 
   const toggleStarText = () => {
     switchStarTextNow(!switchStarText);
@@ -23,41 +29,56 @@ function Header({toggleStyle}) {
           {!toggleStyle ?
           <div className='headerBackground purpleToWhite'> 
 
-          <div onClick={toggleStarText} className='nameAndProfession starContainer'>
-            {!switchStarText ?
-            <div>
-            <h1 className='nameH1 nameH1P1'>Sander</h1>
-            <h1 className='nameH1 nameH1P2'>Borgman</h1>
+            <div onClick={toggleStarText} className='nameAndProfession starContainer'>
+              
+              {!switchStarText ?
+              <div className='nameH1'>
+                <h1>Sander</h1>
+                <h1>Borgman</h1>
+              </div>
+              :
+              <div className='nameH1'>
+                <h1>Software</h1>   
+                <h1>Developer</h1>
+              </div>
+            }
             </div>
-            :
-            <h1 className='professionH1'>Software Developer</h1>   
-          }
-          </div>
-
-          <div className='statusContainer starContainer'>
-          <h1 className='statusColors statusLabel'>Status :</h1>
-          <h2 className='statusColors statusContent'>Op zoek naar een afstudeerstage</h2>
-
-          </div>
+            <div className='styleButtonContainer'>
+              <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyleState} src={darkModeButton} className='darkModeButton' title='Dark mode button'>
+              </motion.img>
+            </div>
+            <div className='statusContainer starContainer'>
+              <div className='statusH1'>
+                <h1>Status :</h1>
+                <h3 className='status'>Op zoek naar een afstudeerstage</h3>
+              </div>
+            </div>
           </div> :
           <div className='headerBackground blueToDarkBlue'>
 
-            <div onClick={toggleStarText} className='nameAndProfession darkStarContainer'>
-             {!switchStarText ?
-            <div>
-            <h1 className='nameH1 nameH1P1'>Sander</h1>
-            <h1 className='nameH1 nameH1P2'>Borgman</h1>
-            </div>
-            :
-            <h1 className='professionH1'>Software Developer</h1>   
-          } 
-            </div>
-
-            <div className='statusContainer darkStarContainer'>
-              <h1 className='statusColors statusLabel'>Status :</h1>
-              <h2 className='statusColors statusContent'>Op zoek naar een afstudeerstage</h2>
-
-            </div>
+              <div onClick={toggleStarText} className='nameAndProfession darkStarContainer'>
+              {!switchStarText ?
+              <div className='nameH1'>
+                <h1>Sander</h1>
+                <h1>Borgman</h1>
+              </div>
+              :
+              <div className='nameH1'>
+                <h1>Software</h1>   
+                <h1>Developer</h1>
+              </div>
+            } 
+              </div>
+              <div className='styleButtonContainer'>
+                <motion.img id='styleSwitchButton' animate={{rotateZ: 360}} transition={{repeatDelay: 2, repeat: Infinity, duration: 10}} onClick={toggleStyleState} src={lightModeButton} className='darkModeButton' title='Light mode button'>
+                </motion.img>
+              </div>
+              <div className='statusContainer darkStarContainer'>
+              <div className='statusH1'>
+                <h1>Status :</h1>
+                <h3 className='status'>Op zoek naar een afstudeerstage</h3>
+              </div>
+              </div>
 
           </div>}
         
