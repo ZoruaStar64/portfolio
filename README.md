@@ -8,7 +8,7 @@ and a way to contact me by E-mail!
 # Planned updates:
 ## [Portfolio]:
 1: Updated About me text to reference the more obscure/difficult/impressive things i've learned (Mollie, PHPSpreadsheet, Rust, Next.js) instead of the basic coding languages (HTML5, CSS3, JS, MYSQL, PHP). [DONE]<br>
-2: Proper seperation of sections/styling/translations for easier integration of new additions. <br>
+2: Proper seperation of sections/styling/translations for easier integration of new additions. [DONE (except translations)]<br>
 3: Revamped page styling, mainly for the Coding languages/tools, Projects and contact form sections. <br>
 4: Database integration/private backend area for easier portfolio content updates (new projects being added, updating status etc.) <br>
 5: Each project will have their own page containing details about the project. (might become a modal instead, depending on how i feel about it). <br>
