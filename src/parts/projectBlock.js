@@ -14,6 +14,12 @@ import star from "../images/darkModeButton.png";
     This file is used as a template for a project.
     This will most likely be worked on more once i'm busy with database integration.
     For now it's just a copy of projects.js.
+
+    Notes:
+    1: There needs to be a way to use a custom style for a project, maybe saving it in the database somehow would work?..
+    2: There needs to be a way to define the motion images, specifically it needs to be able to use different images, animation styles, while states, transitions etc.
+    3: The image container for a project also needs to be edited to ensure the motion images actually properly work there.
+    4: the remaining things should be obvious... (link, title, TechStack).
 */
 
 function ProjectBlock({toggleStyle}) {
