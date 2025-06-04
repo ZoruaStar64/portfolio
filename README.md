@@ -7,6 +7,7 @@ and a way to contact me by E-mail!
 
 # Planned updates:
 ## [Portfolio]:
+<b>Online version will be updated at points: 4, 5, 8 and 9.</b>
 1: Updated About me text to reference the more obscure/difficult/impressive things i've learned (Mollie, PHPSpreadsheet, Rust, Next.js) instead of the basic coding languages (HTML5, CSS3, JS, MYSQL, PHP). [DONE]<br>
 2: Proper seperation of sections/styling/translations for easier integration of new additions. [DONE (except translations)]<br>
 3: Revamped page styling, mainly for the Coding languages/tools, Projects and contact form sections. <br>
